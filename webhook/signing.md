@@ -7,21 +7,20 @@ icon: key-skeleton-left-right
 
 ## Checking a Webhook Signature
 
-BlockATM signs the webhook events and requests we send to your endpoints. We do so by including a signature in each event’s BlockATM-Signature-V2 header.\
-This allows you to validate that the events and requests were sent by BlockATM , not by a third party.
+BlockATM会对发送至您端点的webhook事件和请求进行签名，通过在每个事件的**BlockATM-Signature-V2**头信息中包含签名。这使您可以验证事件和请求确实由BlockATM发送，而非第三方。
 
-Before you can verify BlockATM-Signature-V2 signatures for webhook events, you need to retrieve your webhook API key from the Developers page on the BlockATM dashboard.
+在验证webhook事件的**BlockATM-Signature-V2**签名前，您需要从BlockATM仪表板的开发者页面获取您的webhook API密钥。
 
-### Step 1
+### 步骤一
 
-Concatenate all parameters from the JSON object in ascending order of their keys according to the ASCII character order,\
-using the format "key=value" separated by "&"。\
-Concatenate the 'BlockATM-Request-Time' from the request header in the format '\&time=' at the end.
+将所有JSON对象中的参数按照键的ASCII字符顺序升序排列并连接，
+使用"key=value"的格式，以"&"分隔。
+最后将请求头中的'BlockATM-Request-Time'以"&time="的格式拼接在末尾。
 
-Here is an example of the signature parameters and the resulting signature:
+以下是签名参数示例及生成的签名：
 
-request Data:
 
+请求参数:
 ```json
 {
   "amount": 999,
@@ -37,7 +36,7 @@ request Data:
 }
 ```
 
-Concatenate the sorted parameters and time result
+链接排序好的参数和时间：  
 
 ```java
 
@@ -45,22 +44,20 @@ Concatenate the sorted parameters and time result
 amount=13.410037&chainId=5&custNo=OrderNO_123456&fee=2&network=TRON&platOrderNo=8210000374&status=1&symbol=USDT&txId=1t&type=1&time=1696947336603
 ```
 
-### Step 2
+### 步骤二
 
-Compute a HMAC with the SHA-256 hash function. Use your account's webhook **Secret Key** as the key, and use the signed\_payload string as the message in both cases.
+使用SHA-256哈希函数计算HMAC签名。将您账户的webhook密钥(Secret Key)作为密钥，并将拼接好的签名参数字符串作为消息内容进行签名计算。
+
 
 ```javascript
 // you can get the signature from request header BlockATM-Signature-V1
     MEYCIQDHxQ0IhgUNbRqTKbU71fBkp+lAJlMXEQYt6mDQfWRY7gIhAMWIpVoG6qBhgIPi30x30wLlAaxyhptZfm6nMRz75VxA
 ```
 
-Compare the signature in the header to the expected signature.
+验证请求头中的签名与预期签名是否一致。
+## 示例
 
-## Demo
-
-
-
-See language-specific code examples below for implementation.
+按照您的实现语言参考下面的代码示例：
 
 {% tabs %}
 {% tab title="java" %}
