@@ -4,14 +4,17 @@ icon: plug-circle-plus
 
 # Payment Event
 
-When changes occur to a payment order, BlockATM will send notifications via the Webhook Payment event. The included statuses are:
+当支付订单状态发生变更时，BlockATM将通过Webhook支付事件发送通知。包含以下状态类型：
 
-* PENDING: When the payment order has reached the required number of on-chain confirmations.
-* SUCCESS: When the payment order has been confirmed as successfully paid.
-* EXPIRED: When the customer's order has timed out due to incomplete payment.
-* CANCELLED: When the customer cancels the payment order.
+PENDING（处理中）：当支付订单已达到要求的链上确认数
 
-BlockATM will send the following fields to your server via the configured Webhook URL:
+SUCCESS（支付成功）：当支付订单被确认已成功支付
+
+EXPIRED（已过期）：因未完成支付导致客户订单超时
+
+CANCELLED（已取消）：当客户主动取消支付订单
+
+BlockATM将通过您配置的Webhook URL向服务器发送以下字段数据：
 
 | name                      | comment                                                                                                                                                                                               | example                                    |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
@@ -29,7 +32,22 @@ BlockATM will send the following fields to your server via the configured Webhoo
 | <p></p><p>fromAddress</p> | <p>The address used to pay for this order (empty if unpaid).</p><p><br></p>                                                                                                                           | 0xa9e358E33a57E67c9B84618a52f0194C345C8e35 |
 | <p></p><p>blockTime</p>   | The time the order was on the blockchain                                                                                                                                                              | 1693212861016                              |
 
-Example:
+| 字段名         | 说明                                                                                                                             | 示例值                                     |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| id             | BlockATM平台对应的订单编号                                                                                                       | 8210000374                                 |
+| orderNo        | (可选) 您平台对应的订单号                                                                                                        | O20231022                                  |
+| chainId        | 区块链网络唯一标识符，可在[chainlist.org](https://chainlist.org/)查询                                                           | 1 (ETH主网)                                |
+| cashierId      | 收款收银台ID                                                                                                                    | 199                                        |
+| amount         | 客户实际支付金额                                                                                                                 | 13.410037                                  |
+| custNo         | (可选) 支付订单的客户编号                                                                                                        | 860021                                     |
+| network        | 交易发生的网络名称（建议使用chainId进行唯一标识）                                                                                | Ethereum                                   |
+| symbol         | 客户支付的代币标识                                                                                                               | USDT                                       |
+| txId           | 区块链上对应的交易哈希，可通过对应网络的区块浏览器查看详情                                                                       | 0x....                                     |
+| orderType      | 订单类型：<br>1-智能合约支付<br>2-二维码支付<br>3-智能合约地址直连                                                               | 1                                          |
+| status         | 订单状态：<br>**CANCELLED**(已取消)<br>**EXPIRED**(已过期)<br>**PENDING**(处理中)<br>**SUCCESS**(成功)                          | **SUCCESS**                                |
+| fromAddress    | 支付地址（未支付时为空）                                                                                                         | 0xa9e358E33a57E67c9B84618a52f0194C345C8e35 |
+| blockTime      | 订单上链时间戳                                                                                                                   | 1693212861016                              |
+示例:
 
 
 
