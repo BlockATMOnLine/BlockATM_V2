@@ -70,7 +70,6 @@
   * [Widget 参数](ji-cheng-shou-yin-tai/widget-can-shu.md)
   * [参数签名](ji-cheng-shou-yin-tai/can-shu-qian-ming.md)
 * [Webhook](webhook/overview.md)
-  * [Overview](webhook/overview.md)
   * [收币参数](webhook/PaymentEvent.md)
   * [付币参数](webhook/PayoutEvent.md)
   * [签名](webhook/signing.md)
