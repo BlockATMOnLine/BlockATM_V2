@@ -1,5 +1,6 @@
 ---
 description: 仅需要三步轻松完成集成
+icon: plug-circle-bolt
 ---
 
 # Widget SDK
