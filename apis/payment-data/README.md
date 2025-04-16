@@ -1,6 +1,6 @@
 ---
-icon: credit-card
+icon: envelope-open-dollar
 ---
 
-# Payment Data
+# 收币接口
 
