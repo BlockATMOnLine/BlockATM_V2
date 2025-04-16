@@ -1,8 +1,9 @@
-# Coin List
+---
+description: 该API返回BlockATM平台支持的所有币种配置信息。
+---
 
-This API returns all supported coin configurations on BlockATM.
+# 查询币种列表
 
-{% openapi src="../../.gitbook/assets/BlockATM-B2B.openapi.json" path="/admin/api/v2/pub/symbolList" method="get" %}
-[BlockATM-B2B.openapi.json](../../.gitbook/assets/BlockATM-B2B.openapi.json)
-{% endopenapi %}
-
+{% openapi-operation spec="20250416cn" path="/admin/api/v2/pub/symbolList" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}

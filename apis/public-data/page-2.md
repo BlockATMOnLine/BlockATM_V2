@@ -1,12 +1,11 @@
-# Network List
+---
+description: 该API返回BlockATM平台支持的所有网络配置信息。
+---
 
-This API returns all network configurations available on BlockATM.
-
-{% openapi src="../../.gitbook/assets/BlockATM-B2B.openapi.json" path="/admin/api/v2/pub/allNetworks" method="get" %}
-[BlockATM-B2B.openapi.json](../../.gitbook/assets/BlockATM-B2B.openapi.json)
-{% endopenapi %}
+# 查询网络列表
 
 
 
-
-
+{% openapi-operation spec="20250416cn" path="/admin/api/v2/pub/allNetworks" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
