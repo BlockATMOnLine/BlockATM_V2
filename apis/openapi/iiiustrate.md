@@ -1,12 +1,16 @@
 # IIIustrate
 
-Welcome to BlockATM API Documentation! BlockATM offers a set of powerful and flexible APIs that allow developers to integrate seamless cryptocurrency payment services into their applications.
+欢迎使用BlockATM API文档！BlockATM提供了一套强大且灵活的API，使开发者能够轻松将加密货币支付服务集成到应用中。
 
-Most of our endpoints will require an API key as a way to authenticate the call. BlockATM provides 3 different types of API&#x20;
+我们的接口大多需要通过API密钥进行认证。BlockATM提供三种API类型：
 
+### 公开API
+用于非敏感接口，可直接由前端调用
+认证方式：URL查询参数传递API公钥
 
+### 商户API
+需从您的后端服务器直接调用
 
-* Public for non sensitive endpoints, those can be made by your frontend clients. Authentication is performed via a query string parameter.
-* Server-to-Server for endpoints that would ideally be called directly from your backend servers. For the Query api, you only need to provide the apikey in request header.
-* For creat order Api, you not only need to provide the apikey, but you also need to sign the request data.
+查询类API：只需在请求头中添加API对接公钥
 
+创建类：除对接公钥，还需对请求数据使用密钥进行签名

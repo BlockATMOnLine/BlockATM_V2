@@ -1,11 +1,15 @@
-# Request Limit
+## 接口限流机制
 
-BlockATM aims to provide a stable, secure platform for all users at all times. As such, traffic is continuously monitored to identify patterns that may negatively impact the network. If traffic from a single account is identified as excessive and a rate limit is reached, BlockATM may temporarily throttle or restrict that account.
+BlockATM致力于为所有用户提供持续稳定的安全平台。当监测到单个账户的请求频率超过限流阈值时，可能会临时限制该账户的访问。
 
-You have a rate limit on a per API endpoint and per minute basis. If your rate limit is reached, you will see an HTTP 429 error response letting you know that your rate limit has been temporarily exceeded.
+### 限流规则
+- **触发条件**：每个API端点每分钟的请求量超标
+- **错误响应**：HTTP 429状态码（请求过于频繁）
+- **处理建议**：
+    - 实现请求失败后的优雅重试机制
+    - 避免暴力重试导致二次限流
 
-Partners should gracefully handle the HTTP 429 status code and drop and/or retry requests accordingly.
-
-The following headers are returned with each request
-
-If a less restrictive rate limit is required, please contact your implementation manager to determine your use case. Please note that increasing your rate limit may incur additional charges.
+### 特殊需求
+如需调整限流阈值，请联系您的实施经理：
+- 需提供合理的业务场景说明
+- 注意：提高限流阈值可能产生额外费用
