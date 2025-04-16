@@ -93,7 +93,7 @@
 
 ## 📅 更新日志
 
-* [更新日志](geng-xin-ri-zhi/geng-xin-ri-zhi.md)
+* [V2.0.0](geng-xin-ri-zhi/geng-xin-ri-zhi.md)
 
 ## Basics
 

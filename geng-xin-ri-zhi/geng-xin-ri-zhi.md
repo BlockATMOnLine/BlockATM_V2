@@ -1,9 +1,9 @@
 ---
-description: 新版版本升级指南（V2）
+description: 新版版本升级对接指南（V2）
 icon: arrows-to-circle
 ---
 
-# Migration
+# V2.0.0
 
 **目标**：帮助商户快速定位改动点，减少接入成本。
 
@@ -19,15 +19,15 @@ icon: arrows-to-circle
 
 ### 附录一：字段变更对照（Webhook 收款）
 
-| 旧字段           | 新字段         | 类型     | 说明                                                                                      |
-| ------------- | ----------- | ------ | --------------------------------------------------------------------------------------- |
-| platOrderNo   | `id`        | long   | BlockATM唯一订单标识                                                                          |
-| type          | orderType   | int    | 收款订单类型                                                                                  |
-| status        | status      | String | <p>由数字变更为字符串：<br>-1->CANCELLED <br>-1 ->EXPIRED</p><p>0-> PENDING</p><p>1-> SUCCESS</p> |
-| walletAddress | fromAddress | String | 支付的钱包地址。                                                                                |
-| merchantId    | cashierId   | long   | 新版本已收银台为接入对象，不再支持merrchantId                                                            |
-| -             | blockTime   | long   | 新增字段，返回交易所在区块链上创建时间                                                                     |
-| fee           | -           | number | 新版本手续费通过提币合约时收取，并且固定按笔收取。不再收款中体现。                                                       |
+| 旧字段           | 新字段         | 类型     | 说明                                                                                     |
+| ------------- | ----------- | ------ | -------------------------------------------------------------------------------------- |
+| platOrderNo   | `id`        | long   | BlockATM唯一订单标识                                                                         |
+| type          | orderType   | int    | 收款订单类型                                                                                 |
+| status        | status      | String | <p>由数字变更为字符串：<br>-1->CANCELLED<br>-1 ->EXPIRED</p><p>0-> PENDING</p><p>1-> SUCCESS</p> |
+| walletAddress | fromAddress | String | 支付的钱包地址。                                                                               |
+| merchantId    | cashierId   | long   | 新版本已收银台为接入对象，不再支持merrchantId                                                           |
+| -             | blockTime   | long   | 新增字段，返回交易所在区块链上创建时间                                                                    |
+| fee           | -           | number | 新版本手续费通过提币合约时收取，并且固定按笔收取。不再收款中体现。                                                      |
 
 ### 附录二：签名方式变更对照
 
@@ -53,13 +53,5 @@ icon: arrows-to-circle
 ### 附录四（教学视频）：
 
 1. 创建收币合约
-
-{% file src="../.gitbook/assets/创建收币合约.mp4" %}
-
 2. 创建收银台
-
-{% file src="../.gitbook/assets/创建收银台.mp4" %}
-
 3. 收银台对接
-
-{% file src="../.gitbook/assets/收银台对接.mp4" %}
