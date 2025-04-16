@@ -1,6 +1,7 @@
-# Payment Order Detail
+# 获取收币订单详情
 
-{% openapi src="../../.gitbook/assets/BlockATM-B2B_order_detail.openapi.json" path="/order/api/v2/payorder/detail" method="get" %}
-[BlockATM-B2B_order_detail.openapi.json](../../.gitbook/assets/BlockATM-B2B_order_detail.openapi.json)
-{% endopenapi %}
+&#x20; 通过该接口，你可以主动查询订单的状态和其他信息。
 
+{% openapi-operation spec="20250416cn" path="/order/api/v2/payorder/detail" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}

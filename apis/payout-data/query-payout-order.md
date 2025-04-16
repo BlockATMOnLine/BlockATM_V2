@@ -1,14 +1,8 @@
----
-description: Sign required
----
+# 查询付币订单
 
-# Query Payout Order
-
-This API returns comprehensive payment order details such as status, amount, and time.
+(<mark style="color:red;">**需要签名)**</mark>该API返回付币订单的完整详情，包括状态、金额及时间等关键信息。\
 
 
-
-{% openapi src="../../.gitbook/assets/BlockATM-B2B.openapi.json" path="/order/api/v2/payout/detail" method="get" %}
-[BlockATM-B2B.openapi.json](../../.gitbook/assets/BlockATM-B2B.openapi.json)
-{% endopenapi %}
-
+{% openapi-operation spec="20250416cn" path="/order/api/v2/payout/detail" method="get" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}

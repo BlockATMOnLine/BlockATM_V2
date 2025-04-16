@@ -1,18 +1,9 @@
----
-description: Sign required
----
+# 创建付币订单
 
-# Create Payout Order
-
-Through this API endpoint, you can create a payment order on BlockATM and subsequently execute it.
+(<mark style="color:red;">**需要签名)**</mark>通过此API接口，您可以向BlockATM平台创建付币订单.
 
 
 
-
-
-{% openapi src="../../.gitbook/assets/BlockATM-B2B.openapi.json" path="/order/api/v2/payout/order" method="post" %}
-[BlockATM-B2B.openapi.json](../../.gitbook/assets/BlockATM-B2B.openapi.json)
-{% endopenapi %}
-
-
-
+{% openapi-operation spec="20250416cn" path="/order/api/v2/payout/order" method="post" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}

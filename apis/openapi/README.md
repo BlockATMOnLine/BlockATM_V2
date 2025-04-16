@@ -2,14 +2,21 @@
 icon: network-wired
 ---
 
-# OpenAPI
+# 接入说明
 
-You can sync GitBook pages with an OpenAPI or Swagger file or a URL to include auto-generated API methods in your documentation.
+欢迎使用BlockATM API文档！BlockATM提供了一套强大且灵活的API，使开发者能够轻松将加密货币支付服务集成到应用中。
 
-### OpenAPI block
+我们的接口大多需要通过API密钥进行认证。BlockATM提供三种API类型：
 
-GitBook's OpenAPI block is powered by [Scalar](https://scalar.com/), so you can test your APIs directly from your docs.
+### 公开API
 
-{% openapi src="https://petstore3.swagger.io/api/v3/openapi.json" path="/pet" method="post" %}
-[https://petstore3.swagger.io/api/v3/openapi.json](https://petstore3.swagger.io/api/v3/openapi.json)
-{% endopenapi %}
+用于非敏感接口，可直接由前端调用\
+认证方式：URL查询参数传递API公钥
+
+### 商户API
+
+需从您的后端服务器直接调用
+
+查询类API：只需在请求头中添加API对接公钥
+
+创建类：除对接公钥，还需对请求数据使用密钥进行签名
