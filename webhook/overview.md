@@ -4,17 +4,18 @@ icon: book-open
 
 # Overview
 
-Webhooks are necessary for behind-the-scenes transactions. With webhooks you can be notified about asynchronous changes to the status of transaction objects. BlockATM can send webhook events that notify your application anytime an event happens on your account. This is especially useful for events like transaction status updates, that are not triggered by a direct API request.\
-It will be sent via an HTTP POST request to any endpoint URLs that you have defined in your account's Webhooks settings.
+Webhook是实现后台交易通知的必要机制。通过Webhook，您可以实时获取交易对象状态的异步变更通知。
+当您的账户发生任何事件时，BlockATM都会向您的应用程序发送Webhook事件通知。这对于交易状态更新等非直接API请求触发的事件尤为重要。
 
+通知方式
+BlockATM会通过HTTP POST请求，将事件通知发送至您在账户Webhook设置中配置的所有端点URL。
 
+### 配置需求
 
-### Configuration Requirements
+**商户设置步骤**:
 
-**Merchant Setup**:
-
-* Set your webhook URL in Merchant Dashboard
-* Retrieve your signature secret key from Dashboard > Security Settings
+* 在【收银台】/【【付币合约】->【对接】中设置webhook 通知地址
+* 在【收银台】/【【付币合约】->【对接】中获取 【对接密钥】
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -37,7 +38,7 @@ BlockATM-Event: Payment
 }
 ```
 
-### Verification Headers
+###  验证请求头
 
 | Header                | Description                                                                             | Example       |
 | --------------------- | --------------------------------------------------------------------------------------- | ------------- |
@@ -45,7 +46,7 @@ BlockATM-Event: Payment
 | BlockATM-Request-Time | Unix timestamp (milliseconds)                                                           | 1743060268000 |
 | BlockATM-Event        | Event type identifier                                                                   | payment       |
 
-### Sample Response Handling
+### 简单处理示例
 
 ```python
 @app.route('/webhook', methods=['POST'])
@@ -70,9 +71,8 @@ def handle_webhook():
 
 
 
+## 重要的提醒
 
-## Important Notes
-
-* Ensure your Webhook URL uses HTTPS to guarantee data security.
-* Your server must return an HTTP status code of 200 to confirm successful receipt of the Webhook.
-* If a Webhook fails to deliver, BlockATM will retry, but it is recommended to log events for troubleshooting.
+* 必须使用HTTPS协议的Webhook接收地址，确保数据传输安全
+* 您的服务器需返回HTTP 200状态码，以确认成功接收Webhook通知
+* 若Webhook投递失败，BlockATM将自动重试，建议记录所有事件日志用于故障排查
