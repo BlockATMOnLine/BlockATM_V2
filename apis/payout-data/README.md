@@ -1,6 +1,2 @@
----
-icon: money-check-dollar-pen
----
-
-# Payout Data
+# 付币接口
 

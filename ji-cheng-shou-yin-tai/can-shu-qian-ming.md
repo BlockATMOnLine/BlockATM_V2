@@ -1,6 +1,5 @@
 ---
 description: 安全支付
-icon: key-skeleton-left-right
 ---
 
 # 参数签名

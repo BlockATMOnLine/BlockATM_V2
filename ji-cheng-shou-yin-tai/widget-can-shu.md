@@ -1,6 +1,5 @@
 ---
 description: 定义您的收银台
-icon: plug-circle-plus
 ---
 
 # Widget 参数

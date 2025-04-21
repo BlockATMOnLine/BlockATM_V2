@@ -1,7 +1,3 @@
----
-icon: webhook
----
-
 # Webhook
 
 Webhook是实现后台交易通知的必要机制。通过Webhook，您可以实时获取交易对象状态的异步变更通知。\

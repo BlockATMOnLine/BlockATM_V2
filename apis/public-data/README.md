@@ -1,6 +1,2 @@
----
-icon: ball-pile
----
-
-# Public Data
+# 配置接口
 

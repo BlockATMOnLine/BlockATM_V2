@@ -1,6 +1,5 @@
 ---
-description: 新版版本升级对接指南（V2）
-icon: arrows-to-circle
+description: 新版本升级对接指南（V2）
 ---
 
 # V2.0.0

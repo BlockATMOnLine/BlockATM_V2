@@ -26,8 +26,6 @@ layout:
 
 ### 付币智能合约代码
 
-
-
 {% tabs %}
 {% tab title="构造函数" %}
 ```solidity
@@ -102,10 +100,6 @@ function payoutToken(bool safe, address from, address tokenAddress, uint256 tota
 ```
 {% endtab %}
 {% endtabs %}
-
-```
-// Some code
-```
 
 ***
 

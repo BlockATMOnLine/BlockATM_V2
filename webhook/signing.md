@@ -1,9 +1,8 @@
 ---
 description: Protecting your sensitive data
-icon: key-skeleton-left-right
 ---
 
-# Request Signing
+# 签名
 
 ## Checking a Webhook Signature
 
@@ -13,14 +12,14 @@ BlockATM会对发送至您端点的webhook事件和请求进行签名，通过�
 
 ### 步骤一
 
-将所有JSON对象中的参数按照键的ASCII字符顺序升序排列并连接，
-使用"key=value"的格式，以"&"分隔。
-最后将请求头中的'BlockATM-Request-Time'以"&time="的格式拼接在末尾。
+将所有JSON对象中的参数按照键的ASCII字符顺序升序排列并连接，\
+使用"key=value"的格式，以"&"分隔。\
+最后将请求头中的'BlockATM-Request-Time'以"\&time="的格式拼接在末尾。
 
 以下是签名参数示例及生成的签名：
 
-
 请求参数:
+
 ```json
 {
   "amount": 999,
@@ -36,7 +35,7 @@ BlockATM会对发送至您端点的webhook事件和请求进行签名，通过�
 }
 ```
 
-链接排序好的参数和时间：  
+链接排序好的参数和时间：
 
 ```java
 
@@ -48,13 +47,13 @@ amount=13.410037&chainId=5&custNo=OrderNO_123456&fee=2&network=TRON&platOrderNo=
 
 使用SHA-256哈希函数计算HMAC签名。将您账户的webhook密钥(Secret Key)作为密钥，并将拼接好的签名参数字符串作为消息内容进行签名计算。
 
-
 ```javascript
 // you can get the signature from request header BlockATM-Signature-V1
     MEYCIQDHxQ0IhgUNbRqTKbU71fBkp+lAJlMXEQYt6mDQfWRY7gIhAMWIpVoG6qBhgIPi30x30wLlAaxyhptZfm6nMRz75VxA
 ```
 
 验证请求头中的签名与预期签名是否一致。
+
 ## 示例
 
 按照您的实现语言参考下面的代码示例：
@@ -168,8 +167,6 @@ public class SignatureGenerator {
     }
 }
 ```
-
-
 {% endtab %}
 
 {% tab title="python" %}
@@ -214,8 +211,6 @@ if __name__ == "__main__":
     signature = calculate_hmac_sha256_hex(api_key, payload)
     print(f"[Result] Final Signature:\n{signature}")
 ```
-
-
 {% endtab %}
 
 {% tab title="c++" %}
@@ -283,8 +278,6 @@ int main() {
     return 0;
 }
 ```
-
-
 {% endtab %}
 
 {% tab title="go" %}
@@ -347,10 +340,5 @@ func main() {
 	fmt.Printf("[Result] Final Signature:\n%s\n", signature)
 }
 ```
-
-
 {% endtab %}
 {% endtabs %}
-
-
-

@@ -1,7 +1,3 @@
----
-icon: network-wired
----
-
 # 接入说明
 
 欢迎使用BlockATM API文档！BlockATM提供了一套强大且灵活的API，使开发者能够轻松将加密货币支付服务集成到应用中。
