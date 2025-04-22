@@ -25,7 +25,7 @@
 
 ## 🌐 网络｜代币｜钱包
 
-* [网络及代币](wang-luo-dai-bi-qian-bao/wang-luo-ji-dai-bi/README.md)
+* [网络及代币](wang-luo-dai-bi-qian-bao/wang-luo-ji-dai-bi.md)
   * [获取测试币](wang-luo-dai-bi-qian-bao/wang-luo-ji-dai-bi/huo-qu-ce-shi-bi.md)
 * [支持的钱包](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/README.md)
   * [MetaMask](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/metamask/README.md)
