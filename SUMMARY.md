@@ -43,7 +43,7 @@
   * [TronLink](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/tronlink/README.md)
     * [如何创建 TronLink 钱包](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/tronlink/ru-he-chuang-jian-tronlink-qian-bao.md)
     * [如何连接 TronLink 钱包](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/tronlink/ru-he-lian-jie-tronlink-qian-bao.md)
-  * [WalletConnect](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/walletconnect/README.md)
+  * [WalletConnect](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/walletconnect.md)
     * [如何使用 WalletConnect 连接钱包](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/walletconnect/ru-he-shi-yong-walletconnect-lian-jie-qian-bao.md)
 
 ## 🧩 集成指南
