@@ -19,6 +19,6 @@ layout:
 <figure><img src="../../.gitbook/assets/收币运作原理.svg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-收银台支付方式可以按需配置，如需连接钱包支付则收银台需关联支付智能合约，如需扫码转账支付则收银台需关联转账智能合约，两种智能合约均为收币智能合约，详情介绍见：[收币智能合约](shou-bi-zhi-neng-he-yue.md)
+收银台支付方式可以按需配置，如需连接钱包支付则收银台需关联合e约，如需扫码转账支付则收银台需关s账智能合约，两种智能合约均为收币智能合约，详情介绍见：[收币智能合约](shou-bi-zhi-neng-he-yue.md)
 {% endhint %}
 

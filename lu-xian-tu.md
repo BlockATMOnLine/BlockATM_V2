@@ -17,6 +17,7 @@ layout:
 ### 🔨 支持主流币
 
 * WBTC
+* CBBTC
 * WETH
 
 ### ✅ 支持主流网络及稳定币
