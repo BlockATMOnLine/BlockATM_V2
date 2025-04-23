@@ -13,14 +13,14 @@
 
 * [安全收币](ye-wu-shuo-ming/an-quan-shou-bi/README.md)
   * [运作流程](ye-wu-shuo-ming/an-quan-shou-bi/yun-zuo-liu-cheng.md)
-  * [收币智能合约](ye-wu-shuo-ming/an-quan-shou-bi/shou-bi-zhi-neng-he-yue.md)
+  * [收币合约](ye-wu-shuo-ming/an-quan-shou-bi/shou-bi-zhi-neng-he-yue.md)
   * [服务费用](ye-wu-shuo-ming/an-quan-shou-bi/fu-wu-fei-yong.md)
 
 ***
 
 * [批量付币](pi-liang-fu-bi/README.md)
   * [运作流程](pi-liang-fu-bi/yun-zuo-liu-cheng.md)
-  * [付币智能合约](pi-liang-fu-bi/fu-bi-zhi-neng-he-yue.md)
+  * [付币合约](pi-liang-fu-bi/fu-bi-zhi-neng-he-yue.md)
   * [服务费用](pi-liang-fu-bi/fu-wu-fei-yong.md)
 
 ## 🌐 网络｜代币｜钱包
