@@ -14,12 +14,12 @@ layout:
 
 # 关联 ERC20 和 TRC20 钱包
 
-创建智能合约（[收币智能合约](chuang-jian-shou-bi-zhi-neng-he-yue.md)或[付币智能合约](../kai-shi-fu-bi/chuang-jian-fu-bi-zhi-neng-he-yue.md)）后，合约 Owner 的钱包地址将作为管理员钱包，管理员钱包在创建收银台时可以选择关联目标网络的收币智能合约，若想同时关联 ERC 网络和 TRC 网络，需将ERC20 和 TRC20 钱包进行关联。
+创建智能合约（[收币合约](chuang-jian-shou-bi-zhi-neng-he-yue.md)或[付币合约](../kai-shi-fu-bi/chuang-jian-fu-bi-zhi-neng-he-yue.md)）后，合约 Owner 的钱包地址将作为管理员地址，管理员地址在创建收银台时可以选择关联目标网络的收币合约，若想同时关联 ERC 网络和 TRC 网络，需将ERC20 和 TRC20 钱包进行关联。
 
-### 关联钱包
+### 关联钱包地址
 
 {% hint style="info" %}
-假设您先在 ERC 网络创建了收币智能合约，然后再切换到 TRC 网络。
+假设您先在 ERC 网络创建了收币合约，然后再切换到 TRC 网络。
 {% endhint %}
 
 点击右上角的 "网络" — 切换到 "Tron"
@@ -38,4 +38,4 @@ layout:
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-20_05_56.png" alt=""><figcaption></figcaption></figure>
 
-钱包关联后再去创建收银台时可以在收银台同时绑定两个钱包创建的收币智能合约
+钱包关联后再去创建收银台时可以在收银台同时绑定两个钱包地址创建的收币合约
