@@ -16,7 +16,7 @@
 
 arbitrum 作为以太坊二层网络，可以通过官方[跨链桥](https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia\&sourceChain=sepolia)把资产从Ethereum Sepolia转移到Arbitrum Sepolia
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -61,6 +61,6 @@ arbitrum 作为以太坊二层网络，可以通过官方[跨链桥](https://bri
 
 操作截图（MetaMask,其他钱包类似）：
 
-![](<../../.gitbook/assets/image (8).png>)![](<../../.gitbook/assets/image (9).png>)\
+![](<../../.gitbook/assets/image (10).png>)![](<../../.gitbook/assets/image (11).png>)\
 
 

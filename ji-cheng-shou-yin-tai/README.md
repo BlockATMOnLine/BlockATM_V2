@@ -12,6 +12,5 @@ layout:
     visible: true
 ---
 
-
-
+# 集成收银台
 

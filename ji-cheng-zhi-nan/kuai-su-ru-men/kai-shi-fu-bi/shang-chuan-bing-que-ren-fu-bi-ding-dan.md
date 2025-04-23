@@ -46,7 +46,7 @@ layout:
 
 刚提交的付币订单状态为 "待支付"，将在24小时内完成支付
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 若想实现自动化，无需财务钱包人工审核，可以开启自动提交功能，当订单上传后一定时间内财务钱包没有审核，则自动审核并提交
 
@@ -92,4 +92,4 @@ layout:
 
 刚提交的付币订单状态为 "待支付"，将在24小时内完成支付
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>

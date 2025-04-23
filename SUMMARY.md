@@ -25,7 +25,7 @@
 
 ## 🌐 网络｜代币｜钱包
 
-* [网络及代币](wang-luo-dai-bi-qian-bao/wang-luo-ji-dai-bi.md)
+* [网络及代币](wang-luo-dai-bi-qian-bao/wang-luo-ji-dai-bi/README.md)
   * [获取测试币](wang-luo-dai-bi-qian-bao/wang-luo-ji-dai-bi/huo-qu-ce-shi-bi.md)
 * [支持的钱包](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/README.md)
   * [MetaMask](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/metamask/README.md)
@@ -70,11 +70,11 @@
   * [Widget SDK](ji-cheng-shou-yin-tai/widget-sdk.md)
   * [Widget 参数](ji-cheng-shou-yin-tai/widget-can-shu.md)
   * [参数签名](ji-cheng-shou-yin-tai/can-shu-qian-ming.md)
-* [Webhook](webhook/overview.md)
+* [Webhook](overview/README.md)
   * [概览](overview/gai-lan.md)
-  * [收币参数](webhook/PaymentEvent.md)
-  * [付币参数](webhook/PayoutEvent.md)
-  * [签名](webhook/signing.md)
+  * [收币参数](overview/paymentevent.md)
+  * [付币参数](overview/payoutevent.md)
+  * [签名](overview/signing.md)
 * [开放接口](apis/README.md)
   * [接入说明](apis/openapi/README.md)
     * [请求](apis/openapi/request.md)
