@@ -64,7 +64,7 @@ layout:
 
 <figure><img src="../../../.gitbook/assets/screencapture-cashier-b2b-pre-ufcfan-org-zh-CN-2025-04-24-15_30_27.png" alt=""><figcaption></figcaption></figure>
 
-打开钱包App扫描收款地址二维码，或者复制收款地址到钱包App进行转账
+打开钱包App扫描收款地址二维码，或者复制收款地址到钱包应用中进行转账
 
 
 
@@ -76,11 +76,11 @@ layout:
 
 
 
-等待区块链确认
+等待区块链确认（注意：若钱包执行交易后收银台页面未自动跳转到结果页，可点击“我已支付”按钮）
 
 
 
-支付成功
+区块链确认完成后，交易完成，可前往区块链浏览器查看交易详情
 
-
+<figure><img src="../../../.gitbook/assets/70.png" alt=""><figcaption></figcaption></figure>
 
