@@ -32,7 +32,7 @@ layout:
 
 **若选择连接钱包支付**，会唤起连接钱包方式（以 MetaMask（浏览器拓展程序）为例）
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 选择 MetaMask 后唤起钱包进行连接，点击“连接”，同意钱包与 BlockATM收银台 连接
 
@@ -70,11 +70,11 @@ layout:
 
 确认接收地址后，输入支付（注意：需与 BlockATM收银台的支付金额一致，否则支付无效），输入金额后点击“下一步”
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 确认交易信息，点击“发送”
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

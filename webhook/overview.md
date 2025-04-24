@@ -13,7 +13,7 @@ BlockATM会通过HTTP POST请求，将事件通知发送至您在账户Webhook�
 * 在【收银台】/【【付币合约】->【对接】中设置webhook 通知地址
 * 在【收银台】/【【付币合约】->【对接】中获取 【对接密钥】
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Request Specification**:
 
