@@ -10,7 +10,7 @@
 
 &#x20;Blockatm使用shasta 作为以太坊测试网络，如果缺少trx作为交易费用，可以加入[Tron Telegram 官方社群](https://t.me/TronOfficialTechSupport2)，通过发送 "!shasta \[address]" 来自动领取.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Arbitrum Sepolia TestNet
 

@@ -1,39 +1,39 @@
-# 请求签名
+# 签名
 
 请求需附带签名发送至BlockATM服务器。每个请求必须在BlockATM-API-Key请求头中包含api-key，以便BlockATM验证请求确实由您的服务器发出，而非第三方。
 
-### Basic Information&#x20;
+### Basic Information
 
-* **ApiKey**     对接公钥，需包含在每个请求的 **BlockATM-API-Key** 请求头中
-* **Secret Key**   对接密钥，用于加密请求参数，生成的签名结果需放入 **BlockATM-Signature-V2** 请求头
+* **ApiKey** 对接公钥，需包含在每个请求的 **BlockATM-API-Key** 请求头中
+* **Secret Key** 对接密钥，用于加密请求参数，生成的签名结果需放入 **BlockATM-Signature-V2** 请求头
 
 您可以在商户后台的不同集成场景下（如收银台或付币合约）**对接**页面找到对应的API密钥。
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-### Sign &#x20;
+### Sign
 
 **步骤 1**;
 
 将JSON对象中的所有参数按照键的ASCII字符顺序升序排列，并以"key=value"的格式用"&"符号连接。
 
 请求原始参数：
+
 ```
 {"custNo":"86000123","orderNo":"202504001399","lang":"zh-CN"}
 ```
 
 处理结果：
+
 ```
 custNo=86000123&lang=zh-CN&orderNo=202504001399
 ```
 
-
-
 **步骤 2**
 
-将请求头中的 'BlockATM-Request-Time' 以 '&time=' 格式拼接到字符串末尾。
+将请求头中的 'BlockATM-Request-Time' 以 '\&time=' 格式拼接到字符串末尾。
 
- 假设 **BlockATM-Request-Time =** 1742723373000
+假设 **BlockATM-Request-Time =** 1742723373000
 
 处理结果:
 
@@ -41,9 +41,7 @@ custNo=86000123&lang=zh-CN&orderNo=202504001399
 custNo=86000123&lang=zh-CN&orderNo=202504001399&time=1742723373000
 ```
 
-
-
-**步骤 3**&#x20;
+**步骤 3**
 
 使用SHA-256哈希函数计算HMAC签名，并以您的收银台密钥(Secret Key)作为加密密钥。
 
@@ -51,8 +49,8 @@ custNo=86000123&lang=zh-CN&orderNo=202504001399&time=1742723373000
 Dihl6oOt5UkaHo9sEouquP3EqbukLX2dAOoKTSGicYryTvH1m9r6vtSLHGutZn7u34/06gjhdpbXRFPdjb51GVHvG75qWXZ1P/boL89xtuja6eTEy9q/aS8R270Q1A+m/MOTxdiifCy0IByrSpCs4VJKaj2d8jlJo2GHznsH+q0=
 ```
 
-
 **您可以根据开发语言参考以下示例：**
+
 {% tabs %}
 {% tab title="java" %}
 ```java
@@ -153,8 +151,6 @@ public class BlockATMSigner {
     }
 }
 ```
-
-
 {% endtab %}
 
 {% tab title="python" %}
@@ -209,8 +205,6 @@ def generate_signature():
 if __name__ == "__main__":
     generate_signature()
 ```
-
-
 {% endtab %}
 
 {% tab title="PHP" %}
@@ -261,8 +255,6 @@ generateSignature();
 ?>
 
 ```
-
-
 {% endtab %}
 
 {% tab title="C++" %}
@@ -331,8 +323,6 @@ int main() {
     return 0;
 }
 ```
-
-
 {% endtab %}
 
 {% tab title="Go" %}
@@ -395,10 +385,5 @@ func main() {
 	fmt.Printf("BlockATM-Request-Time: %d\n", requestTime)
 }
 ```
-
-
 {% endtab %}
 {% endtabs %}
-
-
-
