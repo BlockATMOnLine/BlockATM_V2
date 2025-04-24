@@ -9,7 +9,7 @@
 
 您可以在商户后台的不同集成场景下（如收银台或付币合约）**对接**页面找到对应的API密钥。
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Sign
 
