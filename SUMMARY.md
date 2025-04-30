@@ -81,7 +81,7 @@
     * [Request](apis/openapi/request.md)
     * [Request Signing](apis/openapi/request-signing.md)
     * [Request Limit](apis/openapi/request-limit.md)
-    * [ErrorCode](apis/openapi/error-code.md)
+    * [Error Code](apis/openapi/error-code.md)
   * [Config Api](apis/public-data/README.md)
     * [Network List](apis/public-data/page-2.md)
     * [Token List](apis/public-data/coin-list.md)

@@ -2,31 +2,29 @@
 description: 系统状态码对照表
 ---
 
-# 错误码
+# Error Code
 
-###
-
-| 状态码    | 说明          |
-| ------ | ----------- |
-| 200    | 请求成功        |
-| 000101 | 系统异常        |
-| 000102 | 非法的参数类型     |
-| 000103 | 请求参数不全      |
-| 000104 | 对象不能为空      |
-| 000105 | 非法请求        |
-| 000106 | 重复提交        |
-| 000107 | 系统繁忙        |
-| 000108 | token不能为空   |
-| 000109 | 登录已过期       |
-| 000110 | 没有请求权限      |
-| 000112 | API KEY不能为空 |
-| 000113 | 服务繁忙请稍后再试   |
-| 000114 | 服务正在升级      |
-| 000201 | 数据已存在       |
-| 000202 | 数据不存在       |
-| 000203 | 数据没有改动      |
-| 000204 | 状态错误        |
-| 000205 | 请求服务失败      |
-| 000206 | 字段太长        |
-| 000207 | 字段太短        |
-| 000208 | 不支持当前文件格式上传 |
+| Code   | illustrate                            |
+| ------ | ------------------------------------- |
+| 200    | Success                               |
+| 000101 | System Error                          |
+| 000102 | Invalid Parameter Type                |
+| 000103 | Missing Required Parameters           |
+| 000104 | Object Cannot Be Empty                |
+| 000105 | Invalid Request                       |
+| 000106 | Duplicate Request                     |
+| 000107 | System Busy                           |
+| 000108 | Token Required                        |
+| 000109 | Session Expired                       |
+| 000110 | Unauthorized Access                   |
+| 000112 | API Key Required                      |
+| 000113 | Service Unavailable - Try Again Later |
+| 000114 | Service Under Maintenance             |
+| 000201 | Data Already Exists                   |
+| 000202 | Data Not Found                        |
+| 000203 | No Data Changes                       |
+| 000204 | Invalid Status                        |
+| 000205 | Service Request Failed                |
+| 000206 | Field Exceeds Maximum Length          |
+| 000207 | Field Below Minimum Length            |
+| 000208 | Unsupported File Format               |
