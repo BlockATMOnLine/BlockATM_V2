@@ -1,31 +1,31 @@
-# 付币参数
+# Payout Event
 
-当支付订单完成时，BlockATM将通过Webhook通知您支付事件，以便您及时获取结果。
+When a payout order is completed, BlockATM will notify you of the payout event via Webhook, allowing you to promptly retrieve the results.
 
-包含的状态有：
+The included statuses are:
 
-* SUCCESS
+* SUCCESS&#x20;
 * REFUSE
 
-将返回以下字段：
+The following fields will be returned:
 
-| 字段名        | 说明                                                     | 示例值                                        |
-| ---------- | ------------------------------------------------------ | ------------------------------------------ |
-| bizOrderNo | 商户平台订单编号                                               | B202505220012                              |
-| amount     | 支付给目标地址的金额                                             | 13.410037                                  |
-| chainId    | 区块链网络唯一标识符，可在[chainlist.org](https://chainlist.org/)查询 | 1 (ETH主网)                                  |
-| custNo     | 客户编号                                                   | 860021                                     |
-| fee        | 订单手续费（单位：USDT）                                         | 2                                          |
-| gasAmount  | 实际Gas消耗量（单位：USDT）                                      | 1                                          |
-| toAddress  | 资产转入的目标地址                                              | 0xa9e358E33a57E67c9B84618a52f0194C345C8e35 |
-| network    | 交易发生的网络名称（建议使用chainId进行唯一标识）                           | Ethereum                                   |
-| symbol     | 支付使用的代币标识                                              | USDT                                       |
-| txId       | 区块链交易哈希，可通过对应网络区块浏览器查询详情                               | 0x....                                     |
-| type       | <p>订单类型：<br>1-智能合约支付<br>2-二维码支付<br>3-智能合约地址直连</p>      | 1                                          |
-| status     | <p>订单状态：<br>SUCCESS(成功)<br>REFUSE(拒绝)</p>              | SUCCESS                                    |
-| createTime | 订单创建时间（毫秒时间戳）                                          | 1693212861016                              |
-| contractId | 在BlockATM后台创建的支付合约唯一ID                                 | 200910                                     |
-| blockTime  | 订单上链时间（毫秒时间戳）                                          | 1693212861016                              |
+| name                    | comment                                                                                                                                                                                               | example                                    |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| bizOrderNo              | The order number corresponding to your platform.                                                                                                                                                      | B202505220012                              |
+| amount                  | The amount to be paid to the target address.                                                                                                                                                          | 13.410037                                  |
+| chainId                 | ChainId is a unique identifier used in blockchain networks to distinguish a particular network。.you can find the chainId in [https://chainlist.org/](https://chainlist.org/)                          | 1                                          |
+| custNo                  | Your customerNo .                                                                                                                                                                                     | 860021                                     |
+| fee                     | The order fee.The unit is USDT.                                                                                                                                                                       | 2                                          |
+| <p></p><p>gasAmount</p> | Actual gas consumption.The unit is USDT.                                                                                                                                                              | 1                                          |
+| <p></p><p>toAddress</p> | The destination address to which the asset is to be transferred                                                                                                                                       | 0xa9e358E33a57E67c9B84618a52f0194C345C8e35 |
+| network                 | Network name used to describe the occurrence of this transaction order. If you want to uniquely identify the corresponding network chain, it is recommended to use the chainId. (e.g: Ethereum, TRON) | Ethereum                                   |
+| symbol                  | The token identifier that the customer pays with.                                                                                                                                                     | USDT                                       |
+| txId                    | The transaction hash corresponding to the order on the blockchain. You can view the transaction details on the corresponding network's block explorer.                                                | 0x....                                     |
+| type                    | 1：Smart Contract Payment 2.QR Code Payment 3:Smart Contract Address Direct                                                                                                                            | 1                                          |
+| status                  | <p>SUCCESS</p><p>REFUSE</p>                                                                                                                                                                           | SUCCESS                                    |
+| createTime              | The time of order creation, measured in milliseconds.                                                                                                                                                 | 1693212861016                              |
+| contractId              | <p>The unique payout contract ID you created in the BlockATM backend.</p><p><br></p>                                                                                                                  | 200910                                     |
+| <p></p><p>blockTime</p> | The time the order was on the blockchain                                                                                                                                                              | 1693212861016                              |
 
 Example:
 
@@ -44,3 +44,5 @@ Example:
 ​      "cashierId": 86100021
 ​  }
 ```
+
+
