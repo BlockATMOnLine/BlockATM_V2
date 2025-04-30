@@ -14,7 +14,7 @@ layout:
 
 # 提币
 
-收银台收到的加密货币托管在关联的收币合约，若要将资产从收币合约中提出，需要合约指定的"授权签名地址"发起提币，提取到合约指定的"资产接收地址"（"授权签名地址"和"资产接收地址"权限说明见：[收币合约](../../../business-description/an-quan-shou-bi/shou-bi-zhi-neng-he-yue.md#he-yue-quan-xian-shuo-ming)）
+收银台收到的加密货币托管在关联的收币合约，若要将资产从收币合约中提出，需要合约指定的"授权签名地址"发起提币，提取到合约指定的"资产接收地址"（"授权签名地址"和"资产接收地址"权限说明见：[收币合约](../../../business-description/safePay/shou-bi-zhi-neng-he-yue.md#he-yue-quan-xian-shuo-ming)）
 
 ### Web3收币合约提币
 

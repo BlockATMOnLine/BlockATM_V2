@@ -14,7 +14,7 @@ layout:
 
 # 关联 ERC20 和 TRC20 钱包
 
-创建智能合约（[收币合约](chuang-jian-shou-bi-zhi-neng-he-yue.md)或[付币合约](../kai-shi-fu-bi/chuang-jian-fu-bi-zhi-neng-he-yue.md)）后，合约 Owner 的钱包地址将作为管理员地址，管理员地址在创建收银台时可以选择关联目标网络的收币合约，若想同时关联 ERC 网络和 TRC 网络，需将ERC20 和 TRC20 钱包进行关联。
+创建智能合约（[收币合约](chuang-jian-shou-bi-zhi-neng-he-yue.md)或[付币合约](../startPayout/chuang-jian-fu-bi-zhi-neng-he-yue.md)）后，合约 Owner 的钱包地址将作为管理员地址，管理员地址在创建收银台时可以选择关联目标网络的收币合约，若想同时关联 ERC 网络和 TRC 网络，需将ERC20 和 TRC20 钱包进行关联。
 
 ### 关联钱包地址
 

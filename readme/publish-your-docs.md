@@ -48,7 +48,7 @@ Asset extraction does not require permission from centralized institutions.
 | Payout fee                 | 1 USD/txn  |
 
 {% hint style="info" %}
-For more detailed fee rules, please see: [Safe Collection - Service fee](../business-description/an-quan-shou-bi/fu-wu-fei-yong.md)、[Bulk payout - Service fee](../pi-liang-fu-bi/fu-wu-fei-yong.md)&#x20;
+For more detailed fee rules, please see: [Safe Collection - Service fee](../business-description/safePay/fu-wu-fei-yong.md)、[Bulk payout - Service fee](../batchWithdraw/fu-wu-fei-yong.md)&#x20;
 {% endhint %}
 
 ### Integrated simple and fast
@@ -56,7 +56,7 @@ For more detailed fee rules, please see: [Safe Collection - Service fee](../busi
 Integrate by copying and embedding the widget code into your business code with just one click.
 
 {% content-ref url="../ji-cheng-shou-yin-tai/" %}
-[ji-cheng-shou-yin-tai](../ji-cheng-shou-yin-tai/)
+[ji-cheng-shou-yin-tai](../integrationCashier/)
 {% endcontent-ref %}
 
 

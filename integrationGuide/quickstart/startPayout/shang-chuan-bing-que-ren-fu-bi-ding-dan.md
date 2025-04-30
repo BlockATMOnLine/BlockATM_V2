@@ -14,7 +14,7 @@ layout:
 
 # 上传并确认付币订单
 
-[创建付币合约](chuang-jian-fu-bi-zhi-neng-he-yue.md)且给合约[充币](chong-bi.md)有足够的资产后，可以进行付币操作；BlockATM 提供了 API上传 和 导入Excel上传 两种上传付币订单的方式；需要注意的是付币只能由合约指定的"授权签名地址"执行（"授权签名地址"权限说明见：[付币合约](../../../pi-liang-fu-bi/fu-bi-zhi-neng-he-yue.md#he-yue-quan-xian-shuo-ming)）
+[创建付币合约](chuang-jian-fu-bi-zhi-neng-he-yue.md)且给合约[充币](chong-bi.md)有足够的资产后，可以进行付币操作；BlockATM 提供了 API上传 和 导入Excel上传 两种上传付币订单的方式；需要注意的是付币只能由合约指定的"授权签名地址"执行（"授权签名地址"权限说明见：[付币合约](../../../batchWithdraw/fu-bi-zhi-neng-he-yue.md#he-yue-quan-xian-shuo-ming)）
 
 ### API上传付币订单
 
