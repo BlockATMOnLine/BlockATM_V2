@@ -1,7 +1,7 @@
-# 获取收币订单详情
+# Payment Order Detail
 
-&#x20; 通过该接口，你可以主动查询订单的状态和其他信息。
+Through this interface, you can actively query the status and other information of the order.
 
-{% openapi-operation spec="20250416cn" path="/order/api/v2/payorder/detail" method="get" %}
+{% openapi-operation spec="en20250426" path="/order/api/v2/payorder/detail" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
