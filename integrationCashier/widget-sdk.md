@@ -1,36 +1,34 @@
 ---
-description: 仅需要三步轻松完成集成
+description:  Three steps to complete the integration
 ---
 
 # Widget SDK
 
-#### 1. 引入SDK
+### 1. import
 
-将 SDK 以脚本形式添加到您的 HTML 文件中：
+Add the SDK as a script to your HTML file.
 
 {% tabs %}
-{% tab title="正式环境" %}
-```javascript
-<script src="https://pay.blockatm.net/libs/v2/BlockATM.umd.js?apiKey=[API_KEY]"></script>
+{% tab title="Prod " %}
+```
+<script src="https://cashier.blockatm.net/libs/v2/BlockATM.umd.js?apiKey=[API_KEY]"></script>
 ```
 {% endtab %}
 
-{% tab title="沙箱环境" %}
-```javascript
+{% tab title="Sandbox " %}
+```
 <script src="https://cashier-b2b-pre.ufcfan.org/libs/v2/BlockATM.umd.js?apiKey=[API_KEY]"></script>
 ```
 {% endtab %}
 {% endtabs %}
 
-引入此脚本后，即可初始化 Web SDK 并开始集成加密货币支付解决方案。
+Once you've included this script, you're ready to initialize the Web SDK and start integrating with our suite of cryptocurrency payment solutions.
 
 
 
-#### 2.  参数签名
+### 2.Signing&#x20;
 
-展示收银台widget前，需对参数进行签名。[了解签名机制](https://xn--d6q865b87npk2a/)。
-
-参考代码示例：
+You need to sign your widget URL before you can display the widget. Learn more about [**URL signing**](sign).
 
 ```javascript
 
@@ -43,13 +41,13 @@ const options = {
   currency: 'USDT',              // Cryptocurrency type (optional, e.g. USDT)
   amount: 100.5,                 // Payment amount (optional)
 };
-​
+
 // 2. Generate signature parameters
 const { urlForSignature } = window.BlockATM.generateUrlForSigning({ 
   ...options, 
   apiKey: 'YOUR_API_KEY'         // Replace with your API key
 });
-​
+
 // 3. Get signature from backend
 const { signature } = await fetch("/sign-url", {
   method: "POST",
@@ -58,15 +56,11 @@ const { signature } = await fetch("/sign-url", {
 }).then(res => res.json());
 ```
 
-查看完整的请求参数
+[See full parameters](widget-param.md)
 
+### 3. Initialize
 
-
-#### 3. 初始化
-
-在您的应用中通过以下参数初始化 SDK，唤起Blockatm收银台以及处理您的业务逻辑。
-
-&#x20;参考代码：
+Initialize the SDK in your application with the flow, variant,lang and any parameters related to deposit cryptocurrency.
 
 ```javascript
 // Initialize and show cashier.
@@ -88,6 +82,8 @@ window.BlockATM.init(
   }
 );
 ```
+
+
 
 
 

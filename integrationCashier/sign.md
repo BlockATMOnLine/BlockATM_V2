@@ -1,28 +1,31 @@
 ---
-description: 安全支付
+description: Safe payment
 ---
 
-# 参数签名
+# Url Signing
 
-帮助阻止未经授权的第三方访问请求。签名必须附加在URL的末尾。
+A signed URL helps limit access from unauthorized third parties by providing limited permissions and time to make a request.\
+it must be appended at the end of the URL.
 
-**URL签名步骤**
+### How to sign URLs
 
-1. 将您的支付组件里的URL参数发送到后端服务器
-2. 使用BlockATM收银台中的密钥生成签名
-3. 返回签名或完整的已签名URL
-4. 使用SDK或URL展示支付组件
+1. Send your widget URL to your backend server.
+2. Generate the signature using the secret key found in your BockATM Cashier dashboard.
+3. Return either the signature or entire signed URL.
+4. Show the widget using the SDK or URL.
 
-**签名生成方法**
+### How to generate signatures
 
-1. 使用SHA-256哈希算法创建HMAC（基于哈希的消息认证码）
-2. 使用收银台的Secret Key作为密钥
-3. 使用原始URL的查询字符串作为消息内容
-4. 特别注意：基于URL的集成方案中，所有查询参数值都必须先进行URL编码再生成签名
+1. Create an HMAC (Hash-Based Message Authentication Code) using the SHA-256 hash function
+
+* Use your secret API key as the key
+* the original URL's query string as the message.
+
+2. For URL-based integrations, make sure all query parameter values are **URL-encoded** before creating the signature.
 
 
 
-### 简单代码示例：
+### Code examples:
 
 {% tabs %}
 {% tab title="JavaScript" %}
@@ -144,6 +147,8 @@ def sign_url():
 if __name__ == "__main__":
     sign_url()
 ```
+
+
 {% endtab %}
 
 {% tab title="php" %}
@@ -175,10 +180,18 @@ function signUrl() {
 signUrl();
 ?>
 ```
+
+
 {% endtab %}
 {% endtabs %}
 
-#### 签名示例:
+
+
+
+
+
+
+#### Signatures Example:
 
 **Secret Key:**
 
@@ -186,13 +199,17 @@ signUrl();
 sk_ci_QOoPSlHDSsgXYeNyTP2i0ug1HKLRjHw9Ug7mCc1Q0
 ```
 
-**URL's 参数：**
+
+
+**URL's Param：**
 
 ```
 apiKey=pk_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&t=1742884523932&custNo=C86002201&orderNo=C202503225
 ```
 
-**签名结果:**
+
+
+**Signature Result:**&#x20;
 
 ```
 ff7fe6e9b2d065390e325457b744a204419204f693cc42c8e079719938bc9bfd
