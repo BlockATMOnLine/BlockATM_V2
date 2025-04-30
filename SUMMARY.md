@@ -26,7 +26,7 @@
 ## 🌐 网络｜代币｜钱包
 
 * [网络及代币](networkAndWallet/networkAndTokens/README.md)
-  * [获取测试币](wang-luo-dai-bi-qian-bao/networkandtokens/huo-qu-ce-shi-bi.md)
+  * [Get Test Assets](wang-luo-dai-bi-qian-bao/networkandtokens/huo-qu-ce-shi-bi.md)
 * [支持的钱包](networkAndWallet/wallets/README.md)
   * [MetaMask](networkAndWallet/wallets/metamask/README.md)
     * [如何创建 MetaMask 钱包](networkAndWallet/wallets/metamask/ru-he-chuang-jian-metamask-qian-bao.md)
