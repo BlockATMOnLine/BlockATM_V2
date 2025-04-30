@@ -12,13 +12,13 @@ layout:
     visible: true
 ---
 
-# 对接付币智能合约
+# 对接付币合约
 
-[创建付币智能合约](chuang-jian-fu-bi-zhi-neng-he-yue.md)后，点击 "对接" 以实现API上传付币订单以及接收付币结果通知
+[创建付币合约](chuang-jian-fu-bi-zhi-neng-he-yue.md)后，点击 "对接" 以实现API上传付币订单以及接收付币结果通知
 
 <figure><img src="../../../.gitbook/assets/28.png" alt=""><figcaption></figcaption></figure>
 
-在对接付币智能合约的弹窗中，可看到 合约信息、对接密钥公钥、 Webhook 密钥、 Webhook 通知地址
+在对接付币合约的弹窗中，可看到 合约信息、对接密钥公钥、 Webhook 密钥、 Webhook 通知地址
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-payment-2025-04-10-18_02_49.png" alt=""><figcaption></figcaption></figure>
 

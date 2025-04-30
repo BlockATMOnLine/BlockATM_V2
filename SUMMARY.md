@@ -2,25 +2,25 @@
 
 ## 📖 Readme
 
-* [BlockATM 简介](README.md)
-* [核心优势](readme/publish-your-docs.md)
+* [BlockATM Introduction](README.md)
+* [Core Advantage](readme/publish-your-docs.md)
 
 ***
 
-* [路线图](lu-xian-tu.md)
+* [Route Map](lu-xian-tu.md)
 
-## 👨‍💻 业务说明
+## 👨‍💻 Business Description
 
-* [安全收币](ye-wu-shuo-ming/an-quan-shou-bi/README.md)
-  * [运作流程](ye-wu-shuo-ming/an-quan-shou-bi/yun-zuo-liu-cheng.md)
-  * [收币智能合约](ye-wu-shuo-ming/an-quan-shou-bi/shou-bi-zhi-neng-he-yue.md)
-  * [服务费用](ye-wu-shuo-ming/an-quan-shou-bi/fu-wu-fei-yong.md)
+* [Safely Collection](business-description/an-quan-shou-bi/README.md)
+  * [Operation Process](business-description/an-quan-shou-bi/yun-zuo-liu-cheng.md)
+  * [Collection Contract](business-description/an-quan-shou-bi/shou-bi-zhi-neng-he-yue.md)
+  * [Service Fee](business-description/an-quan-shou-bi/fu-wu-fei-yong.md)
 
 ***
 
-* [批量付币](pi-liang-fu-bi/README.md)
+* [Batch Payout](pi-liang-fu-bi/README.md)
   * [运作流程](pi-liang-fu-bi/yun-zuo-liu-cheng.md)
-  * [付币智能合约](pi-liang-fu-bi/fu-bi-zhi-neng-he-yue.md)
+  * [付币合约](pi-liang-fu-bi/fu-bi-zhi-neng-he-yue.md)
   * [服务费用](pi-liang-fu-bi/fu-wu-fei-yong.md)
 
 ## 🌐 网络｜代币｜钱包
@@ -43,14 +43,15 @@
   * [TronLink](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/tronlink/README.md)
     * [如何创建 TronLink 钱包](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/tronlink/ru-he-chuang-jian-tronlink-qian-bao.md)
     * [如何连接 TronLink 钱包](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/tronlink/ru-he-lian-jie-tronlink-qian-bao.md)
-  * [WalletConnect](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/walletconnect.md)
+  * [WalletConnect](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/walletconnect/README.md)
+    * [如何使用 WalletConnect 连接钱包](wang-luo-dai-bi-qian-bao/zhi-chi-de-qian-bao/walletconnect/ru-he-shi-yong-walletconnect-lian-jie-qian-bao.md)
 
 ## 🧩 集成指南
 
 * [快速入门](ji-cheng-zhi-nan/kuai-su-ru-men/README.md)
   * [连接钱包](ji-cheng-zhi-nan/kuai-su-ru-men/lian-jie-qian-bao.md)
   * [开始收币](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-shou-bi/README.md)
-    * [创建收币智能合约](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-shou-bi/chuang-jian-shou-bi-zhi-neng-he-yue.md)
+    * [创建收币合约](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-shou-bi/chuang-jian-shou-bi-zhi-neng-he-yue.md)
     * [关联 ERC20 和 TRC20 钱包](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-shou-bi/guan-lian-erc20-he-trc20-qian-bao.md)
     * [创建收银台](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-shou-bi/chuang-jian-shou-yin-tai.md)
     * [对接收银台](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-shou-bi/dui-jie-shou-yin-tai.md)
@@ -58,8 +59,8 @@
     * [异常订单处理](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-shou-bi/yi-chang-ding-dan-chu-li.md)
     * [提币](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-shou-bi/ti-bi.md)
   * [开始付币](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-fu-bi/README.md)
-    * [创建付币智能合约](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-fu-bi/chuang-jian-fu-bi-zhi-neng-he-yue.md)
-    * [对接付币智能合约](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-fu-bi/dui-jie-fu-bi-zhi-neng-he-yue.md)
+    * [创建付币合约](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-fu-bi/chuang-jian-fu-bi-zhi-neng-he-yue.md)
+    * [对接付币合约](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-fu-bi/dui-jie-fu-bi-zhi-neng-he-yue.md)
     * [充币](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-fu-bi/chong-bi.md)
     * [上传并确认付币订单](ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-fu-bi/shang-chuan-bing-que-ren-fu-bi-ding-dan.md)
   * [权限说明](ji-cheng-zhi-nan/kuai-su-ru-men/quan-xian-shuo-ming.md)

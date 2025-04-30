@@ -12,45 +12,48 @@ layout:
     visible: true
 ---
 
-# 核心优势
+# Core Advantage
 
-### 自托管智能合约，资产100%安全
+### Self-hosted smart contract, assets 100% secure
 
-企业在 BlockATM 创建的智能合约归属于企业，企业完全掌控合约的管理权，并且公开透明，不可篡改。
-
-企业的资产自托管在其专属智能合约，有且只有企业指定的财务钱包地址可以从智能合约中提取资产到指定的接收钱包地址，除此之外任何中心化机构都无权限提取。
+The smart contract created by the enterprise on BlockATM belongs to the enterprise, publicly transparent and tamper-proof on the blockchain, and the enterprise has complete control over the management rights of the contract.\
+The assets of the enterprise are self-managed by smart contracts. Only the "authorized signature address" designated by the enterprise can withdraw assets from the smart contract to a specified "asset receiving address", and no centralized institution, including BlockATM, has permission to withdraw other than that.
 
 <figure><img src="../.gitbook/assets/合约安全.svg" alt=""><figcaption></figcaption></figure>
 
-### 安全支付
+### Safe payment
 
-用户通过连接钱包授权智能合约执行交易，安全可靠，可避免发生金额或收款地址错误的错误支付/转账。
+Users authorize smart contracts to execute transactions through connecting their wallets, ensuring security and reliability while avoiding errors in payment amounts or recipient addresses.
 
-### 无需 KYB、KYC
+### No need for KYB, KYC.
 
-BlockATM 是运行在区块链上的DApp，企业无需向政府或中心化机构提交KYB、KYC资料，即可展业。
+BlockATM is a DApp running on the blockchain, allowing enterprises to operate without submitting KYB or KYC information to the government or centralized institutions.
 
-### 没有限制
+### No restrictions
 
-资产提取无额度限制、无时间限制。
+There is no limit on the amount or time for asset extraction.
 
-### 无需许可
+### No permission required
 
-资产提取无需中心化机构许可
+Asset extraction does not require permission from centralized institutions.
 
-### 收费透明且固定
+### Transparent and fixed fees
 
-| 类型         | 费用        |
-| ---------- | --------- |
-| 智能合约服务费    | 200 USD/张 |
-| 收币手续费      |           |
-|     连接钱包支付 | 2 USD/笔   |
-|     扫码转账支付 | 0.4% /笔   |
-| 付币手续费      | 1 USD/笔   |
+| Type                       | Fee        |
+| -------------------------- | ---------- |
+| Smart contract service fee | 200 USD/pc |
+| Collection fee             |            |
+|     Connect wallet to pay  | 2 USD/txn  |
+|     Scan to pay            | 0.4% /txn  |
+| Payout fee                 | 1 USD/txn  |
 
-### 集成简单且快速
+{% hint style="info" %}
+For more detailed fee rules, please see: [Safe Collection - Service fee](../business-description/an-quan-shou-bi/fu-wu-fei-yong.md)、[Bulk payout - Service fee](../pi-liang-fu-bi/fu-wu-fei-yong.md)&#x20;
+{% endhint %}
 
-通过小部件代码，一键复制并嵌入到您的业务代码中完成集成。
+### Integrated simple and fast
+
+Integrate by copying and embedding the widget code into your business code with just one click.
 
 {% content-ref url="../ji-cheng-shou-yin-tai/" %}
 [ji-cheng-shou-yin-tai](../ji-cheng-shou-yin-tai/)

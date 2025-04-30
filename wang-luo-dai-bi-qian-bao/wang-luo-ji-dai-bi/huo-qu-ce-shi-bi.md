@@ -10,13 +10,13 @@
 
 &#x20;Blockatm使用shasta 作为以太坊测试网络，如果缺少trx作为交易费用，可以加入[Tron Telegram 官方社群](https://t.me/TronOfficialTechSupport2)，通过发送 "!shasta \[address]" 来自动领取.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### Arbitrum Sepolia TestNet
 
 arbitrum 作为以太坊二层网络，可以通过官方[跨链桥](https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia\&sourceChain=sepolia)把资产从Ethereum Sepolia转移到Arbitrum Sepolia
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -61,6 +61,6 @@ arbitrum 作为以太坊二层网络，可以通过官方[跨链桥](https://bri
 
 操作截图（MetaMask,其他钱包类似）：
 
-![](<../../.gitbook/assets/image (10).png>)![](<../../.gitbook/assets/image (11).png>)\
+![](<../../.gitbook/assets/image (20).png>)![](<../../.gitbook/assets/image (21).png>)\
 
 

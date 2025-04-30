@@ -12,16 +12,17 @@ layout:
     visible: true
 ---
 
-# 路线图
+# Route Map
 
-### 🔨 支持主流币
+### 🔨 Support v**olatile coin**
 
 * WBTC
+* CBBTC
 * WETH
 
-### ✅ 支持主流网络及稳定币
+### ✅ Support mainstream networks and stablecoins.
 
-| 网络       | 稳定币                     |
+| Network  | stablecoin              |
 | -------- | ----------------------- |
 | Ethereum | USDT、USDC、TUSD、DAI、FRAX |
 | Arbitrum | USDT、USDC、TUSD、DAI、FRAX |

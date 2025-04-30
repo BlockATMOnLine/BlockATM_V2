@@ -12,37 +12,36 @@ layout:
     visible: true
 ---
 
-# BlockATM 简介
+# BlockATM Introduction
 
-### 简介
+### Introduction
 
-BlcokATM 是全球首个去中心化的加密货币支付网关，通过区块链智能合约技术搭建无中心化机构参与、不受中心化机构控制的支付解决方案。改变了传统支付行业的资产托管权和控制权，实现企业资产完全由其自己掌握，100%安全。
+BlcokATM is the world's first decentralized payment protocol, built on blockchain smart contract technology to create a payment solution that does not involve centralized institutions and is not controlled by them. It changes the traditional payment industry's asset custody and control, allowing businesses to fully control their assets, ensuring 100% security.
 
 {% hint style="info" %}
-### 什么是去中心化
+### What is decentralization?
 
-去中心化（Decentralization）是指将权力、控制或功能从单一中心权威分散到多个独立个体、节点或实体的过程或系统设计理念。在技术和区块链的语境中，去中心化通常与分布式网络相关，旨在消除对中介或中心机构的依赖，增强系统的透明性、安全性和抗审查能力。
-
-去中心化支付网关对比中心化支付网关的主要区别在于，资金托管在区块链上的智能合约，而非托管在中心化机构，因此资金提取转移无额度限制、无时间限制且无需许可。
+Decentralization refers to the process or design concept of dispersing power, control, or functions from a single central authority to multiple independent individuals, nodes, or entities. In the context of technology and blockchain, decentralization is often associated with distributed networks aimed at eliminating reliance on intermediaries or central institutions, enhancing system transparency, security, and resistance to censorship.\
+The main difference between decentralized payment gateways and centralized payment gateways lies in the fact that funds are held in smart contracts on the blockchain rather than being held by centralized institutions. Therefore, fund withdrawals and transfers have no limits on amount or time restrictions and do not require permission.
 {% endhint %}
 
 {% hint style="info" %}
-### 什么是智能合约
+### What is a smart contract
 
-智能合约（Smart Contract）是一种运行在区块链上的自动化、可执行的计算机程序，它在满足预定条件时自动执行合约条款，无需中介机构的参与。智能合约的核心思想是将传统合约的条款通过代码实现，具备透明、不可篡改和去信任化（无需信任机构担保，天然安全可靠）的特性。
+Smart contracts are automated, executable computer programs that run on the blockchain. They automatically execute contract terms when predetermined conditions are met, without the need for intermediaries. The core idea of smart contracts is to implement the terms of traditional contracts through code, with features such as transparency, immutability, and decentralization (no need for trusted third parties or guarantees from institutions, naturally secure and reliable).
 
-BlockATM 的智能合约由企业自主创建，拥有权属于企业管理员钱包地址。
+The smart contracts of BlockATM are created independently by enterprises and owned by enterprise administrator wallet addresses.
 {% endhint %}
 
 
 
-### 价值观
+### Our values
 
-BlockATM 旨在应用区块链智能合约技术和特性（公开透明、不可篡改和去信任化等），为企业提供无需验证即可建立信任的、资产自托管绝对安全的加密货币支付解决方案，以此为基础积极推动去中心化金融（Defi）行业发展。
+BlockATM aims to use blockchain smart contract technology and features (such as public transparency, tamper resistance, and trustlessness) to provide enterprises with a secure cryptocurrency payment solution that does not require verification to establish trust and allows for self-custody of assets. This will actively promote the development of decentralized finance (Defi) industry based on this foundation.
 
 
 
-### 愿景
+### Our vision
 
-BlockATM 的愿景是成为积极拥抱加密货币的企业首选的去中心化支付解决方案提供商。
+The vision of BlockATM is to become the preferred decentralized payment protocol provider for enterprises that actively embrace cryptocurrency.
 

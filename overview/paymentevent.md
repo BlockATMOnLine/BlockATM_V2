@@ -23,7 +23,7 @@ BlockATM将通过您配置的Webhook URL向服务器发送以下字段数据：
 | network     | 交易发生的网络名称（建议使用chainId进行唯一标识）                                                                                                                      | Ethereum                                   |
 | symbol      | 客户支付的代币标识                                                                                                                                         | USDT                                       |
 | txId        | 区块链上对应的交易哈希，可通过对应网络的区块浏览器查看详情                                                                                                                     | 0x....                                     |
-| orderType   | <p>订单类型：<br>1-智能合约支付<br>2-二维码支付<br>3-智能合约地址直连</p>                                                                                                 | 1                                          |
+| orderType   | <p>订单类型：<br>1- 连钱包支付<br>2-扫码支付<br>3-线下转账支付</p>                                                                                                    | 1                                          |
 | status      | <p>订单状态：<br><strong>CANCELLED</strong>(已取消)<br><strong>EXPIRED</strong>(已过期)<br><strong>PENDING</strong>(处理中)<br><strong>SUCCESS</strong>(成功)</p> | **SUCCESS**                                |
 | fromAddress | 支付地址（未支付时为空）                                                                                                                                      | 0xa9e358E33a57E67c9B84618a52f0194C345C8e35 |
 | blockTime   | 订单上链时间戳                                                                                                                                           | 1693212861016                              |
