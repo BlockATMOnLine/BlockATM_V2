@@ -1,11 +1,11 @@
 ---
-description: 该API返回BlockATM平台支持的所有网络配置信息。
+description: >-
+  This API returns all the network configuration information supported by the
+  BlockATM platform.
 ---
 
-# 查询网络列表
+# Network List
 
-
-
-{% openapi-operation spec="20250416cn" path="/admin/api/v2/pub/allNetworks" method="get" %}
+{% openapi-operation spec="en20250426" path="/admin/api/v2/pub/allNetworks" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
