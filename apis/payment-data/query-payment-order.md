@@ -1,7 +1,7 @@
-# 获取收币订单列表
+# Payment Order List
 
-该API支持通过订单号、支付币种等多条件组合查询支付订单信息。
+This API supports querying payment order information through a combination of multiple conditions such as order number and payment currency.
 
-{% openapi-operation spec="20250416cn" path="/order/api/v2/payorder/list" method="get" %}
+{% openapi-operation spec="en20250426" path="/order/api/v2/payorder/list" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
