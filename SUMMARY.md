@@ -93,9 +93,9 @@
     * [Create Payout Order](apis/payout-data/create-payout-order.md)
     * [Query Payout Order](apis/payout-data/query-payout-order.md)
 
-## 📅 更新日志
+## 📅 Update Logs
 
-* [V2.0.0](updateLogs/geng-xin-ri-zhi.md)
+* [V2.0.0](update-logs/geng-xin-ri-zhi.md)
 
 ## Basics
 
