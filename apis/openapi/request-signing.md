@@ -1,55 +1,61 @@
-# 签名
+# Request Signing
 
-请求需附带签名发送至BlockATM服务器。每个请求必须在BlockATM-API-Key请求头中包含api-key，以便BlockATM验证请求确实由您的服务器发出，而非第三方。
+You signs the requests that send to blockATM server. The request need include api-key in each event’s BlockATM-API-Key header. This allows BlockATM to validate that the requests were sent by Your Server, not by a third party.
 
-### Basic Information
+### Basic Information&#x20;
 
-* **ApiKey** 对接公钥，需包含在每个请求的 **BlockATM-API-Key** 请求头中
-* **Secret Key** 对接密钥，用于加密请求参数，生成的签名结果需放入 **BlockATM-Signature-V2** 请求头
+* ApiKey    I**E**nclude in each event’s **BlockATM-API-Key** header.&#x20;
+* Secret Key    encrypts request parameters,  result placed in the **BlockATM-Signature-V2** header.
 
-您可以在商户后台的不同集成场景下（如收银台或付币合约）**对接**页面找到对应的API密钥。
+You can locate the corresponding API Key within the merchant backend under various integration scenarios (such as the checkout counter or payment delegation contracts).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-### Sign
+### Sign &#x20;
 
-**步骤 1**;
+**step 1**&#x20;
 
-将JSON对象中的所有参数按照键的ASCII字符顺序升序排列，并以"key=value"的格式用"&"符号连接。
+Concatenate all parameters from the JSON object in ascending order of their keys according to the ASCII character order, using the format "key=value" separated by "&"。
 
-请求原始参数：
+Original request data:
 
 ```
 {"custNo":"86000123","orderNo":"202504001399","lang":"zh-CN"}
 ```
 
-处理结果：
+Processed Result:
 
 ```
 custNo=86000123&lang=zh-CN&orderNo=202504001399
 ```
 
-**步骤 2**
 
-将请求头中的 'BlockATM-Request-Time' 以 '\&time=' 格式拼接到字符串末尾。
 
-假设 **BlockATM-Request-Time =** 1742723373000
+**step 2**
 
-处理结果:
+Concatenate the '**BlockATM-Request-Time**' from the request header in the format '\&time=' at the end.
+
+&#x20;example **BlockATM-Request-Time =** 1742723373000
+
+Processed Result:
 
 ```
 custNo=86000123&lang=zh-CN&orderNo=202504001399&time=1742723373000
 ```
 
-**步骤 3**
 
-使用SHA-256哈希函数计算HMAC签名，并以您的收银台密钥(Secret Key)作为加密密钥。
+
+**step 3**&#x20;
+
+Compute a HMAC with the SHA-256 hash function. Use your cashier's  **Secret Key** as the key,
 
 ```
 Dihl6oOt5UkaHo9sEouquP3EqbukLX2dAOoKTSGicYryTvH1m9r6vtSLHGutZn7u34/06gjhdpbXRFPdjb51GVHvG75qWXZ1P/boL89xtuja6eTEy9q/aS8R270Q1A+m/MOTxdiifCy0IByrSpCs4VJKaj2d8jlJo2GHznsH+q0=
 ```
 
-**您可以根据开发语言参考以下示例：**
+\
+\
+**You can refer to different examples based on your development language.**
 
 {% tabs %}
 {% tab title="java" %}
@@ -151,6 +157,8 @@ public class BlockATMSigner {
     }
 }
 ```
+
+
 {% endtab %}
 
 {% tab title="python" %}
@@ -205,6 +213,8 @@ def generate_signature():
 if __name__ == "__main__":
     generate_signature()
 ```
+
+
 {% endtab %}
 
 {% tab title="PHP" %}
@@ -255,6 +265,8 @@ generateSignature();
 ?>
 
 ```
+
+
 {% endtab %}
 
 {% tab title="C++" %}
@@ -323,6 +335,8 @@ int main() {
     return 0;
 }
 ```
+
+
 {% endtab %}
 
 {% tab title="Go" %}
@@ -385,5 +399,10 @@ func main() {
 	fmt.Printf("BlockATM-Request-Time: %d\n", requestTime)
 }
 ```
+
+
 {% endtab %}
 {% endtabs %}
+
+
+

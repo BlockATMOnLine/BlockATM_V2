@@ -1,38 +1,42 @@
-# 请求
+# Request
 
-### 1.请求地址
+#### 1. Request Endpoint URLs
 
-<table><thead><tr><th>环境</th><th>请求</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>生产环境</strong></td><td><a href="https://backend.blockatm.net">https://open.blockatm.net</a></td><td></td></tr><tr><td><strong>沙箱环境</strong></td><td><a href="https://backstage-b2b-pre.ufcfan.org">https://backstage-b2b-pre.ufcfan.org</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Environment</th><th>URL</th><th data-hidden></th></tr></thead><tbody><tr><td>Production Environment</td><td><a href="https://backend.blockatm.net">https://open.blockatm.net</a></td><td></td></tr><tr><td><strong>Sandbox</strong> Environment</td><td><a href="https://backstage-b2b-pre.ufcfan.org">https://backstage-b2b-pre.ufcfan.org</a></td><td></td></tr></tbody></table>
 
 
 
-### 2.请求头
+2. #### Request  Header
 
-每个服务端请求必须包含以下请求头：
+&#x20;Each server to server request needs to contain the following request headers.
 
-| 参数名                                              | 说明                                                 | 示例                                                   |
-| ------------------------------------------------ | -------------------------------------------------- | ---------------------------------------------------- |
-| <p><strong>BlockATM-api-Key</strong><br>(必填)</p> | 在BlockATM控制台获取的API密钥                               | `pk_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM` |
-| **BlockATM-Request-Time**                        | <p>请求发起时间戳（精确到毫秒）<br>仅需在标注"需签名"的接口添加</p>           | `1742725435000`                                      |
-| **BlockATM-Signature-V2**                        | <p>使用密钥生成的签名<br>仅需在标注"需签名"的接口添加</p>                | -                                                    |
-| **BlockATM-Rec\_Window**                         | <p>请求有效期（毫秒）<br>• 默认值：30000毫秒<br>• 最大值：60000毫秒</p> | `30000`                                              |
+<table><thead><tr><th width="212.0302734375">Parameter name</th><th width="375.4847412109375">Instructions</th><th>Example</th></tr></thead><tbody><tr><td>BlockATM-api-Key<br><mark style="color:blue;">Required</mark></td><td>You can easily find it at BlockATM console.</td><td>pk_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM</td></tr><tr><td>BlockATM-Request-Time</td><td>The timing of your request, down to the millisecond.<br>Include this header only for endpoints flagged with "<mark style="color:orange;">Sign required</mark>".</td><td>1742725435000</td></tr><tr><td>BlockATM-Signature-V2</td><td><p>Signature using your serect key.<br>Include this header only for endpoints flagged with "<mark style="color:orange;">Sign required</mark>".</p><p></p></td><td></td></tr><tr><td>BlockATM-Rec_Window</td><td>The time window in milliseconds,<br>defaults to 30000 milliseconds if it is null.</td><td>30000 </td></tr></tbody></table>
 
-**时效性验证规则**：
+When the server receives the request, it determines the timestamp in the request, and if it was made before 30000 milliseconds, the request is considered invalid. The time window value can be defined by sending the optional request header **BlockATM-RECV\_WINDOW**.
 
-1. 服务端会校验`BlockATM-Request-Time`头
-2. 当`(当前时间 - 请求时间) > Rec_Window值`时，请求将被拒绝
-3. 可通过自定义`BlockATM-Rec_Window`覆盖默认值（单位：毫秒）
 
-### 3. 请求参数
 
-参考具体接口说明
+#### 3. Request **Parameters**
 
-### 4.返回参数
+See the interface description
 
-| 参数名     | 类型      | 说明                                     |
-| ------- | ------- | -------------------------------------- |
-| code    | String  | <p>系统通用返回码。<br>200表示成功，其他值为异常状态</p>    |
-| success | Boolean | <p>标识程序是否处理成功。<br>true-成功，false-失败</p> |
-| data    | Object  | 数据主体，统一返回各业务响应信息                       |
-| trace   | String  | 全局链路追踪标识信息                             |
-| msg     | String  | 程序处理后的提示信息                             |
+
+
+4.Response **Parameters**
+
+
+
+HTTP response status code
+
+| Parameter | Type     | Description                                                     |
+| --------- | -------- | --------------------------------------------------------------- |
+| code      | String   | system general return code. 200 -success, other exceptions      |
+| success   | Boolean  | Marks whether the program processed successfully                |
+| data      | Object   | Data body, unified return of each business response information |
+| trace     | String   | Global link flag information                                    |
+| msg       | String   | Some prompt messages processed by the program                   |
+
+
+
+
+
