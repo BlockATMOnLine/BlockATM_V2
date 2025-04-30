@@ -1,8 +1,13 @@
-# 查询付币订单
+# Query Payout Order
 
-(<mark style="color:red;">**需要签名)**</mark>该API返回付币订单的完整详情，包括状态、金额及时间等关键信息。\
+<mark style="color:red;">(Signature required)</mark> This API returns the complete details of the coin payment order, including key information such as status, amount and time.
 
 
-{% openapi-operation spec="20250416cn" path="/order/api/v2/payout/detail" method="get" %}
+
+{% openapi-operation spec="en20250426" path="/order/api/v2/payout/order" method="post" %}
+[Broken link](broken-reference)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="en20250426" path="/order/api/v2/payout/detail" method="get" %}
 [Broken link](broken-reference)
 {% endopenapi-operation %}
