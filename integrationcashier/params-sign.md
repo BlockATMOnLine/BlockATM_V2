@@ -1,4 +1,6 @@
-
+---
+description: Safe payment
+---
 
 # Url Signing
 
@@ -212,12 +214,3 @@ apiKey=pk_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&t=1742884523932&custNo
 ```
 ff7fe6e9b2d065390e325457b744a204419204f693cc42c8e079719938bc9bfd
 ```
-
-
-
-
-
-
-
-
-
