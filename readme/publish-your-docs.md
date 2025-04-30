@@ -19,7 +19,7 @@ layout:
 The smart contract created by the enterprise on BlockATM belongs to the enterprise, publicly transparent and tamper-proof on the blockchain, and the enterprise has complete control over the management rights of the contract.\
 The assets of the enterprise are self-managed by smart contracts. Only the "authorized signature address" designated by the enterprise can withdraw assets from the smart contract to a specified "asset receiving address", and no centralized institution, including BlockATM, has permission to withdraw other than that.
 
-<figure><img src="../.gitbook/assets/合约安全.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/English (1).jpg" alt=""><figcaption></figcaption></figure>
 
 ### Safe payment
 
@@ -43,12 +43,12 @@ Asset extraction does not require permission from centralized institutions.
 | -------------------------- | ---------- |
 | Smart contract service fee | 200 USD/pc |
 | Collection fee             |            |
-|     Connect wallet to pay  | 2 USD/txn  |
-|     Scan to pay            | 0.4% /txn  |
+| Connect wallet to pay      | 2 USD/txn  |
+| Scan to pay                | 0.4% /txn  |
 | Payout fee                 | 1 USD/txn  |
 
 {% hint style="info" %}
-For more detailed fee rules, please see: [Safe Collection - Service fee](../business-description/safePay/fu-wu-fei-yong.md)、[Bulk payout - Service fee](../batchWithdraw/fu-wu-fei-yong.md)&#x20;
+For more detailed fee rules, please see: [Safe Collection - Service fee](../business-description/safePay/fu-wu-fei-yong.md)、[Bulk payout - Service fee](../batchWithdraw/fu-wu-fei-yong.md)
 {% endhint %}
 
 ### Integrated simple and fast
@@ -56,15 +56,7 @@ For more detailed fee rules, please see: [Safe Collection - Service fee](../busi
 Integrate by copying and embedding the widget code into your business code with just one click.
 
 {% content-ref url="../ji-cheng-shou-yin-tai/" %}
-[ji-cheng-shou-yin-tai](../integrationCashier/)
+[ji-cheng-shou-yin-tai](../ji-cheng-shou-yin-tai/)
 {% endcontent-ref %}
-
-
-
-
-
-
-
-
 
 Oz

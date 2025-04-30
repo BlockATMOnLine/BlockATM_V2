@@ -20,7 +20,7 @@ layout:
 
 {% stepper %}
 {% step %}
-### [连接钱包](../lian-jie-qian-bao.md)
+### [连接钱包](broken-reference)
 
 通过 MetaMask、TronLink 或者 WalletConnect 连接钱包，登录 BlockATM DApp
 {% endstep %}
@@ -44,7 +44,7 @@ layout:
 {% endstep %}
 
 {% step %}
-### [上传并确认付币订单](shang-chuan-bing-que-ren-fu-bi-ding-dan.md)
+### [上传并确认付币订单](broken-reference)
 
 通过API/Excel的方式上传付币订单，并由授权签名地址签名确认即可付币
 {% endstep %}

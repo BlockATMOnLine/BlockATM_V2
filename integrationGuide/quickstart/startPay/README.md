@@ -18,7 +18,7 @@ layout:
 
 {% stepper %}
 {% step %}
-### [连接钱包](../lian-jie-qian-bao.md)
+### [连接钱包](broken-reference)
 
 通过 MetaMask、TronLink 或者 WalletConnect 连接钱包，登录 BlockATM DApp
 {% endstep %}
@@ -30,7 +30,7 @@ layout:
 {% endstep %}
 
 {% step %}
-### [关联 ERC20 和 TRC20 钱包](guan-lian-erc20-he-trc20-qian-bao.md)
+### [关联 ERC20 和 TRC20 钱包](broken-reference)
 
 若需要同时接收 ERC20 和 TRC20 网络，需先关联 ERC20 和 TRC20 钱包；反之可不关联
 {% endstep %}
@@ -60,7 +60,7 @@ layout:
 {% endstep %}
 
 {% step %}
-### [提币](ti-bi.md)
+### [提币](broken-reference)
 
 收银台收到的加密货币托管在收币合约，授权签名地址可提取合约资产
 {% endstep %}
