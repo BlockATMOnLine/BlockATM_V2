@@ -20,7 +20,7 @@ layout:
 
 企业的资产自托管智能合约，有且只有企业指定的"授权签名地址"可以从智能合约中提取资产到指定的"资产接收地址"，除此之外任何中心化机构都无权限提取，包括 BlockATM。
 
-<figure><img src="../.gitbook/assets/合约安全.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/简体中文.jpg" alt=""><figcaption></figcaption></figure>
 
 ### 安全支付
 
