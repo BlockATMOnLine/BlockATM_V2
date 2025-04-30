@@ -67,10 +67,10 @@
 
 ***
 
-* [集成收银台](integrationCashier/README.md)
+* [Integrate Cashier](integrationCashier/README.md)
   * [Widget SDK](integrationCashier/widget-sdk.md)
   * [Widget 参数](integrationCashier/widget-can-shu.md)
-  * [参数签名](integrationCashier/can-shu-qian-ming.md)
+  * [Params Sign](integrationCashier/can-shu-qian-ming.md)
 * [Webhook](overview/README.md)
   * [overview](overview/gai-lan.md)
   * [payment params](overview/paymentevent.md)
