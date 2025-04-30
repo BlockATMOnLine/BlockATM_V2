@@ -70,7 +70,7 @@
 * [Integrate Cashier](integrationCashier/README.md)
   * [Widget SDK](integrationCashier/widget-sdk.md)
   * [Widget Params](integrationCashier/widget-can-shu.md)
-  * [Params Sign](integrationCashier/sign)
+  * [Params Sign](integrationCashier/params-sign)
 * [Webhook](overview/README.md)
   * [overview](overview/gai-lan.md)
   * [payment params](overview/paymentevent.md)

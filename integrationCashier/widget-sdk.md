@@ -28,7 +28,7 @@ Once you've included this script, you're ready to initialize the Web SDK and sta
 
 ### 2.Signing&#x20;
 
-You need to sign your widget URL before you can display the widget. Learn more about [**URL signing**](sign).
+You need to sign your widget URL before you can display the widget. Learn more about [**URL signing**](params-sign).
 
 ```javascript
 
