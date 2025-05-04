@@ -12,13 +12,13 @@ layout:
     visible: true
 ---
 
-# 运作流程
+# Operation Process
 
-BlockATM 提供两种方式上传付币订单（API 上传、导入 Excel 上传），上传的付币订单需要付币合约中指定的"授权签名地址"进行审核并签名确认，确认过的付币订单将通过 BlockATM 付币代理合约批量付币并支付Gas Fee（付币资金、手续费、代付 Gas Fee 从商户的付币合约中扣除）。
+BlockATM provides two methods for uploading payout orders (API upload and Excel import). The uploaded payout orders need to be reviewed and signed by the "Authorized Signature Address" specified in the payout contract. Once confirmed, the payout orders will be processed in bulk through the BlockATM payout proxy contract, with the Gas Fee (payout funds, transaction fees, and Gas Fee on behalf of the merchant) deducted from the merchant's payout contract.
 
-<figure><img src="../.gitbook/assets/付币运作原理.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/English (3).jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-付币合约的归属权属于商户/企业，而付币代理合约归属权属于 BlockATM ，付币代理合约主要提供API安全上传订单以及代付 Gas Fee 功能，以提高付币效率。详情介绍见：[付币合约](fu-bi-zhi-neng-he-yue.md)
+The ownership of the payout contract belongs to the merchant/business, while the ownership of the payout proxy contract belongs to BlockATM. The payout proxy contract primarily provides API-based secure order uploads and Gas Fee payment on behalf of the merchant to improve payout efficiency. For more details, see:[Payout Contract](fu-bi-zhi-neng-he-yue.md)
 {% endhint %}
 

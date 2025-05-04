@@ -19,7 +19,7 @@
 ***
 
 * [Batch Payout](batchWithdraw/README.md)
-  * [运作流程](batchWithdraw/yun-zuo-liu-cheng.md)
+  * [Operation Process](batchWithdraw/yun-zuo-liu-cheng.md)
   * [付币合约](batchWithdraw/fu-bi-zhi-neng-he-yue.md)
   * [服务费用](batchWithdraw/fu-wu-fei-yong.md)
 
