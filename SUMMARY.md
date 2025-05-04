@@ -46,24 +46,24 @@
   * [WalletConnect](network-or-token-or-wallet/wallets/walletconnect/README.md)
     * [How to use WalletConnect to connect a wallet](network-or-token-or-wallet/wallets/walletconnect/ru-he-shi-yong-walletconnect-lian-jie-qian-bao.md)
 
-## 🧩 集成指南
+## 🧩 Integration Guide
 
-* [快速入门](integrationGuide/quickstart/README.md)
-  * [连接钱包](integrationGuide/quickstart/lian-jie-qian-bao.md)
-  * [开始收币](integrationGuide/quickstart/startPay/README.md)
-    * [创建收币合约](integrationGuide/quickstart/startPay/chuang-jian-shou-bi-zhi-neng-he-yue.md)
-    * [关联 ERC20 和 TRC20 钱包](integrationGuide/quickstart/startPay/guan-lian-erc20-he-trc20-qian-bao.md)
-    * [创建收银台](integrationGuide/quickstart/startPay/chuang-jian-shou-yin-tai.md)
-    * [对接收银台](integrationGuide/quickstart/startPay/dui-jie-shou-yin-tai.md)
-    * [收币](integrationGuide/quickstart/startPay/shou-bi.md)
-    * [异常订单处理](integrationGuide/quickstart/startPay/yi-chang-ding-dan-chu-li.md)
-    * [提币](integrationGuide/quickstart/startPay/ti-bi.md)
-  * [开始付币](integrationGuide/quickstart/startPayout/README.md)
-    * [创建付币合约](integrationGuide/quickstart/startPayout/chuang-jian-fu-bi-zhi-neng-he-yue.md)
-    * [对接付币合约](integrationGuide/quickstart/startPayout/dui-jie-fu-bi-zhi-neng-he-yue.md)
-    * [充币](integrationGuide/quickstart/startPayout/chong-bi.md)
-    * [上传并确认付币订单](integrationGuide/quickstart/startPayout/shang-chuan-bing-que-ren-fu-bi-ding-dan.md)
-  * [权限说明](integrationGuide/quickstart/quan-xian-shuo-ming.md)
+* [Quick Start](integration-guide/quickstart/README.md)
+  * [Connect Wallet](integration-guide/quickstart/lian-jie-qian-bao.md)
+  * [开始收币](integration-guide/quickstart/startpay/README.md)
+    * [创建收币合约](integration-guide/quickstart/startpay/chuang-jian-shou-bi-zhi-neng-he-yue.md)
+    * [关联 ERC20 和 TRC20 钱包](integration-guide/quickstart/startpay/guan-lian-erc20-he-trc20-qian-bao.md)
+    * [创建收银台](integration-guide/quickstart/startpay/chuang-jian-shou-yin-tai.md)
+    * [对接收银台](integration-guide/quickstart/startpay/dui-jie-shou-yin-tai.md)
+    * [收币](integration-guide/quickstart/startpay/shou-bi.md)
+    * [异常订单处理](integration-guide/quickstart/startpay/yi-chang-ding-dan-chu-li.md)
+    * [提币](integration-guide/quickstart/startpay/ti-bi.md)
+  * [开始付币](integration-guide/quickstart/startpayout/README.md)
+    * [创建付币合约](integration-guide/quickstart/startpayout/chuang-jian-fu-bi-zhi-neng-he-yue.md)
+    * [对接付币合约](integration-guide/quickstart/startpayout/dui-jie-fu-bi-zhi-neng-he-yue.md)
+    * [充币](integration-guide/quickstart/startpayout/chong-bi.md)
+    * [上传并确认付币订单](integration-guide/quickstart/startpayout/shang-chuan-bing-que-ren-fu-bi-ding-dan.md)
+  * [权限说明](integration-guide/quickstart/quan-xian-shuo-ming.md)
 
 ***
 
