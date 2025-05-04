@@ -59,15 +59,15 @@ layout:
 {% step %}
 ### Open the MetaMask app and scan the QR code
 
-* 在手机打开 MetaMask App
-* 点击左上角菜单 > 选择“WalletConnect”。
-* 使用内置扫描器扫描显示 WalletConnect 的二维码。
+* Open the MetaMask app on your phone.
+* Click the menu in the top left corner > Select “WalletConnect.”
+* Use the built-in scanner to scan the QR code shown for WalletConnect.
 {% endstep %}
 
 {% step %}
-### 确认连接
+### Confirm the connection
 
-* MetaMask 会弹出连接请求窗口。
-* 点击“连接”。
+* MetaMask will pop up a connection request window.
+* Click “Connect.”
 {% endstep %}
 {% endstepper %}
