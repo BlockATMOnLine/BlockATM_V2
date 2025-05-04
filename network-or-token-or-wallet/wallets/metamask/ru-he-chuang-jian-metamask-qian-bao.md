@@ -12,55 +12,55 @@ layout:
     visible: true
 ---
 
-# 如何创建 MetaMask 钱包
+# How to create a MetaMask wallet
 
 {% stepper %}
 {% step %}
-### 下载 MetaMask 插件或应用
+### Download the MetaMask extension or app
 
-* 如果在电脑上使用，MetaMask 是一个浏览器扩展程序，支持 Chrome、Firefox 和 Edge 等浏览器。访问官网（[https://metamask.io](https://metamask.io)），点击“下载”按钮，选择你使用的浏览器版本进行安装。
-* 如果在手机上使用，可以在 App Store（iOS）或 Google Play（Android）搜索“MetaMask”，下载官方应用。
+* If using on a computer, MetaMask is a browser extension that supports browsers such as Chrome, Firefox, and Edge. Visit the official website ([https://metamask.io](https://metamask.io/)), click the "Download" button, and select the browser version you are using to install.
+* If using on a mobile device, you can search for "MetaMask" in the App Store (iOS) or Google Play (Android) to download the official app.
 {% endstep %}
 
 {% step %}
-### 安装完成后打开 MetaMask
+### After installation, open MetaMask
 
-* 安装插件后，点击浏览器右上角的 MetaMask 图标（狐狸图标），或者打开手机应用。
-* 首次打开时，你会看到欢迎界面，点击“开始”。
+* After installing the extension, click the MetaMask icon (fox icon) in the top-right corner of your browser, or open the mobile app.
+* When you open it for the first time, you will see the welcome screen. Click "Get Started."
 {% endstep %}
 
 {% step %}
-### 选择创建新钱包
+### Select "Create a New Wallet"
 
-* 系统会询问你是“创建新钱包”还是“导入已有钱包”。选择“创建新钱包”。
-* 阅读并同意用户条款。
+* The system will ask whether you want to "Create a New Wallet" or "Import an Existing Wallet." Choose "Create a New Wallet."
+* Read and agree to the terms of use.
 {% endstep %}
 
 {% step %}
-### 设置密码
+### Set a password
 
-* 输入一个安全的密码（至少 8 个字符，建议包含字母、数字和符号）。这个密码用于解锁你的 MetaMask 钱包。
-* 确认密码后点击“创建”。
+* Enter a secure password (at least 8 characters, preferably including letters, numbers, and symbols). This password will be used to unlock your MetaMask wallet.
+* Confirm your password and click "Create."
 {% endstep %}
 
 {% step %}
-### 备份助记词
+### Backup the recovery phrase
 
-* MetaMask 会生成一个 12 个单词的助记词（Secret Recovery Phrase）。这是恢复钱包的唯一方式。
-* 点击显示助记词，将其抄写下来并保存在安全的地方（建议手写在纸上，不要截图或存储在联网设备上）。
-* 按照提示依次输入这些单词以确认你已正确备份，然后点击“确认”。
+* MetaMask will generate a 12-word recovery phrase (Secret Recovery Phrase). This is the only way to recover your wallet.
+* Click to reveal the recovery phrase, write it down, and store it in a secure place (it is recommended to write it by hand on paper, and avoid taking screenshots or storing it on connected devices).
+* Follow the prompts to enter the words in order to confirm that you have backed them up correctly, then click "Confirm."
 {% endstep %}
 
 {% step %}
-### 完成设置
+### Complete the setup
 
-* 备份确认后，你的 MetaMask 钱包就创建完成了！你会看到钱包的主界面，显示你的账户地址（类似 0x 开头的字符串）。
-* 默认情况下，MetaMask 会连接到以太坊主网（Ethereum Mainnet），你可以根据需要切换网络（比如Arbitrum、测试网等）。
+* After confirming the backup, your MetaMask wallet is created! You will see the main wallet interface, displaying your account address (a string starting with 0x).
+* By default, MetaMask connects to the Ethereum Mainnet. You can switch networks as needed (such as Arbitrum, testnets, etc.).
 {% endstep %}
 {% endstepper %}
 
-### 注意事项
+### Important Notes
 
-* 安全性：永远不要泄露你的助记词或私钥给任何人，任何人索要这些信息都可能是骗局。
-* 资金添加：创建钱包后，你需要通过转账（比如从交易所）向钱包地址充值加密货币才能使用。
-* 使用场景：MetaMask 可用于与去中心化应用（DApps）交互，比如 DeFi、NFT 市场等。
+* Security: Never share your recovery phrase or private key with anyone. Anyone asking for this information could be attempting a scam.
+* Fund Addition: After creating the wallet, you need to deposit cryptocurrency into your wallet address through a transfer (e.g., from an exchange) in order to use it.
+* Use Cases: MetaMask can be used to interact with decentralized applications (DApps), such as DeFi, NFT marketplaces, and more.

@@ -12,9 +12,9 @@ layout:
     visible: true
 ---
 
-# 支持的钱包
+# Supported Wallets
 
-BlockATM 支持市场上主流的钱包，满足大部分使用场景
+BlockATM supports mainstream wallets in the market, catering to most use cases.
 
 
 

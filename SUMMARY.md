@@ -27,10 +27,10 @@
 
 * [Network and Token](network-or-token-or-wallet/networkandtokens/README.md)
   * [Get Test Assets](network-or-token-or-wallet/networkandtokens/huo-qu-ce-shi-bi.md)
-* [支持的钱包](network-or-token-or-wallet/wallets/README.md)
+* [Supported Wallets](network-or-token-or-wallet/wallets/README.md)
   * [MetaMask](network-or-token-or-wallet/wallets/metamask/README.md)
-    * [如何创建 MetaMask 钱包](network-or-token-or-wallet/wallets/metamask/ru-he-chuang-jian-metamask-qian-bao.md)
-    * [如何连接 MetaMask 钱包](network-or-token-or-wallet/wallets/metamask/ru-he-lian-jie-metamask-qian-bao.md)
+    * [How to create a MetaMask wallet](network-or-token-or-wallet/wallets/metamask/ru-he-chuang-jian-metamask-qian-bao.md)
+    * [How to connect MetaMask wallet](network-or-token-or-wallet/wallets/metamask/ru-he-lian-jie-metamask-qian-bao.md)
     * [将冷钱包连接到 MetaMask](network-or-token-or-wallet/wallets/metamask/jiang-leng-qian-bao-lian-jie-dao-metamask/README.md)
       * [使用 Ledger 设置 MetaMask 扩展](network-or-token-or-wallet/wallets/metamask/jiang-leng-qian-bao-lian-jie-dao-metamask/shi-yong-ledger-she-zhi-metamask-kuo-zhan.md)
       * [使用 Trezor 设置 MetaMask 扩展](network-or-token-or-wallet/wallets/metamask/jiang-leng-qian-bao-lian-jie-dao-metamask/shi-yong-trezor-she-zhi-metamask-kuo-zhan.md)

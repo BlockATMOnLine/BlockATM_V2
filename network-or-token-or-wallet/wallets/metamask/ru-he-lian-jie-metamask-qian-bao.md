@@ -12,52 +12,52 @@ layout:
     visible: true
 ---
 
-# 如何连接 MetaMask 钱包
+# How to connect MetaMask wallet
 
-### 连接 MetaMask 浏览器拓展程序
+### Connect the MetaMask browser extension
 
 {% stepper %}
 {% step %}
-### 确保 MetaMask 已安装并登录
+### Make sure MetaMask is installed and logged in
 
-* 在浏览器中，确保 MetaMask 扩展已安装。
-* 点击 MetaMask 图标，输入密码解锁钱包。如果是新创建的钱包，默认已登录。
+* In the browser, make sure the MetaMask extension is installed.
+* Click the MetaMask icon and enter your password to unlock the wallet. If it is a newly created wallet, you will be logged in by default.
 {% endstep %}
 
 {% step %}
-### 在 BlockATM 点击 连接钱包 按钮
+### Click the "Connect Wallet" button on BlockATM
 
-* 点击“连接钱包”后，会弹出一个钱包选择窗口。
-* 选择网络 Ethereum 或 Arbitrum
-* 选择“MetaMask”。
-* 如果未自动弹出，选择“MetaMask”后，浏览器会显示 MetaMask 的连接请求。
+* After clicking "Connect Wallet," a wallet selection window will pop up.
+* Select the network Ethereum or Arbitrum.
+* Select "MetaMask."
+* If it doesn't pop up automatically, after selecting "MetaMask," the browser will display a MetaMask connection request.
 {% endstep %}
 
 {% step %}
-### 确认连接
+### Confirm the connection
 
-* MetaMask 会弹出连接请求窗口。
-* 点击“连接”。
+* MetaMask will pop up a connection request window.
+* Click "Connect."
 {% endstep %}
 
 {% step %}
-### 连接成功
+### Connection successful
 {% endstep %}
 {% endstepper %}
 
-### 连接 MetaMask 移动应用程序
+### Connect the MetaMask mobile app
 
 {% stepper %}
 {% step %}
-### 在 BlockATM 点击 连接钱包 按钮
+### Click the "Connect Wallet" button on BlockATM
 
-* 点击“连接钱包”后，会弹出一个钱包选择窗口。
-* 钱包选项中选择“WalletConnect”。
-* BlockATM 会展示 WalletConnect 的二维码。
+* After clicking "Connect Wallet," a wallet selection window will pop up.
+* In the wallet options, select "WalletConnect."
+* BlockATM will display a WalletConnect QR code.
 {% endstep %}
 
 {% step %}
-### 打开 MetaMask App 扫描二维码
+### Open the MetaMask app and scan the QR code
 
 * 在手机打开 MetaMask App
 * 点击左上角菜单 > 选择“WalletConnect”。
