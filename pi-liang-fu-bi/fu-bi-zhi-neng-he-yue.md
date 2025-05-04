@@ -22,7 +22,7 @@ layout:
 
 ### 合约权限说明
 
-<table><thead><tr><th width="179.046875">地址类型</th><th>说明</th><th>权限</th></tr></thead><tbody><tr><td>管理员地址</td><td>创建收币合约的钱包地址</td><td>管理付币合约</td></tr><tr><td>授权签名地址</td><td>有权限提取收币合约资产的钱包地址</td><td>付币</td></tr></tbody></table>
+<table><thead><tr><th width="179.046875">地址类型</th><th>说明</th><th>权限</th></tr></thead><tbody><tr><td>管理员地址</td><td>创建付币合约的钱包地址</td><td>管理付币合约</td></tr><tr><td>授权签名地址</td><td>有权限提取付币合约资产的钱包地址</td><td>付币</td></tr></tbody></table>
 
 ### 付币智能合约代码
 
