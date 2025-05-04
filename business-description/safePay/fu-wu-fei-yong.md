@@ -12,11 +12,11 @@ layout:
     visible: true
 ---
 
-# Service Fee
+# Fee
 
-### Collection fee
+### Collection Fee
 
-<table><thead><tr><th width="292.36328125">Matters</th><th>Type</th><th>Fee</th><th width="280.38671875">Time</th></tr></thead><tbody><tr><td>Create web3 collection contract</td><td>Service fee</td><td>200 USD/pc</td><td>Charged when creating contract</td></tr><tr><td>Create scan2pay contract</td><td>Service fee</td><td>200 USD/pc</td><td>Charged when creating contract</td></tr><tr><td>Collection：connect wallet to pay</td><td>Handling fee</td><td>2 USD/txn</td><td>Charged when withdrawing</td></tr><tr><td>Collection：scan to pay</td><td>Handling fee</td><td>0.4% /txn</td><td>Charged when withdrawing</td></tr></tbody></table>
+<table><thead><tr><th width="292.36328125">Matters</th><th>Fee</th><th width="280.38671875">Time</th></tr></thead><tbody><tr><td>Create web3 collection contract</td><td>200 USD/pc</td><td>Charged when creating contract</td></tr><tr><td>Create scan2pay contract</td><td>200 USD/pc</td><td>Charged when creating contract</td></tr><tr><td>Collection：connect wallet to pay</td><td>2 USD/txn</td><td>Charged when withdrawing</td></tr><tr><td>Collection：scan to pay</td><td>0.4% /txn</td><td>Charged when withdrawing</td></tr></tbody></table>
 
 {% hint style="warning" %}
 The above fees will be collected in stablecoins, and the exchange rate between stablecoins and US dollars is always 1:1.

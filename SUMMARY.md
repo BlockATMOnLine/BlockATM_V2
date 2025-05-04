@@ -14,14 +14,14 @@
 * [Safely Collection](business-description/safePay/README.md)
   * [Operation Process](business-description/safePay/yun-zuo-liu-cheng.md)
   * [Collection Contract](business-description/safePay/shou-bi-zhi-neng-he-yue.md)
-  * [Service Fee](business-description/safePay/fu-wu-fei-yong.md)
+  * [Fee](business-description/safePay/fu-wu-fei-yong.md)
 
 ***
 
 * [Batch Payout](batchWithdraw/README.md)
   * [Operation Process](batchWithdraw/yun-zuo-liu-cheng.md)
   * [Payout Contract](batchWithdraw/fu-bi-zhi-neng-he-yue.md)
-  * [服务费用](batchWithdraw/fu-wu-fei-yong.md)
+  * [Fee](batchWithdraw/fu-wu-fei-yong.md)
 
 ## 🌐 网络｜代币｜钱包
 

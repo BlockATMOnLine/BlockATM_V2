@@ -12,19 +12,19 @@ layout:
     visible: true
 ---
 
-# 服务费用
+# Fee
 
-### 付币费用
+### Payout Fee
 
-| 事项     | 类型  | 费用        | 收取时间    |
-| ------ | --- | --------- | ------- |
-| 创建付币智能 | 服务费 | 200 USD/张 | 创建时收取合约 |
-| 付币     | 手续费 | 1 USD/笔   | 付币时收取   |
+| Matters                        | Fee        | Time                           |
+| ------------------------------ | ---------- | ------------------------------ |
+| Create a payout smart contract | 200 USD/pc | Charge upon contract creation. |
+| Payout                         | 1 USD/txn  | Charge upon payout.            |
 
 {% hint style="warning" %}
-上述费用将以加密货币稳定币进行收取，且稳定币与美元之间的汇率恒定为 1:1&#x20;
+The above fees will be charged in cryptocurrency stablecoins, with the exchange rate between the stablecoin and USD fixed at 1:1.
 
-* 创建付币智能合约服务费：200 USDT
-* 付币手续费按支付的稳定币收取，例如：付 1000 USDT 则手续费为 1 USDT
+* Creation of payout smart contract service fee: 200 USDT.
+* The payout fee is charged based on the paid stablecoin. For example, if 1000 USDT is paid, the fee will be 1 USDT.
 {% endhint %}
 
