@@ -12,56 +12,56 @@ layout:
     visible: true
 ---
 
-# 开始收币
+# Start Collection
 
-操作流程简介，点击步骤标题查看详细图文操作演示
+Process Overview: Click the step title to view detailed step-by-step illustrated instructions.
 
 {% stepper %}
 {% step %}
-### [连接钱包](broken-reference)
+### [Connect Wallet](../lian-jie-qian-bao.md)
 
-通过 MetaMask、TronLink 或者 WalletConnect 连接钱包，登录 BlockATM DApp
+Connect your wallet via MetaMask, TronLink, or WalletConnect to log in to the BlockATM DApp.
 {% endstep %}
 
 {% step %}
-### [创建收币合约](chuang-jian-shou-bi-zhi-neng-he-yue.md)
+### [Create Collection Contract](chuang-jian-shou-bi-zhi-neng-he-yue.md)
 
-创建 Web3收币合约或者扫码收币合约
+Create a Web3 Collection Contract or a Scan2Pay Contract.
 {% endstep %}
 
 {% step %}
-### [关联 ERC20 和 TRC20 钱包](broken-reference)
+### [Link ERC20 and TRC20 wallets](guan-lian-erc20-he-trc20-qian-bao.md)
 
-若需要同时接收 ERC20 和 TRC20 网络，需先关联 ERC20 和 TRC20 钱包；反之可不关联
+If you need to receive payments on both ERC20 and TRC20 networks, you must first link both ERC20 and TRC20 wallets; otherwise, linking is not required.
 {% endstep %}
 
 {% step %}
-### [创建收银台](chuang-jian-shou-yin-tai.md)
+### [Create Cashier](chuang-jian-shou-yin-tai.md)
 
-通过收银台关联收币合约
+Cashier Desk Linked with Collection Contract.
 {% endstep %}
 
 {% step %}
-### [对接收银台](dui-jie-shou-yin-tai.md)
+### [Integrate Cashier](dui-jie-shou-yin-tai.md)
 
-将收银台接入您的业务系统
+Integrate the Cashier Desk into your business system.
 {% endstep %}
 
 {% step %}
-### [收币](shou-bi.md)
+### [Collection](shou-bi.md)
 
-在您的业务系统直接唤起 BlockATM 收银台进行收币
+Directly invoke the BlockATM Cashier Desk in your business system to collect payments.
 {% endstep %}
 
 {% step %}
-### [异常订单处理](yi-chang-ding-dan-chu-li.md)
+### [Exception Order Handling](yi-chang-ding-dan-chu-li.md)
 
-若发生掉单，可进行手动补单
+If a missed order occurs, you can manually recreate the order.
 {% endstep %}
 
 {% step %}
-### [提币](broken-reference)
+### [Withdraw](ti-bi.md)
 
-收银台收到的加密货币托管在收币合约，授权签名地址可提取合约资产
+The cryptocurrency received by the Cashier Desk is held in the Collection Contract, and the Authorized Signer Address can withdraw assets from the contract.
 {% endstep %}
 {% endstepper %}
