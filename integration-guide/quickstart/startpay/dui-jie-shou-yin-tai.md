@@ -12,33 +12,33 @@ layout:
     visible: true
 ---
 
-# 对接收银台
+# Integrate Cashier Desk
 
-[创建收银台](chuang-jian-shou-yin-tai.md)后，点击 "对接" 进行收银台的对接（嵌入到您的业务系统，并接收订单状态通知）
+After [creating the Cashier Desk](chuang-jian-shou-yin-tai.md), click "Integrate" to integrate the Cashier Desk into your business system and receive order status notifications.
 
 <figure><img src="../../../.gitbook/assets/22.png" alt=""><figcaption></figcaption></figure>
 
-在对接收银台的弹窗中，可看到 收银台ID、对接密钥公钥、 Webhook 密钥、 Webhook 通知地址
+In the Cashier Desk integration popup, you can see the Cashier Desk ID, integration public key, Webhook key, and Webhook notification URL.
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-cashier-2025-04-10-16_42_37.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-对接步骤说明
+Integration Steps Description:
 
-* 将对接密钥配置到你的系统中，用于对请求数据进行加密或签名。
-* 将对接公钥配置到你的系统中，用于对接收到的数据进行验签。
-* 输入 Webhook 通知地址，用于接收 BlockATM 发送的通知消息。需要确保这个地址能够正常接收和处理HTTP POST请求。
-* 将Webhook密钥配置到你的系统中，并在接收到通知时进行签名验证。
-* 使用对接密钥对请求数据进行加密或签名，然后通过HTTP请求发送到 BlcokATM 接口地址。
-* 在您服务器上部署一个能够接收Webhook通知的接口，当 BlcokATM 发送通知时，您的接口会收到一个HTTP POST请求。您需要对接收到的数据进行签名验证。
-* 发送测试请求到 BlcokATM 的接口地址，检查返回的结果是否符合预期。
-* 触发 BlcokATM 发送 Webhook 通知，检查你的服务器是否能够正常接收和处理通知。
+* Configure the integration key into your system to encrypt or sign the request data.
+* Configure the integration public key into your system to verify the received data's signature.
+* Enter the Webhook notification URL to receive notifications from BlockATM. Ensure that this URL can properly receive and handle HTTP POST requests.
+* Configure the Webhook key into your system and perform signature verification when receiving notifications.
+* Use the integration key to encrypt or sign the request data, then send it via an HTTP request to the BlockATM API endpoint.
+* Deploy an interface on your server that can receive Webhook notifications. When BlockATM sends a notification, your interface will receive an HTTP POST request. You need to verify the signature of the received data.
+* Send a test request to the BlockATM API endpoint and check if the returned result matches your expectations.
+* Trigger BlockATM to send a Webhook notification and check if your server is able to receive and process the notification correctly.
 {% endhint %}
 
-完成对接之后，点击 "收银台测试"，进行测试和验证
+Once the integration is complete, click "Test Cashier" to perform testing and verification.
 
 <figure><img src="../../../.gitbook/assets/23.png" alt=""><figcaption></figcaption></figure>
 
-您支付的加密货币会发送到您的智能合约，BlockATM链上监听到交易成功后，通过 Webhook 通知到您配置的 Webhook 通知地址
+The crypto you paid will be sent to your smart contract. Once BlockATM detects a successful transaction on the blockchain, it will send a Webhook notification to the Webhook notification address you configured.
 
 <figure><img src="../../../.gitbook/assets/screencapture-cashier-b2b-pre-ufcfan-org-zh-CN-2025-04-10-16_50_40.png" alt=""><figcaption></figcaption></figure>

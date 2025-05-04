@@ -38,15 +38,15 @@ layout:
 |     Delete Contract        | ✅             | ❌                         | ❌                |
 |     Edit Contract          | ✅             | ❌                         | ❌                |
 |     Contract List          | ✅             | ✅                         | ❌                |
-| Cashier                    | ✅             | ❌                         | ✅                |
-|     Create Cashier         | ✅             | ❌                         | ❌                |
-|     Delete Cashier         | ✅             | ❌                         | ❌                |
-|     Edit Cashier           | ✅             | ❌                         | ❌                |
-|     Enable Cashier         | ✅             | ❌                         | ❌                |
-|     Disable Cashier        | ✅             | ❌                         | ❌                |
-|     Test Cashier           | ✅             | ❌                         | ❌                |
-|     Integrate Cashier      | ✅             | ❌                         | ❌                |
-|     Cashier List           | ✅             | ❌                         | ✅                |
+| Cashier Desk               | ✅             | ❌                         | ✅                |
+|     Create Cashier Desk    | ✅             | ❌                         | ❌                |
+|     Delete Cashier Desk    | ✅             | ❌                         | ❌                |
+|     Edit Cashier Desk      | ✅             | ❌                         | ❌                |
+|     Enable Cashier Desk    | ✅             | ❌                         | ❌                |
+|     Disable Cashier Desk   | ✅             | ❌                         | ❌                |
+|     Test Cashier Desk      | ✅             | ❌                         | ❌                |
+|     Integrate Cashier Desk | ✅             | ❌                         | ❌                |
+|     Cashier Desk List      | ✅             | ❌                         | ✅                |
 |     Collection Order       | ✅             | ❌                         | ✅                |
 |     Complete Order         | ❌             | ❌                         | ✅                |
 |     Resend Notification    | ❌             | ❌                         | ✅                |

@@ -36,13 +36,13 @@ If you need to receive payments on both ERC20 and TRC20 networks, you must first
 {% endstep %}
 
 {% step %}
-### [Create Cashier](chuang-jian-shou-yin-tai.md)
+### [Create Cashier Desk](chuang-jian-shou-yin-tai.md)
 
 Cashier Desk Linked with Collection Contract.
 {% endstep %}
 
 {% step %}
-### [Integrate Cashier](dui-jie-shou-yin-tai.md)
+### [Integrate Cashier Desk](dui-jie-shou-yin-tai.md)
 
 Integrate the Cashier Desk into your business system.
 {% endstep %}
