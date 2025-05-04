@@ -36,7 +36,7 @@ BlockATM 是运营在区块链上的 DApp，通过连接钱包的方式进行登
 
 <figure><img src="../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-10_59_21.png" alt=""><figcaption></figcaption></figure>
 
-若选择 Tron 网络，则连接钱包的方式仅有 TronLink，详细连接方式见：[如何连接 Tronlink 钱包](../../networkAndWallet/wallets/tronlink/ru-he-lian-jie-tronlink-qian-bao.md)
+若选择 Tron 网络，则连接钱包的方式仅有 TronLink，详细连接方式见：[如何连接 Tronlink 钱包](../../network-or-token-or-wallet/wallets/tronlink/ru-he-lian-jie-tronlink-qian-bao.md)
 
 <figure><img src="../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-10_54_46.png" alt=""><figcaption></figcaption></figure>
 
