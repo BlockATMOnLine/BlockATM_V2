@@ -44,7 +44,7 @@
     * [How to create a TronLink wallet](network-or-token-or-wallet/wallets/tronlink/ru-he-chuang-jian-tronlink-qian-bao.md)
     * [How to connect TronLink wallet](network-or-token-or-wallet/wallets/tronlink/ru-he-lian-jie-tronlink-qian-bao.md)
   * [WalletConnect](network-or-token-or-wallet/wallets/walletconnect/README.md)
-    * [如何使用 WalletConnect 连接钱包](network-or-token-or-wallet/wallets/walletconnect/ru-he-shi-yong-walletconnect-lian-jie-qian-bao.md)
+    * [How to use WalletConnect to connect a wallet](network-or-token-or-wallet/wallets/walletconnect/ru-he-shi-yong-walletconnect-lian-jie-qian-bao.md)
 
 ## 🧩 集成指南
 

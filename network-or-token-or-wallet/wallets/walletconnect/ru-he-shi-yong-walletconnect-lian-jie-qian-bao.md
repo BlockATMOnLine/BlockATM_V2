@@ -12,35 +12,35 @@ layout:
     visible: true
 ---
 
-# 如何使用 WalletConnect 连接钱包
+# How to use WalletConnect to connect a wallet
 
 {% stepper %}
 {% step %}
-### 选择支持 WalletConnect 的钱包
+### Select a Wallet that supports WalletConnect
 
-首先，确保您使用的是支持 WalletConnect 的钱包。以下是一些常见的支持 WalletConnect 的钱包：
+First, make sure you're using a wallet that supports WalletConnect. Here are some common wallets that support WalletConnect:
 
-* MetaMask
-* Trust Wallet
-* Coinbase Wallet
-* Ledger Live
-* 等其他钱包
+1. MetaMask
+2. Trust Wallet
+3. Coinbase Wallet
+4. Ledger Live
+5. Others
 {% endstep %}
 
 {% step %}
-### 打开 BlockATM DApp 连接钱包
+### Open the BlockATM DApp and connect your wallet
 
-在 BlockATM DApp 的界面中，找到“连接钱包”或“Connect Wallet”的按钮。点击该按钮后，您会看到连接选项，找到 WalletConnect
+In the BlockATM DApp interface, find the "Connect Wallet" button. After clicking the button, you will see connection options. Look for and select WalletConnect.
 {% endstep %}
 
 {% step %}
-### 扫描二维码
+### Scan the QR code
 
-选择 WalletConnect 后，会展示二维码，您需要使用您的钱包应用扫描这个二维码
+After selecting WalletConnect, a QR code will be displayed. You need to scan this QR code using your wallet app.
 
-1. 打开您的钱包应用（如 MetaMask、Trust Wallet 等）
-2. 找到钱包中的“连接”或“Connect”选项
-3. 点击“扫描二维码”或“Scan QR Code”
+1. Open your wallet app (such as MetaMask, Trust Wallet, etc.).
+2. Find the "Connect" option in your wallet.
+3. Click "Scan QR Code."
 4. 将手机摄像头对准显示的二维码，完成扫描
 {% endstep %}
 

@@ -14,6 +14,6 @@ layout:
 
 # WalletConnect
 
-### 简介
+### **Introduction**
 
-WalletConnect 是一个开源协议，旨在通过安全的连接方式，让用户能够将他们的加密钱包与去中心化应用（DApps）以及其他钱包进行交互。它通过二维码扫描或深度链接的方式，将用户的钱包与 DApps 连接起来，从而实现无缝的交易和交互。WalletConnect 不仅支持多种钱包和区块链，还通过端到端加密确保了交易的安全性。积极的推动 Web3 生态系统的发展。
+WalletConnect is an open-source protocol designed to securely connect users' cryptocurrency wallets with decentralized applications (DApps) and other wallets. It facilitates seamless transactions and interactions by linking wallets with DApps through QR code scanning or deep linking. WalletConnect supports multiple wallets and blockchains, ensuring secure transactions through end-to-end encryption. It actively promotes the development of the Web3 ecosystem.
