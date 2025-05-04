@@ -52,7 +52,7 @@
   * [Connect Wallet](integration-guide/quickstart/lian-jie-qian-bao.md)
   * [Start Collection](integration-guide/quickstart/startpay/README.md)
     * [Create Collection Contract](integration-guide/quickstart/startpay/chuang-jian-shou-bi-zhi-neng-he-yue.md)
-    * [关联 ERC20 和 TRC20 钱包](integration-guide/quickstart/startpay/guan-lian-erc20-he-trc20-qian-bao.md)
+    * [Link ERC20 and TRC20 wallets](integration-guide/quickstart/startpay/guan-lian-erc20-he-trc20-qian-bao.md)
     * [创建收银台](integration-guide/quickstart/startpay/chuang-jian-shou-yin-tai.md)
     * [对接收银台](integration-guide/quickstart/startpay/dui-jie-shou-yin-tai.md)
     * [收币](integration-guide/quickstart/startpay/shou-bi.md)

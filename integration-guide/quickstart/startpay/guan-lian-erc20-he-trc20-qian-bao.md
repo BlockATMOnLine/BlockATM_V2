@@ -12,30 +12,30 @@ layout:
     visible: true
 ---
 
-# 关联 ERC20 和 TRC20 钱包
+# Link ERC20 and TRC20 wallets
 
-创建智能合约（[收币合约](chuang-jian-shou-bi-zhi-neng-he-yue.md)或[付币合约](../startpayout/chuang-jian-fu-bi-zhi-neng-he-yue.md)）后，合约 Owner 的钱包地址将作为管理员地址，管理员地址在创建收银台时可以选择关联目标网络的收币合约，若想同时关联 ERC 网络和 TRC 网络，需将ERC20 和 TRC20 钱包进行关联。
+After creating a smart contract ([Collection Contract](../../../business-description/safePay/shou-bi-zhi-neng-he-yue.md) or [Payout Contract](../../../batchWithdraw/fu-bi-zhi-neng-he-yue.md)), the wallet address of the contract owner will serve as the admin address. When creating a Cashier Desk, the admin address can choose to link the Collection Contract of the target network. To link both ERC and TRC networks, you need to associate the ERC20 and TRC20 wallets.
 
-### 关联钱包地址
+### Link Wallet Address
 
 {% hint style="info" %}
-假设您先在 ERC 网络创建了收币合约，然后再切换到 TRC 网络。
+Assuming you first create a Collection Contract on the ERC network and then switch to the TRC network.
 {% endhint %}
 
-点击右上角的 "网络" — 切换到 "Tron"
+Click the "Network" in the top right corner and switch to "Tron."
 
 <figure><img src="../../../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
 
-弹出 Tron 网络连接钱包方式（TronLink、WalletConnect），此处演示使用 TronLink 浏览器拓展程序连接
+A pop-up will appear with wallet connection options for the Tron network (TronLink, WalletConnect). This demonstration will use the TronLink browser extension to connect.
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-cashier-2025-04-09-19_58_38.png" alt=""><figcaption></figcaption></figure>
 
-点击“TronLink”后会唤起 TronLink 钱包浏览器拓展程序进行确认连接
+After clicking "TronLink," the TronLink wallet browser extension will be triggered to confirm the connection.
 
 <figure><img src="../../../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
 
-连接成功后弹出关联弹窗，点击“关联”即可完成 ERC 网络和 TRC 网络的钱包关联
+After a successful connection, a linking popup will appear. Click "Link" to complete the wallet association between the ERC and TRC networks.
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-20_05_56.png" alt=""><figcaption></figcaption></figure>
 
-钱包关联后再去创建收银台时可以在收银台同时绑定两个钱包地址创建的收币合约
+After the wallets are linked, when creating a Cashier, you can bind the Collection Contracts created with both wallet addresses (ERC and TRC networks) to the Cashier Desk simultaneously.
