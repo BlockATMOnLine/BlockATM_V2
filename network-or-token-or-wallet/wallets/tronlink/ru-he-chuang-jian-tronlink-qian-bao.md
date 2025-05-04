@@ -12,54 +12,54 @@ layout:
     visible: true
 ---
 
-# 如何创建 TronLink 钱包
+# How to create a TronLink wallet
 
 {% hint style="warning" %}
-由于与 Tron 网络钱包的兼容性问题，部分钱包可能无法通过 WalletConnect 连接 TronLink App。因此在 Tron 网络钱包升级并解决兼容性问题之前，BlockAT M 推荐使用 TronLink 浏览器拓展程序连接，以下仅介绍 TronLink 浏览器拓展程序的使用教程。
+Due to compatibility issues with Tron network wallets, some wallets may not be able to connect to the TronLink app via WalletConnect. Until the Tron network wallets are upgraded and these compatibility issues are resolved, BlockATM recommends using the TronLink browser extension for connection. The following guide focuses solely on using the TronLink browser extension.
 {% endhint %}
 
 {% stepper %}
 {% step %}
-### 下载  TronLink 插件
+### Download the TronLink extension
 
-* 访问 TronLink 官方网站（[https://www.tronlink.org/](https://www.tronlink.org/)）。
-* 点击“下载”，选择适用于你的浏览器版本（仅支持 Chrome、Edge）。
-* 在浏览器应用商店中点击“添加至浏览器”或类似按钮，安装扩展。
+* Visit the official TronLink website ([https://www.tronlink.org/](https://www.tronlink.org/)).
+* Click "Download" and select the version compatible with your browser (only supports Chrome and Edge).
+* Click "Add to Browser" or a similar button in the browser's extension store to install the extension.
 {% endstep %}
 
 {% step %}
-### 打开 TronLink
+### Open TronLink
 
-* 安装完成后，点击浏览器右上角的 TronLink 图标。
-* 首次打开时，点击“创建钱包”。
+* Once the installation is complete, click the TronLink icon in the top right corner of the browser.
+* When opening for the first time, click "Create Wallet."
 {% endstep %}
 
 {% step %}
-### 设置钱包名称和密码
+### Set the wallet name and password
 
-* 输入一个钱包名称（可选，便于识别）。
-* 设置一个安全的密码（至少 8 位，建议包含字母、数字和符号），用于解锁钱包。
-* 点击“下一步”。
+* Enter a wallet name (optional, for easy identification).
+* Set a secure password (at least 8 characters, recommended to include letters, numbers, and symbols) to unlock your wallet.
+* Click "Next."
 {% endstep %}
 
 {% step %}
-### 备份助记词
+### Backup the mnemonic phrase
 
-* TronLink 会生成一个 12 个单词的助记词（Mnemonic Phrase），这是恢复钱包的关键。
-* 点击显示助记词，将其抄写下来并妥善保存（建议手写在纸上，不要截图或存储在联网设备上）。
-* 按顺序输入这些单词进行验证，完成后点击“确认”。
+* TronLink will generate a 12-word mnemonic phrase, which is the key to recovering your wallet.
+* Click to display the mnemonic phrase, write it down, and store it safely (it is recommended to write it by hand on paper, not to take screenshots or store it on connected devices).
+* Enter the words in order for verification, and once completed, click "Confirm."
 {% endstep %}
 
 {% step %}
-### 完成创建
+### Creation complete
 
-* 设置完成后，你会看到钱包主界面，显示你的钱包地址（以“T”开头的一串字符）。
-* 此时，钱包已创建完成，默认连接到 TRON 主网。
+* After setup is complete, you will see the main wallet interface, displaying your wallet address (a string of characters starting with "T").
+* At this point, the wallet has been created and is by default connected to the TRON mainnet.
 {% endstep %}
 {% endstepper %}
 
-### 注意事项
+### Important Notes
 
-* 安全性：助记词是恢复钱包的唯一凭证，丢失后无法找回，泄露则可能导致资产被盗。务必妥善保管。
-* 资金添加：创建钱包后，地址是空的，你需要从交易所或其他钱包转入 TRX 或其他代币才能使用。
-* 用途：TronLink 可用于存储 TRX、TRC-10、TRC-20 代币，并与 TRON 生态中的 DApp（去中心化应用）交互。
+* Security: The mnemonic phrase is the only credential to recover your wallet. If lost, it cannot be recovered, and if exposed, it may lead to theft of your assets. Be sure to store it safely.
+* Fund Addition: After creating the wallet, the address is empty. You need to transfer TRX or other tokens from an exchange or another wallet to use it.
+* Use: TronLink can be used to store TRX, TRC-10, and TRC-20 tokens, and interact with DApps (decentralized applications) in the TRON ecosystem.

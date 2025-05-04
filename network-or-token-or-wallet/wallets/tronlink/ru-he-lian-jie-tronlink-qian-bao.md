@@ -12,37 +12,37 @@ layout:
     visible: true
 ---
 
-# 如何连接 TronLink 钱包
+# How to connect TronLink wallet
 
-### 连接 TronLink 浏览器拓展程序
+### Connect the TronLink browser extension
 
 {% stepper %}
 {% step %}
-### 准备好 TronLink 钱包
+### Make sure your TronLink wallet is ready
 
-* 下载并安装 TronLink 钱包浏览器拓展程序
-* 创建 TronLink 钱包
+* Download and install the TronLink wallet browser extension.
+* Create a TronLink wallet
 
-详情见：[如何创建 TronLink 钱包](ru-he-chuang-jian-tronlink-qian-bao.md)
+For more details, see: [How to create a TronLink wallet](ru-he-chuang-jian-tronlink-qian-bao.md)
 {% endstep %}
 
 {% step %}
-### 在 BlockATM 点击 连接钱包 按钮
+### In BlockATM, click the "Connect Wallet" button
 
-* 点击“连接钱包”后，会弹出一个钱包选择窗口。
-* 选择网络 Tron
-* 选择“TronLink”。
-* 如果未自动弹出，选择“TronLink”后，浏览器会显示 TronLink 的连接请求。
+* After clicking "Connect Wallet," a wallet selection window will pop up.
+* Select the Tron network.
+* Select "TronLink."
+* If it doesn't pop up automatically, after selecting "TronLink," the browser will display a TronLink connection request.
 {% endstep %}
 
 {% step %}
-### 确认连接
+### Confirm the connection
 
-* TronLink 会弹出连接请求窗口。
-* 点击“连接”。
+* TronLink will pop up a connection request window.
+* Click "Connect."
 {% endstep %}
 
 {% step %}
-### 连接成功
+### Connection successful
 {% endstep %}
 {% endstepper %}

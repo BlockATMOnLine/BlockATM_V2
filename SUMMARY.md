@@ -41,8 +41,8 @@
       * [使用 D'Cent 设置 MetaMask 扩展](network-or-token-or-wallet/wallets/metamask/jiang-leng-qian-bao-lian-jie-dao-metamask/shi-yong-dcent-she-zhi-metamask-kuo-zhan.md)
       * [使用 Keystone 设置 MetaMask 扩展](network-or-token-or-wallet/wallets/metamask/jiang-leng-qian-bao-lian-jie-dao-metamask/shi-yong-keystone-she-zhi-metamask-kuo-zhan.md)
   * [TronLink](network-or-token-or-wallet/wallets/tronlink/README.md)
-    * [如何创建 TronLink 钱包](network-or-token-or-wallet/wallets/tronlink/ru-he-chuang-jian-tronlink-qian-bao.md)
-    * [如何连接 TronLink 钱包](network-or-token-or-wallet/wallets/tronlink/ru-he-lian-jie-tronlink-qian-bao.md)
+    * [How to create a TronLink wallet](network-or-token-or-wallet/wallets/tronlink/ru-he-chuang-jian-tronlink-qian-bao.md)
+    * [How to connect TronLink wallet](network-or-token-or-wallet/wallets/tronlink/ru-he-lian-jie-tronlink-qian-bao.md)
   * [WalletConnect](network-or-token-or-wallet/wallets/walletconnect/README.md)
     * [如何使用 WalletConnect 连接钱包](network-or-token-or-wallet/wallets/walletconnect/ru-he-shi-yong-walletconnect-lian-jie-qian-bao.md)
 
