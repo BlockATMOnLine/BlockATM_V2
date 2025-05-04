@@ -63,7 +63,7 @@
     * [对接付币合约](integration-guide/quickstart/startpayout/dui-jie-fu-bi-zhi-neng-he-yue.md)
     * [充币](integration-guide/quickstart/startpayout/chong-bi.md)
     * [上传并确认付币订单](integration-guide/quickstart/startpayout/shang-chuan-bing-que-ren-fu-bi-ding-dan.md)
-  * [权限说明](integration-guide/quickstart/quan-xian-shuo-ming.md)
+  * [Permission Description](integration-guide/quickstart/quan-xian-shuo-ming.md)
 
 ***
 
