@@ -12,22 +12,22 @@ layout:
     visible: true
 ---
 
-# 付币合约
+# Payout Contract
 
-付币合约用于批量付币，由合约中指定的"授权签名地址"签名发起付币申请，由 BlockATM 付币代理合约执行付币操作。
+The payout contract is used for bulk payouts, with the payout request initiated and signed by the "Authorized Signature Address" specified in the contract. The payout operation is then executed by the BlockATM payout proxy contract.
 
 {% hint style="info" %}
-创建付币合约时，需指定"授权签名地址"，一旦指定并成功创建合约后，无法修改，以此保证合约资产的安全性。
+When creating a payout contract, the "Authorized Signature Address" must be specified. Once specified and the contract is successfully created, it cannot be modified, ensuring the security of the contract’s assets.
 {% endhint %}
 
-### 合约权限说明
+### Contract Permissions Explanation
 
-<table><thead><tr><th width="179.046875">地址类型</th><th>说明</th><th>权限</th></tr></thead><tbody><tr><td>管理员地址</td><td>创建收币合约的钱包地址</td><td>管理付币合约</td></tr><tr><td>授权签名地址</td><td>有权限提取收币合约资产的钱包地址</td><td>付币</td></tr></tbody></table>
+<table><thead><tr><th width="179.046875">Address Type</th><th>Explanation</th><th>Permission</th></tr></thead><tbody><tr><td>Owner</td><td>The wallet address used to create the payout contract.</td><td>Manage the payout contract.</td></tr><tr><td>Authorized Signature Address</td><td>The wallet address authorized to withdraw assets from the payout contract.</td><td>Payout</td></tr></tbody></table>
 
-### 付币智能合约代码
+### Payout Smart Contract Code
 
 {% tabs %}
-{% tab title="构造函数" %}
+{% tab title="Constructor Function" %}
 ```solidity
 
 /**
@@ -63,7 +63,7 @@ constructor(
 ```
 {% endtab %}
 
-{% tab title="付币逻辑" %}
+{% tab title="Payout Logic" %}
 ```solidity
 /**
 * 函数：payoutByContract
@@ -103,21 +103,21 @@ function payoutToken(bool safe, address from, address tokenAddress, uint256 tota
 
 ***
 
-### 历史合约版本
+### Historical Contract Versions
 
 ### V2
 
-2025 年 4 月 17 日
+April 17, 2025
 
-* 升级到 Web3 自托管框架付币合约
-* 提供基于 API 自动化和 Excel 手动两种上传付币订单方式
+* Upgrade to the Web3 self-hosted framework payout contract.
+* Provides two methods for uploading payout orders: automated upload via API and manual upload via Excel.
 
 ### V1
 
-2023 年 10 月 22 日
+October 22, 2023
 
-* 基于付币客户端实现自助提币
-* 基于 Web3 SDK 进行合约自助交互
+* Implement self-service withdrawals based on the payout client.
+* Self-service contract interaction based on Web3 SDK.
 
 
 
