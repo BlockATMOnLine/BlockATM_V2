@@ -12,63 +12,63 @@ layout:
     visible: true
 ---
 
-# 创建收币合约
+# Create Collection Contract
 
-收币合约分为两种类型：Web3收币合约、扫码收币合约；两种类型的合约均用于收币，区别在于收币的支付方式不同，Web3收币合约提供连接钱包授权交易的支付方式、扫码收币合约提供扫码转账的支付方式。
+There are two types of Collection Contracts: Web3 Collection Contract and Scan2Pay Contract. Both types are used for token collection, but they differ in the payment method. The Web3 Collection Contract provides a wallet connection for authorized transactions, while the Scan2Pay Contract offers a payment method through QR code scanning and transfer.
 
-### 创建Web3收币合约
+### Create Web3 Collection Contract
 
-在收币合约--Web3收币合约页面，点击“立即创建”按钮
+On the Collection Contract - Web3 Collection Contract page, click the "Create Now" button.
 
 <figure><img src="../../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
-在创建Web3收币合约弹窗输入合约信息
+In the Create Web3 Collection Contract popup, enter the contract information.
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-15_19_26.png" alt=""><figcaption></figcaption></figure>
 
-输入完成后点击“创建”（注意：提前准备好 200 USDT 和 足够的 Gas Fee，若 USDT 或 Gas Fee 不足则无法创建）
+After entering the information, click "Create" (Note: Make sure you have 200 USDT and enough Gas Fee ready; if either USDT or Gas Fee is insufficient, the contract cannot be created).
 
 <figure><img src="../../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
 
-点击“创建”后会唤起钱包进行 USDT 支出授权（创建合约的服务费）
+After clicking "Create," your wallet will prompt for USDT expenditure authorization (the service fee for creating the contract).
 
 <figure><img src="../../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
 
-接着签名确认同意部署智能合约，并等待区块链确认交易完成
+Next, sign and confirm your agreement to deploy the smart contract, and then wait for the blockchain to confirm the transaction.
 
 <figure><img src="../../../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
 
-区块确认完成交易完成则Web3收币合约创建成功，弹窗关闭，在列表页面能看到刚创建的合约
+Once the blockchain confirms the transaction, the Web3 Collection Contract will be successfully created. The popup will close, and you will see the newly created contract on the list page.
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-15_41_37.png" alt=""><figcaption></figcaption></figure>
 
-### 创建扫码收币合约
+### Create Scan2Pay Contract
 
 {% hint style="warning" %}
-创建扫码收币合约时，需指定"授权签名地址"和关联的"资产接收地址"，即创建扫码收币合约的前提是先创建Web3收币合约。
+When creating a Scan2Pay Contract, you need to specify the "Authorized Signer Address" and the associated "Asset Receiving Address." This means that the creation of a Scan2Pay Contract requires first creating a Web3 Collection Contract.
 {% endhint %}
 
-在收币合约--扫码收币合约页面，点击“立即创建”按钮
+On the Collection Contract - Scan2Pay Contract page, click the "Create Now" button.
 
 <figure><img src="../../../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>
 
-在创建扫码收币合约弹窗输入合约信息
+In the Create Scan2Pay Contract popup, enter the contract information.
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-16_04_09.png" alt=""><figcaption></figcaption></figure>
 
-输入完成后点击“创建”（注意：提前准备好 200 USDT 和 足够的 Gas Fee，若 USDT 或 Gas Fee 不足则无法创建）
+After entering the information, click "Create" (Note: Make sure you have 200 USDT and enough Gas Fee ready; if either USDT or Gas Fee is insufficient, the contract cannot be created).
 
 <figure><img src="../../../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
 
-点击“创建”后会唤起钱包进行 USDT 支出授权（创建合约的服务费）
+After clicking "Create," your wallet will prompt for USDT expenditure authorization (the service fee for creating the contract).
 
 <figure><img src="../../../.gitbook/assets/9.png" alt=""><figcaption></figcaption></figure>
 
-着签名确认同意部署智能合约，并等待区块链确认交易完成
+Next, sign and confirm your agreement to deploy the smart contract, and then wait for the blockchain to confirm the transaction.
 
 <figure><img src="../../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
 
-区块确认完成交易完成则扫码收币合约创建成功，弹窗关闭，在列表页面能看到刚创建的合约
+Once the blockchain confirms the transaction, the Scan2Pay Contract will be successfully created. The popup will close, and you will see the newly created contract on the list page.
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-19_46_55.png" alt=""><figcaption></figcaption></figure>
 
