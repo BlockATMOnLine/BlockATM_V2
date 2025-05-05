@@ -57,7 +57,7 @@
     * [Integrate Cashier Desk](integration-guide/quickstart/startpay/dui-jie-shou-yin-tai.md)
     * [Collection](integration-guide/quickstart/startpay/shou-bi.md)
     * [Handling of Abnormal Orders](integration-guide/quickstart/startpay/yi-chang-ding-dan-chu-li.md)
-    * [提币](integration-guide/quickstart/startpay/ti-bi.md)
+    * [Withdraw](integration-guide/quickstart/startpay/ti-bi.md)
   * [开始付币](integration-guide/quickstart/startpayout/README.md)
     * [创建付币合约](integration-guide/quickstart/startpayout/chuang-jian-fu-bi-zhi-neng-he-yue.md)
     * [对接付币合约](integration-guide/quickstart/startpayout/dui-jie-fu-bi-zhi-neng-he-yue.md)
