@@ -12,41 +12,41 @@ layout:
     visible: true
 ---
 
-# 开始付币
+# Start Payout
 
-### 开始付币
+### Start Payout
 
-操作流程简介，点击步骤标题查看详细图文操作演示
+Process Overview: Click the step titles to view detailed step-by-step instructions with images.
 
 {% stepper %}
 {% step %}
-### [连接钱包](broken-reference)
+### [Connect Wallet](../lian-jie-qian-bao.md)
 
-通过 MetaMask、TronLink 或者 WalletConnect 连接钱包，登录 BlockATM DApp
+Connect your wallet to the BlockATM DApp via MetaMask, TronLink, or WalletConnect to log in.
 {% endstep %}
 
 {% step %}
-### [创建付币合约](chuang-jian-fu-bi-zhi-neng-he-yue.md)
+### [Create Payout Contract](chuang-jian-fu-bi-zhi-neng-he-yue.md)
 
-创建您专属的付币合约
+Create your exclusive Payout Contract.
 {% endstep %}
 
 {% step %}
-### [对接付币合约](dui-jie-fu-bi-zhi-neng-he-yue.md)
+### [Integrate Payout Contract](https://app.gitbook.com/s/XEfzS05BPO0tTODCeSnr/ji-cheng-zhi-nan/kuai-su-ru-men/kai-shi-fu-bi/dui-jie-fu-bi-zhi-neng-he-yue)
 
-您的业务系统对接付币API
+Integrate the Payout API with your business system.
 {% endstep %}
 
 {% step %}
-### [充币](chong-bi.md)
+### [Deposit](chong-bi.md)
 
-先往付币合约充币，以便付币时资金充足
+First, deposit token into the Payout Contract to ensure sufficient funds when making a payout.
 {% endstep %}
 
 {% step %}
-### [上传并确认付币订单](broken-reference)
+### [Upload and confirm the Payout order](shang-chuan-bing-que-ren-fu-bi-ding-dan.md)
 
-通过API/Excel的方式上传付币订单，并由授权签名地址签名确认即可付币
+Upload the Payout order via API or Excel, and the Payout can be executed once signed and confirmed by the Authorized Signer Address.
 {% endstep %}
 {% endstepper %}
 

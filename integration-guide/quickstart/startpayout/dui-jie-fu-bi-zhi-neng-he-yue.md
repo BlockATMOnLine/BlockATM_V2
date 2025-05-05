@@ -12,29 +12,29 @@ layout:
     visible: true
 ---
 
-# 对接付币合约
+# Integrate the Payout Contract
 
-[创建付币合约](chuang-jian-fu-bi-zhi-neng-he-yue.md)后，点击 "对接" 以实现API上传付币订单以及接收付币结果通知
+After [creating the Payout Contract](chuang-jian-fu-bi-zhi-neng-he-yue.md), click "Integrate" to enable API uploads of Payout orders and receive Payout result notifications.
 
 <figure><img src="../../../.gitbook/assets/28.png" alt=""><figcaption></figcaption></figure>
 
-在对接付币合约的弹窗中，可看到 合约信息、对接密钥公钥、 Webhook 密钥、 Webhook 通知地址
+In the Payout Contract integration popup, you will see the contract information, integration key public key, Webhook key, and Webhook notification URL.
 
 <figure><img src="../../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-payment-2025-04-10-18_02_49.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-对接步骤说明
+Integration Step Instructions
 
-1. 将对接密钥配置到你的系统中，用于对请求数据进行加密或签名。
-2. 将对接公钥配置到你的系统中，用于对接收到的数据进行验签。
-3. 输入 Webhook 通知地址，用于接收 BlockATM 发送的通知消息。需要确保这个地址能够正常接收和处理HTTP POST请求。
-4. 将Webhook密钥配置到你的系统中，并在接收到通知时进行签名验证。
-5. 使用对接密钥对请求数据进行加密或签名，然后通过HTTP请求发送到 BlcokATM 接口地址。
-6. 在您服务器上部署一个能够接收Webhook通知的接口，当 BlcokATM 发送通知时，您的接口会收到一个HTTP POST请求。您需要对接收到的数据进行签名验证。
-7. 发送测试请求到 BlcokATM 的接口地址，检查返回的结果是否符合预期。
-8. 触发 BlcokATM 发送 Webhook 通知，检查你的服务器是否能够正常接收和处理通知。
+1. Configure the integration key into your system to encrypt or sign the request data. This ensures secure communication between your system and the Payout Contract.
+2. Configure the integration public key into your system to verify the received data. This ensures the authenticity and integrity of the information from the Payout Contract.
+3. Enter the Webhook notification URL to receive the notification messages sent by BlockATM. Ensure that the URL is capable of receiving and processing HTTP POST requests properly.
+4. Configure the Webhook key into your system and perform signature verification when receiving notifications. This ensures the integrity and authenticity of the messages sent by BlockATM.
+5. Use the integration key to encrypt or sign the request data, and then send it via an HTTP request to the BlockATM API endpoint. This ensures secure and authenticated communication between your system and BlockATM.
+6. Deploy an endpoint on your server capable of receiving Webhook notifications. When BlockATM sends a notification, your endpoint will receive an HTTP POST request. You need to verify the signature of the received data to ensure its authenticity and integrity.
+7. Send a test request to the BlockATM API endpoint and check if the returned results match the expected outcome. This helps ensure that the integration is working correctly.
+8. Trigger BlockATM to send a Webhook notification and check if your server can properly receive and process the notification. This ensures that the Webhook integration is functioning as expected.
 {% endhint %}
 
-完成对接之后，点击 "Webhook 测试"，进行 Webhook 测试和验证
+After completing the integration, click "Webhook Test" to perform a Webhook test and verification. This ensures that the Webhook is correctly set up and functioning as expected.
 
 <figure><img src="../../../.gitbook/assets/29.png" alt=""><figcaption></figcaption></figure>
