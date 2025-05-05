@@ -61,8 +61,8 @@
   * [Start Payout](integration-guide/quickstart/startpayout/README.md)
     * [Create Payout Contract](integration-guide/quickstart/startpayout/chuang-jian-fu-bi-zhi-neng-he-yue.md)
     * [Integrate the Payout Contract](integration-guide/quickstart/startpayout/dui-jie-fu-bi-zhi-neng-he-yue.md)
-    * [充币](integration-guide/quickstart/startpayout/chong-bi.md)
-    * [上传并确认付币订单](integration-guide/quickstart/startpayout/shang-chuan-bing-que-ren-fu-bi-ding-dan.md)
+    * [Deposit](integration-guide/quickstart/startpayout/chong-bi.md)
+    * [Upload and confirm the Payout order](integration-guide/quickstart/startpayout/shang-chuan-bing-que-ren-fu-bi-ding-dan.md)
   * [Permission Description](integration-guide/quickstart/quan-xian-shuo-ming.md)
 
 ***

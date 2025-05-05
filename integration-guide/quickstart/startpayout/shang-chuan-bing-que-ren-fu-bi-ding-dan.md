@@ -12,84 +12,84 @@ layout:
     visible: true
 ---
 
-# 上传并确认付币订单
+# Upload and confirm the Payout order
 
-[创建付币合约](chuang-jian-fu-bi-zhi-neng-he-yue.md)且给合约[充币](chong-bi.md)有足够的资产后，可以进行付币操作；BlockATM 提供了 API上传 和 导入Excel上传 两种上传付币订单的方式；需要注意的是付币只能由合约指定的"授权签名地址"执行（"授权签名地址"权限说明见：[付币合约](../../../batchWithdraw/fu-bi-zhi-neng-he-yue.md#he-yue-quan-xian-shuo-ming)）
+Once the Payout Contract is created and sufficiently funded, you can proceed with the Payout operation. BlockATM offers two methods for uploading Payout orders: API upload and Excel import. It's important to note that Payouts can only be executed by the contract's designated "Authorized Signer Address" (for the permissions of the "Authorized Signer Address," refer to the [Payout Contract](../../../batchWithdraw/fu-bi-zhi-neng-he-yue.md)).
 
-### API上传付币订单
+### API Upload Payout Order
 
-#### 前置条件：需先[对接付币合约](dui-jie-fu-bi-zhi-neng-he-yue.md)
+Prerequisite: The Payout Contract needs to [be integrated](dui-jie-fu-bi-zhi-neng-he-yue.md) first.
 
-首先连接"授权签名地址"钱包，"授权签名地址"在资产模块--付币合约--能见到 "付币" 按钮（当有要订单时 "付币" 按钮上会显示订单数量）
+First, connect the "Authorized Signing Address" wallet. The "Authorized Signing Address" can be found in the Assets module under the Payout Contract, where you will see the "Payout" button (the number of orders will be displayed on the "Payout" button when there are pending orders).
 
 <figure><img src="../../../.gitbook/assets/45.png" alt=""><figcaption></figcaption></figure>
 
-点击 "付币" 后弹出付币弹窗，默认展示API上传的订单，点击列表展开各代币的付币订单详情
+Clicking on "Payout" will open the Payout popup, which by default displays the orders uploaded via the API. Click on the list to expand and view the details of the payout orders for each token.
 
 <figure><img src="../../../.gitbook/assets/46.png" alt=""><figcaption></figcaption></figure>
 
-展开后逐一核对订单信息，若发现异常订单，可以选择 "拒付" 或者先 "取消勾选"
+After expanding, carefully verify the order information one by one. If any abnormal orders are found, you can choose to "Reject Payment" or simply "Uncheck" them first.
 
 <figure><img src="../../../.gitbook/assets/47.png" alt=""><figcaption></figcaption></figure>
 
-若选择拒付会唤起钱包签名确认（确保是"授权签名地址"在操作）
+If you choose to reject the payment, a wallet signature confirmation will be triggered (ensure that the "Authorized Signing Address" is the one performing the action).
 
 <figure><img src="../../../.gitbook/assets/48.png" alt=""><figcaption></figcaption></figure>
 
-核对完订单后点击 "提交代付申请"，唤起钱包签名确认（确保是"授权签名地址"在操作）
+After verifying the orders, click "Submit Payout Request," which will trigger the wallet signature confirmation (ensure that the "Authorized Signing Address" is the one performing the action).
 
 <figure><img src="../../../.gitbook/assets/49.png" alt=""><figcaption></figcaption></figure>
 
-提交完成后，可点击 "付币记录" 查看付币订单状态（也可在资产--付币合约--资金动态--付币记录查看）
+Once submitted, you can click "Payout Records" to check the status of the payout orders (you can also view it in the Assets module under Payout Contract → Fund Dynamics → Payout Records).
 
 <figure><img src="../../../.gitbook/assets/50.png" alt=""><figcaption></figcaption></figure>
 
-刚提交的付币订单状态为 "待支付"，将在24小时内完成支付
+The status of the recently submitted payout order will be "Pending Payment," and the payment will be completed within 24 hours.
 
 <figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-若想实现自动化，无需"授权签名地址"人工审核，可以开启自动提交功能，当订单上传后一定时间内"授权签名地址"没有审核，则自动审核并提交
+To enable automation and eliminate the need for manual review by the "Authorized Signing Address," you can activate the auto-submit feature. When an order is uploaded, if the "Authorized Signing Address" does not review it within a certain time, the system will automatically review and submit the order.
 
 <figure><img src="../../../.gitbook/assets/52.png" alt=""><figcaption></figcaption></figure>
 
-### 导入 Excel 上传付币订单
+### Import Excel to upload payout orders
 
-首先连接"授权签名地址"钱包，"授权签名地址"在资产模块--付币合约--能见到 "付币" 按钮（当有要订单时 "付币" 按钮上会显示订单数量），在付币弹窗中切换到 "Excel"
+First, connect the "Authorized Signing Address" wallet. The "Authorized Signing Address" can be found in the Assets module under the Payout Contract, where you will see the "Payout" button (the number of orders will be displayed on the "Payout" button when there are pending orders). In the Payout popup, switch to the "Excel" tab.
 
 <figure><img src="../../../.gitbook/assets/53.png" alt=""><figcaption></figcaption></figure>
 
-点击 "下载订单模板"，在模板中填入付币订单信息
+Click on "Download Order Template" and fill in the payout order information in the template.
 
 <figure><img src="../../../.gitbook/assets/54.png" alt=""><figcaption></figcaption></figure>
 
-注意：网络、代币、付币数量等信息需要按规则输入
+Note: Information such as network, token, and payout amount must be entered according to the specified rules.
 
 <figure><img src="../../../.gitbook/assets/55.png" alt=""><figcaption></figcaption></figure>
 
-接着点击 "上传付币订单" 将 Excel文件上传到 BlockATM
+Next, click on "Upload Payout Orders" to upload the Excel file to BlockATM.
 
 <figure><img src="../../../.gitbook/assets/56.png" alt=""><figcaption></figcaption></figure>
 
-上传成功会展示各代币的订单信息，若付币数量大于代币资产数量，会标红提示，需取消勾选或者删除部分订单
+Once the upload is successful, the order information for each token will be displayed. If the payout amount exceeds the token balance, it will be highlighted in red with a prompt. You will need to uncheck or delete some orders.
 
 <figure><img src="../../../.gitbook/assets/57.png" alt=""><figcaption></figcaption></figure>
 
-若上传了错误信息/格式的订单会标红并提示错误原因（可删除错误订单并根据原因调整后再重新上传）
+If orders with incorrect information or formatting are uploaded, they will be highlighted in red with an error message indicating the reason. You can delete the erroneous orders, adjust them based on the reason provided, and then re-upload the corrected file.
 
 <figure><img src="../../../.gitbook/assets/58.png" alt=""><figcaption></figcaption></figure>
 
-订单都确认后，点击 "提交代付申请"&#x20;
+Once all orders are confirmed, click "Submit Payout Request."
 
 <figure><img src="../../../.gitbook/assets/59.png" alt=""><figcaption></figcaption></figure>
 
-唤起钱包签名确认（确保是"授权签名地址"在操作）
+A wallet signature confirmation will be triggered (ensure that the "Authorized Signing Address" is the one performing the action).
 
 <figure><img src="../../../.gitbook/assets/60.png" alt=""><figcaption></figcaption></figure>
 
-签名确认后，可点击 "付币记录" 查看付币订单状态（也可在资产--付币合约--资金动态--付币记录查看）
+After the signature confirmation, you can click "Payout Records" to check the status of the payout orders (you can also view it in the Assets module under Payout Contract → Fund Dynamics → Payout Records).
 
 <figure><img src="../../../.gitbook/assets/61.png" alt=""><figcaption></figcaption></figure>
 
-刚提交的付币订单状态为 "待支付"，将在24小时内完成支付
+The status of the recently submitted payout order will be "Pending Payment," and the payment will be completed within 24 hours.
 
 <figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
