@@ -55,7 +55,7 @@
     * [Link ERC20 and TRC20 wallets](integration-guide/quickstart/startpay/guan-lian-erc20-he-trc20-qian-bao.md)
     * [Create Cashier Desk](integration-guide/quickstart/startpay/chuang-jian-shou-yin-tai.md)
     * [Integrate Cashier Desk](integration-guide/quickstart/startpay/dui-jie-shou-yin-tai.md)
-    * [收币](integration-guide/quickstart/startpay/shou-bi.md)
+    * [Collection](integration-guide/quickstart/startpay/shou-bi.md)
     * [异常订单处理](integration-guide/quickstart/startpay/yi-chang-ding-dan-chu-li.md)
     * [提币](integration-guide/quickstart/startpay/ti-bi.md)
   * [开始付币](integration-guide/quickstart/startpayout/README.md)
