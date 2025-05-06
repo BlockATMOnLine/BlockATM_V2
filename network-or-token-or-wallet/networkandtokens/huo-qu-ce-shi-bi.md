@@ -29,7 +29,7 @@ You can transfer a small amount of native coins (such as 0.0001 eth) to the foll
 | Ethereum Sepolia Testnet | 0xd611c098e26b2B6095F22F4bFfEB1Af1DA597b39 |
 | Arbitrum Sepolia Testnet | 0xad05853cc8395fdbbd0b1c72d2eb9491007e8dd0 |
 | Optimism Sepolia Testnet | 0x0d5d82cff0e742ca3dffc0a2311b64f39d6feaa7 |
-| Tron Shasta Testnet      | 补充中...                                     |
+| Tron Shasta Testnet      | coming soon...                             |
 
 
 
