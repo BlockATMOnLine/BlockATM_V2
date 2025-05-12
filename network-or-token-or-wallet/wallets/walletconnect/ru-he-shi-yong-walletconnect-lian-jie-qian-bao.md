@@ -41,23 +41,23 @@ After selecting WalletConnect, a QR code will be displayed. You need to scan thi
 1. Open your wallet app (such as MetaMask, Trust Wallet, etc.).
 2. Find the "Connect" option in your wallet.
 3. Click "Scan QR Code."
-4. 将手机摄像头对准显示的二维码，完成扫描
+4. Aim the phone camera at the displayed QR code and complete the scan.
 {% endstep %}
 
 {% step %}
-### 授权连接
+### Authorized connection
 
-扫描二维码后，钱包会弹出一个授权请求，提示您是否允许 BlockATM DApp 与您的钱包连接。
+After scanning the QR code, the wallet will pop up an authorization request, asking if you allow BlockATM DApp to connect with your wallet.
 
-1. **查看请求信息**：确认请求连接的 BlockATM DApp 的名称和 URL，确保它是可信的
-2. **授权连接**：点击“连接”或“Connect”按钮，授权 BlockATM DApp 与您的钱包建立连接
-3. **授权登录**：点击“确认”或“Confirm”按钮，授权钱包登录 BlockATM DApp
+1. **View request information**: Confirm the name and URL of the BlockATM DApp requesting connection, ensuring it is trustworthy.
+2. **Authorized connection**: Click the "Connect" or "Connect" button to authorize BlockATM DApp to establish a connection with your wallet.
+3. **Authorized login**: Click the "Confirm" or "Confirm" button to authorize wallet login for BlockATM DApp.
 {% endstep %}
 
 {% step %}
-### 连接成功
+### Connection successful
 
-授权连接和登录后即可成功连接
+Authorized connection and successful connection after logging in.
 {% endstep %}
 {% endstepper %}
 
