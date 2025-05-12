@@ -12,42 +12,42 @@ layout:
     visible: true
 ---
 
-# 连接钱包
+# Connect Wallet
 
-BlockATM 是运营在区块链上的 DApp，通过连接钱包的方式进行登录，在 BlockATM 页面点击右上角“连接钱包”按钮开始连接您的钱包
+BlockATM is a DApp operating on the blockchain, logging in by connecting your wallet. Click the "Connect Wallet" button at the top right of the BlockATM page to start connecting your wallet.
 
 <figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
-选择网络以及连接钱包的方式
+Choose the method of connecting to the network and wallet.
 
-若选择 Ethereum 或者 Arbitrum 网络，则连接钱包的方式有 MetaMask 和 WalletConnect，此处演示使用 MetaMask 浏览器拓展程序连接
+If you choose the Ethereum or Arbitrum network, the ways to connect your wallet are MetaMask and WalletConnect. Here we demonstrate using the MetaMask browser extension program to connect.
 
 <figure><img src="../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-10_40_31.png" alt=""><figcaption></figcaption></figure>
 
-点击 "MetaMask" 会唤起 MetaMask 钱包浏览器拓展程序进行确认连接，点击 "连接"
+Clicking "MetaMask" will prompt the MetaMask wallet browser extension to confirm the connection, click "Connect".
 
 <figure><img src="../../.gitbook/assets/15.png" alt=""><figcaption></figcaption></figure>
 
-接着钱包弹出签名请求窗口，点击"确认"，进行登录确认
+The wallet then pops up a signature request window, click "confirm" to proceed with the login confirmation.
 
 <figure><img src="../../.gitbook/assets/16.png" alt=""><figcaption></figcaption></figure>
 
-确认后即可成功连接钱包
+After confirmation, you can successfully connect the wallet.
 
 <figure><img src="../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-10_59_21.png" alt=""><figcaption></figcaption></figure>
 
-若选择 Tron 网络，则连接钱包的方式仅有 TronLink，详细连接方式见：[如何连接 Tronlink 钱包](../../network-or-token-or-wallet/wallets/tronlink/ru-he-lian-jie-tronlink-qian-bao.md)
+If you choose the Tron network, the only way to connect your wallet is through TronLink. For detailed connection instructions, please refer to [How to connect Tronlink wallet](../../network-or-token-or-wallet/wallets/tronlink/ru-he-lian-jie-tronlink-qian-bao.md).
 
 <figure><img src="../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-10_54_46.png" alt=""><figcaption></figcaption></figure>
 
-点击 "TronLink" 会唤起 TronLink 钱包浏览器拓展程序进行确认连接，点击 "连接"
+Clicking "TronLink" will prompt the TronLink wallet browser extension to confirm the connection. Click "Connect".
 
 <figure><img src="../../.gitbook/assets/18.png" alt=""><figcaption></figcaption></figure>
 
-接着钱包弹出签名请求窗口，点击"确认"，进行登录确认
+The wallet then pops up a signature request window, click "confirm" to proceed with the login confirmation.
 
 <figure><img src="../../.gitbook/assets/17 (1).png" alt=""><figcaption></figcaption></figure>
 
-确认后即可成功连接钱包
+After confirmation, you can successfully connect the wallet.
 
 <figure><img src="../../.gitbook/assets/screencapture-backstage-b2b-pre-ufcfan-org-2025-04-09-10_58_34.png" alt=""><figcaption></figcaption></figure>
