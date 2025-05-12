@@ -12,6 +12,6 @@ layout:
     visible: true
 ---
 
-# 快速入门
+# Quick Start
 
-为方便快速熟悉平台，将在子章节通过图文的方式演示主要业务的操作流程
+To facilitate a quick understanding of the platform, the main business operation processes will be demonstrated in the sub-chapters through images and text.
