@@ -39,47 +39,43 @@ When creating a scan2pay contract, you need to specify the authorized signature 
 ### Collection contract code
 
 {% tabs %}
-{% tab title="构建函数" %}
+{% tab title="Constructor" %}
 ```solidity
-/**
-函数：constructor
-功能：商户在部署收款合约时，在合约部署时设定提现地址、财务人员地址、管理员等
-@param newWithdrawList 提现地址列表，在合约部署时写入后不可修改
-@param newFinanceList 财务人员地址列表，在合约部署时写入后不可修改
-@notice 该构造函数用于初始化合约的关键参数和权限设置。
-@notice 提现地址列表和财务地址列表不能为空，确保合约初始化时具备必要的权限配置。
-@notice 手续费网关地址用于处理与费用相关的逻辑，确保系统收益和费用扣除的透明性。
-*/
-constructor(
-bool safe,
-uint256 id,
-address[] memory newWithdrawList,
-address[] memory newFinanceList,
-address newFeeGateway
-) {
-//参数安全性检查
-...
-// 设置提币地址
-processList(newWithdrawList, withdrawMap);
-withdrawList = newWithdrawList;
-// 设置财务地址
-processList(newFinanceList, financeMap);
-financeList = newFinanceList;
- //其他参数设置
-....
-// 设置合约owner
-owner = msg.sender;
-}
+@param newFinanceList The list of financial personnel addresses, which cannot be modified after being written during contract deployment  
+@notice This constructor is used to initialize the contract's key parameters and permission settings.  
+@notice The withdrawal address list and financial address list cannot be empty, ensuring necessary permission configurations during contract initialization.  
+@notice The fee gateway address is used to handle fee-related logic, ensuring transparency in system revenue and fee deductions.  
+*/  
+constructor(  
+    bool safe,  
+    uint256 id,  
+    address[] memory newWithdrawList,  
+    address[] memory newFinanceList,  
+    address newFeeGateway  
+) {  
+    //Parameter safety check  
+    ...  
+    // Set withdrawal addresses  
+    processList(newWithdrawList, withdrawMap);  
+    withdrawList = newWithdrawList;  
+    // Set financial addresses  
+    processList(newFinanceList, financeMap);  
+    financeList = newFinanceList;  
+    // Other parameter settings  
+    ....  
+    // Set contract owner  
+    owner = msg.sender;  
+}  
 ```
 {% endtab %}
 
-{% tab title="付币方法" %}
+{% tab title="Collection " %}
 ```solidity
 /*
- * 函数：deposit
- * 功能：用户将代币支付到收款合约中，并记录交易。
- * @notice 函数会记录充值次数，用来计算手续费总额
- * @notice 函数会触发 `Deposit` 事件，记录详情。
+ * Function: deposit
+ * Purpose: Allows users to transfer tokens to the payment contract and records the transaction.
+ * @notice This function records deposit counts, which are used to calculate total fees.
+ * @notice This function triggers a `Deposit` event to log transaction details.
  */
 function deposit(
     address tokenAddress,
@@ -90,16 +86,16 @@ function deposit(
     checkTokenAddress(tokenAddress) 
     returns (bool) 
 {
-    //  必须的参数和状态检测
-    ... 
+    // Required parameter and state checks
+    ...
 
-    // 调用ERC20代币转账
+    // Execute ERC20 token transfer
     uint256 finalAmount = super.transferCommon(tokenAddress, address(this), amount);
 
-    // 更新该代币地址的充值次数，用于计算手续费
+    // Update deposit count for this token address (used for fee calculation)
     transferMap[tokenAddress] += 1;
 
-    // 触发 Deposit 事件，记录充值详情
+    // Emit Deposit event to record transaction details
     emit Deposit(msg.sender, address(this), tokenAddress, finalAmount, orderNo);
 
     return true;
@@ -107,16 +103,16 @@ function deposit(
 ```
 {% endtab %}
 
-{% tab title="提币方法" %}
+{% tab title="Withdraw" %}
 ```solidity
 /**
- * 函数： withdraw
- * 功能： 商户批量提取合约中资产
- * 限定：onlyFinance 该函数仅允许财务角色调用，确保只有授权人员可以执行提现操作。
- * @param recipientAddress 提币地址必须为商户提币固定地址，无法更改，防止资金被错误发送到其他地址。
- * @param withdrawRequests 提现请求数组，支持多种代币批量同时提取。
- * @notice 每次提现会计算手续费，并将手续费发送到指定的手续费地址。
- * @notice 触发 `Withdraw` 事件，记录提现详情，便于审计和追踪。
+ * Function: withdraw
+ * Purpose: Allows merchants to batch withdraw assets from the contract
+ * Restriction: onlyFinance - This function can only be called by finance roles, ensuring only authorized personnel can execute withdrawals.
+ * @param recipientAddress The withdrawal address must be the merchant's fixed withdrawal address (immutable) to prevent funds from being sent to incorrect addresses.
+ * @param withdrawRequests Array of withdrawal requests, supporting batch withdrawals of multiple token types simultaneously.
+ * @notice Each withdrawal calculates fees and transfers them to the designated fee collection address.
+ * @notice Emits a `Withdraw` event to record withdrawal details for auditing and tracking purposes.
  */
 function withdraw(
     bool isSafeTransfer,
@@ -127,28 +123,28 @@ function withdraw(
     onlyFinance 
     returns (bool) 
 {
-    // 限定提币地址只能为设定的固定地址 
-    require(recipientAddress == FIXED_WITHDRAW_ADDRESS, "提币地址必须为固定地址，无法更改");
+    // Restrict withdrawal address to only the pre-set fixed address
+    require(recipientAddress == FIXED_WITHDRAW_ADDRESS, "Withdrawal address must be the immutable fixed address");
 
-    // 其他提币参数安全检查
+    // Additional withdrawal parameter safety checks
     ...
 
-    // 遍历循环处理提币请求
+    // Process withdrawal requests in batch
     for (uint256 i = 0; i < requestCount;) {
         
-        //提币金额和手续费计算 
+        // Calculate withdrawal amount and fees
         ...
-        //执行提币转账
+        // Execute fund transfer
         super.withdrawCommon(isSafeTransfer, request.tokenAddress, recipientAddress, userAmount);
         
-        //执行手续费转账
+        // Execute fee transfer
         super.withdrawCommon(isSafeTransfer, request.tokenAddress, feeCollector, fee);
     }
 
-    // 触发提现事件，用于BlockATM事件监听
+    // Emit Withdraw event for BlockATM event monitoring
     emit Withdraw(msg.sender, recipientAddress, withdrawRequests, feeAmounts, feeCollector);
 
-    // 返回 true 表示提现成功
+    // Return true indicating successful withdrawal
     return true;
 }
 ```
