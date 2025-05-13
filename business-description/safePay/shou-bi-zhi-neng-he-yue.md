@@ -39,7 +39,7 @@ When creating a scan2pay contract, you need to specify the authorized signature 
 ### Collection contract code
 
 {% tabs %}
-{% tab title="Constructor" %}
+{% tab title="Constructor Function" %}
 ```solidity
 @param newFinanceList The list of financial personnel addresses, which cannot be modified after being written during contract deployment  
 @notice This constructor is used to initialize the contract's key parameters and permission settings.  
@@ -69,7 +69,7 @@ constructor(
 ```
 {% endtab %}
 
-{% tab title="Collection " %}
+{% tab title="Collection Function " %}
 ```solidity
 /*
  * Function: deposit
@@ -103,7 +103,7 @@ function deposit(
 ```
 {% endtab %}
 
-{% tab title="Withdraw" %}
+{% tab title="Withdraw Function" %}
 ```solidity
 /**
  * Function: withdraw
