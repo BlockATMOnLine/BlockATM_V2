@@ -29,12 +29,11 @@ When creating a payout contract, the "Authorized Signature Address" must be spec
 {% tabs %}
 {% tab title="Constructor Function" %}
 ```solidity
-
 /**
-* 函数：payout constructor
-* 功能：商户在部署合约时初始化财务地址、代理地址等关键参数设置。
-* @param newFinanceList 财务地址列表，用于初始化财务权限
-* @param newProxyPayoutAddress 代理地址，限定批量执行代付权限
+* Function: payout constructor
+* Purpose: Initializes merchant contract with critical parameters including finance addresses and proxy address during deployment.
+* @param newFinanceList List of finance addresses for initializing financial permissions
+* @param newProxyPayoutAddress Proxy address that has exclusive batch payout execution rights
 **/
 constructor(
     bool safe,
@@ -43,58 +42,78 @@ constructor(
     address newProxyPayoutAddress,
     address newFeeGateway
 ) {
-
-    //参数安全性检查
+    // Parameter safety checks
     ...
     
-    // 设置代理合约地址
+    // Set proxy contract address
     proxyPayoutAddress = newProxyPayoutAddress;
 
-    // 设置财务地址
+    // Initialize finance addresses
     processList(newFinanceList, financeMap);
     financeList = newFinanceList;
 
-    // 设置合约所有者
+    // Set contract owner
     owner = msg.sender;
     
-    //其他初始化参数设置 
+    // Other initialization parameters
     ...
 }
 ```
 {% endtab %}
 
-{% tab title="Payout Logic" %}
+{% tab title="Payout Function" %}
 ```solidity
 /**
-* 函数：payoutByContract
-* 功能：该合约用于处理批量付款操作
-* 限定：onlyFinancials(payoutAddress) 确保只有BlockATM授权的财务地址或代理合约可以调用此函数
-* @param orderNo  批量代付订单号数组，由商户财务通过api或excel上传
-* @param array    批量接收地址数组，由商户财务通过api或excel上传
-* @param amount   批量支付金额数组，由商户财务通过api或excel上传
-* @return bool 返回 true 表示付款成功。
+* Function: payoutByContract
+* Purpose: Handles batch payment operations
+* Restriction: onlyFinancials(payoutAddress) Ensures only BlockATM-authorized financial addresses or proxy contracts can call this function
+* @param orderNo Array of batch payment order numbers, uploaded by merchant finance via API or Excel
+* @param array Array of recipient addresses, uploaded by merchant finance via API or Excel
+* @param amount Array of payment amounts, uploaded by merchant finance via API or Excel
+* @return bool Returns true indicating successful payment
 **/
-function payoutByContract(bool safe, address tokenAddress, uint256 total, address payoutAddress, string[] calldata orderNo, address[] calldata array, uint256[] calldata amount) public onlyFinancials(payoutAddress) returns (bool) {
-    // 调用内部函数 payoutToken 进行付款操作
+function payoutByContract(
+    bool safe, 
+    address tokenAddress, 
+    uint256 total, 
+    address payoutAddress, 
+    string[] calldata orderNo, 
+    address[] calldata array, 
+    uint256[] calldata amount
+) public onlyFinancials(payoutAddress) returns (bool) {
+    // Calls internal payoutToken function to execute payment
     payoutToken(safe, payoutAddress, tokenAddress, total, 0, 1, orderNo, array, amount, 0);
-    // 返回 true 表示支付成功
+    // Returns true indicating successful payment
     return true;
 }
 
-// 函数：payoutToken
-// 功能：执行付款的流程
-function payoutToken(bool safe, address from, address tokenAddress, uint256 total, uint256 gasAmount, uint256 payType, string[] calldata orderNo, address[] calldata array, uint256[] calldata amount, uint256 id) internal {
-    // 参数安全性检查
+/**
+* Function: payoutToken
+* Purpose: Executes the payment process flow
+*/
+function payoutToken(
+    bool safe, 
+    address from, 
+    address tokenAddress, 
+    uint256 total, 
+    uint256 gasAmount, 
+    uint256 payType, 
+    string[] calldata orderNo, 
+    address[] calldata array, 
+    uint256[] calldata amount, 
+    uint256 id
+) internal {
+    // Parameter safety checks
     ...
    
-    // 执行代币批量转账操作
+    // Executes batch token transfers
     _transferTokens(safe, from, tokenAddress, total, gasAmount, payType, feeAmount);
     _processBatchPayments(safe, tokenAddress, array, amount, length);
     
-    // 执行手续费计算和扣除
+    // Calculates and deducts processing fees
     super.withdrawCommon(safe, tokenAddress, IBlockFee(feeGateway).feeAddress(), feeAmount + gasAmount);
     
-    // 触发支付完成事件，用于BlockATM代付事件监听
+    // Emits payment completion event for BlockATM payment monitoring
     emit PayoutToken(from, tokenAddress, payType, feeAmount, gasAmount, orderNo, array, amount, msg.sender, id);
 }
 ```
