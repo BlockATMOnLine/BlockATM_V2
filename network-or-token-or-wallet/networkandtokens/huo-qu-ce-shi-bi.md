@@ -58,6 +58,7 @@ Once you obtain the test coins, you can add your assets to your wallet. The cont
 |      | Ethereum Sepolia Testnet | 0x79aFa1A88a0EF3F0Afc39153C8f178F82db51326 |
 | USDJ | Tron Shasta Testnet      | TDTNSJAYgQaEVT271PKybvDzJTmYzR9DUm         |
 | USDD | Tron Shasta Testnet      | TUrhpa8bD4u6E11ZtKGRxY8uoBVAUNcmco         |
+| WETH |                          |                                            |
 
 Operation screenshot (MetaMask, similar to other wallets) :
 
