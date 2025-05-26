@@ -58,7 +58,7 @@ Once you obtain the test coins, you can add your assets to your wallet. The cont
 |        | Ethereum Sepolia Testnet | 0x79aFa1A88a0EF3F0Afc39153C8f178F82db51326 |
 | USDJ   | Tron Shasta Testnet      | TDTNSJAYgQaEVT271PKybvDzJTmYzR9DUm         |
 | USDD   | Tron Shasta Testnet      | TUrhpa8bD4u6E11ZtKGRxY8uoBVAUNcmco         |
-| WETH   | Ethereum Sepolia Testnet | 0x722589C6655DB5A6AD734494A6d12512e5B8F2D0 |
+| WETH   | Ethereum Sepolia Testnet | 0x2FFC0b711d9EbD3f46D869173Af7B64C510e8384 |
 |        | Arbitrum Sepolia Testnet | 0x80D85d775ADAA4ED28E6Ab035227F0590C3bFcF7 |
 | WBTC   | Ethereum Sepolia Testnet | 0x6e6947a4f19b06FE98a2dC1a95529f00594888F4 |
 |        | Arbitrum Sepolia Testnet | 0x51Ba29A9b49e575b04c31703161410009890f207 |
