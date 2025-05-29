@@ -1,5 +1,5 @@
 ---
-description:  Three steps to complete the integration
+description: Three steps to complete the integration
 ---
 
 # Widget SDK
@@ -26,9 +26,15 @@ Once you've included this script, you're ready to initialize the Web SDK and sta
 
 
 
-### 2.Signing&#x20;
+You can obtain the Api Key in the merchant APP backend, **【Cashier】** ->[**【Integrate】**](https://app.blockatm.net/)
 
-You need to sign your widget URL before you can display the widget. Learn more about [**URL signing**](params-sign).
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### 2.Signing
+
+You need to sign your widget URL before you can display the widget. Learn more about [**URL signing**](params-sign/).
 
 ```javascript
 
@@ -82,8 +88,3 @@ window.BlockATM.init(
   }
 );
 ```
-
-
-
-
-
