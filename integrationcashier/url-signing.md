@@ -200,7 +200,7 @@ sk_ci_QOoPSlHDSsgXYeNyTP2i0ug1HKLRjHw9Ug7mCc1Q0
 **URL's Param：**
 
 ```
-apiKey=pk_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&t=1742884523932&custNo=C86002201&orderNo=C202503225
+apiKey=pk_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225
 ```
 
 
@@ -208,7 +208,7 @@ apiKey=pk_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&t=1742884523932&custNo
 **Signature Result:**&#x20;
 
 ```
-ff7fe6e9b2d065390e325457b744a204419204f693cc42c8e079719938bc9bfd
+5b2419abcb925389c3f6cb42f35eed85ec36b95578a9d25ee500f9fafdeb08dc
 ```
 
 
