@@ -55,7 +55,7 @@ const options = {
 };
 
 // 2. Generate signature parameters
-const { urlForSignature } = window.BlockATM.generateUrlForSigning({ 
+const urlForSignature = window.BlockATM.generateUrlForSigning({ 
   ...options, 
   apiKey: 'YOUR_API_KEY'         // Replace with your API key
 });
