@@ -96,6 +96,7 @@
 ## 📅 Update Logs
 
 * [V2.0.0](updateLogs/geng-xin-ri-zhi.md)
+* [V2.1.0](update-logs/v2.1.0.md)
 
 ## Basics
 
