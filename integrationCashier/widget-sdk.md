@@ -4,6 +4,10 @@ description: Three steps to complete the integration
 
 # Widget SDK
 
+**With BlockATM's SDK, you can easily integrate BlockATM's checkout system into your website. Use the interactive diagram below to quickly understand the integration process：**
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
 ### 1. import
 
 Add the SDK as a script to your HTML file.

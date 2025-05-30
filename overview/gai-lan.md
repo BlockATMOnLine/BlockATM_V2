@@ -10,7 +10,7 @@ It will be sent via an HTTP POST request to any endpoint URLs that you have defi
 * Set your webhook URL in Merchant Dashboard
 * Retrieve your signature secret key from **\[Cashier]** >**\[Integration]**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 **Request Specification**:
 

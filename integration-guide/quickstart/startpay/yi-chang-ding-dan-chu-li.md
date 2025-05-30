@@ -43,7 +43,7 @@ The operator wallet connects to the BlockATM DApp and can only see the relevant 
 
 <figure><img src="../../../.gitbook/assets/78.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Order drop -- Manually complete the transaction
 

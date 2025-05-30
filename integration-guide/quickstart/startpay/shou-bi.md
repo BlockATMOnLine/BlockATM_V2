@@ -70,11 +70,11 @@ Open the wallet app to scan the receipt address QR code, or copy the receipt add
 
 After confirming the receiving address, enter the payment amount (Note: It must match the payment amount displayed on the BlockATM checkout, otherwise the payment will be invalid). After entering the amount, click "Next".
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Confirm the transaction details and click "Send".
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
