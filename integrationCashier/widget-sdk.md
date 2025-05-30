@@ -88,3 +88,26 @@ window.BlockATM.init(
   }
 );
 ```
+
+
+
+
+
+```mermaid
+sequenceDiagram
+    participant Merchant Website
+    participant Your JS SDK (Checkout)
+    participant Payment Gateway Backend
+
+    Merchant Website->>Your JS SDK: 1. Load SDK (e.g., <script src="your-sdk.js">)
+    Your JS SDK-->>Merchant Website: SDK Initialized
+    Merchant Website->>Your JS SDK: 2. Configure (API Key, Currency, etc.)
+    Merchant Website->>Your JS SDK: 3. Trigger Checkout (e.g., checkout({amount: 100, orderId: "123"}))
+    Your JS SDK->>Payment Gateway Backend: 4. Request Payment Methods (Optional)
+    Payment Gateway Backend-->>Your JS SDK: 5. Return Supported Methods (Cards, Volatility Coin, etc.)
+    Your JS SDK-->>Merchant Website: 6. Render Checkout UI
+    Customer->>Your JS SDK: 7. Select Payment & Enter Details
+    Your JS SDK->>Payment Gateway Backend: 8. Process Payment (Tokenize/Charge)
+    Payment Gateway Backend-->>Your JS SDK: 9. Return Success/Failure
+    Your JS SDK-->>Merchant Website: 10. Notify Result (via callback/webhook)
+```
