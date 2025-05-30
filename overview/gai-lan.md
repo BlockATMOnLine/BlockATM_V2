@@ -3,6 +3,8 @@
 Webhooks are necessary for behind-the-scenes transactions. With webhooks you can be notified about asynchronous changes to the status of transaction objects. BlockATM can send webhook events that notify your application anytime an event happens on your account. This is especially useful for events like transaction status updates, that are not triggered by a direct API request.\
 It will be sent via an HTTP POST request to any endpoint URLs that you have defined in your account's Webhooks settings.
 
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
 ### Configuration Requirements
 
 **Merchant Setup**:
