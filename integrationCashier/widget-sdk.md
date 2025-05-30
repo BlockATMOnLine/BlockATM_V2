@@ -93,23 +93,23 @@ window.BlockATM.init(
 
 
 
-````mermaid
+````markdown
 ```mermaid
 sequenceDiagram
-    participant Merchant Website
-    participant Your JS SDK (Checkout)
-    participant Payment Gateway Backend
+    participant 商户网站
+    participant JS收银台SDK
+    participant 支付网关后端
 
-    Merchant Website->>Your JS SDK: 1. Load SDK (e.g., <script src="your-sdk.js">)
-    Your JS SDK-->>Merchant Website: SDK Initialized
-    Merchant Website->>Your JS SDK: 2. Configure (API Key, Currency, etc.)
-    Merchant Website->>Your JS SDK: 3. Trigger Checkout (e.g., checkout({amount: 100, orderId: "123"}))
-    Your JS SDK->>Payment Gateway Backend: 4. Request Payment Methods (Optional)
-    Payment Gateway Backend-->>Your JS SDK: 5. Return Supported Methods (Cards, Volatility Coin, etc.)
-    Your JS SDK-->>Merchant Website: 6. Render Checkout UI
-    Customer->>Your JS SDK: 7. Select Payment & Enter Details
-    Your JS SDK->>Payment Gateway Backend: 8. Process Payment (Tokenize/Charge)
-    Payment Gateway Backend-->>Your JS SDK: 9. Return Success/Failure
-    Your JS SDK-->>Merchant Website: 10. Notify Result (via callback/webhook)
+    商户网站->>JS收银台SDK: 1. 加载SDK（<script src="your-sdk.js">）
+    JS收银台SDK-->>商户网站: SDK初始化完成
+    商户网站->>JS收银台SDK: 2. 配置参数（API Key、货币等）
+    商户网站->>JS收银台SDK: 3. 触发收银台（checkout({金额: 100, 订单ID: "123"})）
+    JS收银台SDK->>支付网关后端: 4. 请求可用支付方式（可选）
+    支付网关后端-->>JS收银台SDK: 5. 返回支持方式（信用卡、波动币等）
+    JS收银台SDK-->>商户网站: 6. 渲染收银台界面
+    用户->>JS收银台SDK: 7. 选择支付方式并提交
+    JS收银台SDK->>支付网关后端: 8. 处理支付（令牌化/扣款）
+    支付网关后端-->>JS收银台SDK: 9. 返回支付结果
+    JS收银台SDK-->>商户网站: 10. 通知结果（回调/webhook）
 ```
 ````
