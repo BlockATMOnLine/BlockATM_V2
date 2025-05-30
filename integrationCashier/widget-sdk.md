@@ -93,6 +93,7 @@ window.BlockATM.init(
 
 
 
+````mermaid
 ```mermaid
 sequenceDiagram
     participant Merchant Website
@@ -111,3 +112,4 @@ sequenceDiagram
     Payment Gateway Backend-->>Your JS SDK: 9. Return Success/Failure
     Your JS SDK-->>Merchant Website: 10. Notify Result (via callback/webhook)
 ```
+````
