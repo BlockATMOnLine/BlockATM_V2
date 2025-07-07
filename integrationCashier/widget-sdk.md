@@ -17,7 +17,7 @@ Add the SDK as a script to your HTML file.
 {% tabs %}
 {% tab title="Prod " %}
 ```
-<script src="https://cashier.blockatm.net/libs/v2/BlockATM.umd.js?apiKey=[API_KEY]"></script>
+<script src="https://pay.blockatm.net/libs/v2/BlockATM.umd.js?apiKey=[API_KEY]"></script>
 ```
 {% endtab %}
 
@@ -97,25 +97,3 @@ window.BlockATM.init(
 
 
 
-
-
-````markdown
-```mermaid
-sequenceDiagram
-    participant 商户网站
-    participant JS收银台SDK
-    participant 支付网关后端
-
-    商户网站->>JS收银台SDK: 1. 加载SDK（<script src="your-sdk.js">）
-    JS收银台SDK-->>商户网站: SDK初始化完成
-    商户网站->>JS收银台SDK: 2. 配置参数（API Key、货币等）
-    商户网站->>JS收银台SDK: 3. 触发收银台（checkout({金额: 100, 订单ID: "123"})）
-    JS收银台SDK->>支付网关后端: 4. 请求可用支付方式（可选）
-    支付网关后端-->>JS收银台SDK: 5. 返回支持方式（信用卡、波动币等）
-    JS收银台SDK-->>商户网站: 6. 渲染收银台界面
-    用户->>JS收银台SDK: 7. 选择支付方式并提交
-    JS收银台SDK->>支付网关后端: 8. 处理支付（令牌化/扣款）
-    支付网关后端-->>JS收银台SDK: 9. 返回支付结果
-    JS收银台SDK-->>商户网站: 10. 通知结果（回调/webhook）
-```
-````
