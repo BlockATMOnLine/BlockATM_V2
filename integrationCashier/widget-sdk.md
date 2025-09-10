@@ -23,7 +23,7 @@ Add the SDK as a script to your HTML file.
 
 {% tab title="Sandbox " %}
 ```
-<script src="https://cashier-b2b-pre.ufcfan.org/libs/v2/BlockATM.umd.js?apiKey=[API_KEY]"></script>
+<script src="https://test-pay.blockatm.net/libs/v2/BlockATM.umd.js?apiKey=[API_KEY]"></script>
 ```
 {% endtab %}
 {% endtabs %}
