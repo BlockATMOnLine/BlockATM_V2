@@ -2,7 +2,7 @@
 
 #### 1. Request Endpoint URLs
 
-<table><thead><tr><th>Environment</th><th>URL</th><th data-hidden></th></tr></thead><tbody><tr><td>Production Environment</td><td><a href="https://backend.blockatm.net">https://open.blockatm.net</a></td><td></td></tr><tr><td><strong>Sandbox</strong> Environment</td><td><a href="https://backstage-b2b-pre.ufcfan.org">https://backstage-b2b-pre.ufcfan.org</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Environment</th><th>URL</th><th data-hidden></th></tr></thead><tbody><tr><td>Production Environment</td><td><a href="https://backend.blockatm.net">https://open.blockatm.net</a></td><td></td></tr><tr><td><strong>Sandbox</strong> Environment</td><td><a href="https://backend.blockatm.net">https://test-open.blockatm.net</a></td><td></td></tr></tbody></table>
 
 
 
