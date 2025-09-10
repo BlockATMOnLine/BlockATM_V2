@@ -5,7 +5,7 @@ it must be appended at the end of the URL.
 
 ### How to sign URLs
 
-1. Send your widget URL to your backend server.
+1. Send your widget URL  params to your backend server.
 2. Generate the signature using the secret key found in your BockATM Cashier dashboard.
 3. Return either the signature or entire signed URL.
 4. Show the widget using the SDK or URL.
