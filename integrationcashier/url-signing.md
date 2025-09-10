@@ -30,7 +30,7 @@ import crypto from 'crypto';
 import { URL } from 'url';
 
 // Configuration - replace with your actual values
-const originalUrl = 'https://cashier.blockatm.com?apiKey=pck_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225';
+const originalUrl = 'https://test-pay.blockatm.com?apiKey=pck_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225';
 const secretKey = 'sck_QOoPSlHDSsgXYeNyTP2i0ug1HKLRjHw9Ug7mCc1Q0';
 
 // Process URL and parameters
@@ -67,7 +67,7 @@ public class UrlSigner {
 
     public static void main(String[] args) throws Exception {
         // Configuration
-        String originalUrl = "https://cashier.blockatm.com?apiKey=pck_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225";
+        String originalUrl = "https://test-pay.blockatm.com?apiKey=pck_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225";
         String secretKey = "sck_QOoPSlHDSsgXYeNyTP2i0ug1HKLRjHw9Ug7mCc1Q0";
 
         // Process URL and parameters
@@ -115,7 +115,7 @@ from urllib.parse import urlparse, parse_qs, urlencode, quote
 
 def sign_url():
     # Configuration
-    original_url = "https://cashier.blockatm.com?apiKey=pck_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225"
+    original_url = "https://test-pay.blockatm.com?apiKey=pck_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225"
     secret_key = "sck_QOoPSlHDSsgXYeNyTP2i0ug1HKLRjHw9Ug7mCc1Q0"
 
     # Parse URL and parameters
@@ -152,7 +152,7 @@ if __name__ == "__main__":
 <?php
 function signUrl() {
     // Configuration
-    $originalUrl = "https://cashier.blockatm.com?apiKey=pck_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225";
+    $originalUrl = "https://test-pay.blockatm.com?apiKey=pck_payment_my3T68cbuIXf1x3QOEbWtFEfcJPxeBr8wTewDVM&custNo=C86002201&orderNo=C202503225";
     $secretKey = "sck_QOoPSlHDSsgXYeNyTP2i0ug1HKLRjHw9Ug7mCc1Q0";
 
     // Parse URL and parameters
