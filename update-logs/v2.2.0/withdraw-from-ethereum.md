@@ -7,9 +7,9 @@
 3. Switch to the "Contract" tab
 4. Click the "Write Contract" button
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Connecting Your Wallet
 
@@ -30,6 +30,8 @@
    * `amount`: Enter the withdrawal amount (**pay attention to the units**). USDT has 6 decimals. To withdraw 1 USDT, enter `1000000`. Please refer to the \[Amount Units Explanation]
 4. Click the "Write" button
 5. Confirm the transaction in your wallet
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### 4. Transaction Confirmation
 

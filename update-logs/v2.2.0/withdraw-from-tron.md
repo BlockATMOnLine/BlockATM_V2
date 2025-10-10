@@ -9,6 +9,8 @@
 3. Switch to the "Contract" tab
 4. Click the "Write Contract" button
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 #### 2. Connect Wallet
 
 1. Click the "Connect to Web3" button
