@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Deposit
 
 Batch Payout is done by using the Payout Contract to transfer the assets from the contract to specified wallet addresses in bulk. After creating the Payout Contract, you need to first deposit coins into the contract. Only when there are sufficient assets can the Payout be successfully processed.

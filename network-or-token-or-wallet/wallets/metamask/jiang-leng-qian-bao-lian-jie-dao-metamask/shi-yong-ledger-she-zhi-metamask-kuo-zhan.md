@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # 使用 Ledger 设置 MetaMask 扩展
 
 将 MetaMask 与 Ledger 硬件钱包连接是一个常见的安全增强方法，让你在使用 MetaMask 的便利性的同时，利用 Ledger 的冷存储保护私钥。以下是详细的步骤指南，帮助你完成连接：

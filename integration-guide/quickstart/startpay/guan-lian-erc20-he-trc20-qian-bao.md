@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Link ERC20 and TRC20 wallets
 
 After creating a smart contract ([Collection Contract](../../../business-description/safePay/shou-bi-zhi-neng-he-yue.md) or [Payout Contract](../../../batchWithdraw/fu-bi-zhi-neng-he-yue.md)), the wallet address of the contract owner will serve as the admin address. When creating a Cashier Desk, the admin address can choose to link the Collection Contract of the target network. To link both ERC and TRC networks, you need to associate the ERC20 and TRC20 wallets.

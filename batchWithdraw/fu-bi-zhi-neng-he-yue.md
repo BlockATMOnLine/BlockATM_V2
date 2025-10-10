@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Payout Contract
 
 The payout contract is used for bulk payouts, with the payout request initiated and signed by the "Authorized Signature Address" specified in the contract. The payout operation is then executed by the BlockATM payout proxy contract.

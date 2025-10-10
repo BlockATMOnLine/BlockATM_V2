@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Operation Process
 
 Users invoke the cashier of BlockATM on your business platform, confirm the order information, and choose a payment method (wallet payment, scan code transfer payment) to make a payment. After the user pays, they wait for blockchain confirmation. During this process, BlockATM will continue to monitor blockchain transaction information. Once the smart contract for receiving coins successfully receives funds, it will send a notification to your business system via Webhook.

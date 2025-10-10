@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Create Collection Contract
 
 There are two types of Collection Contracts: Web3 Collection Contract and Scan2Pay Contract. Both types are used for token collection, but they differ in the payment method. The Web3 Collection Contract provides a wallet connection for authorized transactions, while the Scan2Pay Contract offers a payment method through QR code scanning and transfer.

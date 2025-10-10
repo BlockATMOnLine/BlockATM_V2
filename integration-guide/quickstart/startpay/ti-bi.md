@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Withdraw
 
 The cryptocurrency received by the Cashier Desk is held in the associated Collection Contract. To withdraw assets from the Collection Contract, the withdrawal must be initiated by the contract's designated "Authorized Signer Address" and sent to the contract's specified "Asset Receiving Address" (for permissions related to the "Authorized Signer Address" and "Asset Receiving Address," please refer to the Collection Contract).

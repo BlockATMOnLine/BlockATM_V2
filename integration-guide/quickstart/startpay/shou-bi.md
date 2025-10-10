@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Collection
 
 After integrating the cashier, your users will be able to trigger the BlockATM cashier from your platform to make payments.
@@ -70,11 +56,11 @@ Open the wallet app to scan the receipt address QR code, or copy the receipt add
 
 After confirming the receiving address, enter the payment amount (Note: It must match the payment amount displayed on the BlockATM checkout, otherwise the payment will be invalid). After entering the amount, click "Next".
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Confirm the transaction details and click "Send".
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -90,7 +76,7 @@ Note: If the checkout page does not automatically redirect to the result page af
 
 Once the blockchain confirmation is complete, the transaction is finished. The user can visit the blockchain explorer to view the transaction details.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/70.png" alt=""><figcaption></figcaption></figure>
 

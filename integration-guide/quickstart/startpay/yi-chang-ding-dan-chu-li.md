@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Handling of Abnormal Orders
 
 Under normal circumstances, Collection orders are processed smoothly, but there is a small chance that an abnormal situation may occur:
@@ -43,7 +29,7 @@ The operator wallet connects to the BlockATM DApp and can only see the relevant 
 
 <figure><img src="../../../.gitbook/assets/78.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Order drop -- Manually complete the transaction
 

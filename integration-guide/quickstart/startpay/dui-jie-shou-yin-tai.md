@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Integrate Cashier Desk
 
 After [creating the Cashier Desk](chuang-jian-shou-yin-tai.md), click "Integrate" to integrate the Cashier Desk into your business system and receive order status notifications.

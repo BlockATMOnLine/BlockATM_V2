@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Integrate the Payout Contract
 
 After [creating the Payout Contract](chuang-jian-fu-bi-zhi-neng-he-yue.md), click "Integrate" to enable API uploads of Payout orders and receive Payout result notifications.

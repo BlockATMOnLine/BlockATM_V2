@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Upload and confirm the Payout order
 
 Once the Payout Contract is created and sufficiently funded, you can proceed with the Payout operation. BlockATM offers two methods for uploading Payout orders: API upload and Excel import. It's important to note that Payouts can only be executed by the contract's designated "Authorized Signer Address" (for the permissions of the "Authorized Signer Address," refer to the [Payout Contract](../../../batchWithdraw/fu-bi-zhi-neng-he-yue.md)).

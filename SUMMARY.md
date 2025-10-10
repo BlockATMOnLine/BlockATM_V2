@@ -97,8 +97,9 @@
 
 * [V2.0.0](updateLogs/geng-xin-ri-zhi.md)
 * [V2.1.0](update-logs/v2.1.0.md)
-* [Copy of V2.1.0](update-logs/copy-of-v2.1.0.md)
-* [V2.2.0](update-logs/v2.2.0.md)
+* [V2.2.0](update-logs/v2.2.0/README.md)
+  * [Withdraw from  ethereum](update-logs/v2.2.0/withdraw-from-ethereum.md)
+  * [Withdraw from tron](update-logs/v2.2.0/withdraw-from-tron.md)
 
 ## Basics
 

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Permission Description
 
 ### There are three types of role addresses in the BlockATM platform: Owner  Address, Authorized Signer Address, and Operator Address

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Operation Process
 
 BlockATM provides two methods for uploading payout orders (API upload and Excel import). The uploaded payout orders need to be reviewed and signed by the "Authorized Signature Address" specified in the payout contract. Once confirmed, the payout orders will be processed in bulk through the BlockATM payout proxy contract, with the Gas Fee (payout funds, transaction fees, and Gas Fee on behalf of the merchant) deducted from the merchant's payout contract.

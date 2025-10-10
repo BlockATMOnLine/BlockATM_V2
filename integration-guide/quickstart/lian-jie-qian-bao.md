@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Connect Wallet
 
 BlockATM is a DApp operating on the blockchain, logging in by connecting your wallet. Click the "Connect Wallet" button at the top right of the BlockATM page to start connecting your wallet.

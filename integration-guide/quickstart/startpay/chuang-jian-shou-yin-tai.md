@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Create Cashier Desk
 
 After [Creating Collection Contract](chuang-jian-shou-bi-zhi-neng-he-yue.md), you can create a Cashier Desk. Go to the Cashier Desk page and click "Create Now."
