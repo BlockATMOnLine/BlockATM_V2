@@ -1,4 +1,4 @@
-# Withdraw from tron
+# Withdraw from Tron
 
 ### Steps to Operate via Block Explorer
 
@@ -9,13 +9,15 @@
 3. Switch to the "Contract" tab
 4. Click the "Write Contract" button
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Connect Wallet
 
 1. Click the "Connect to Web3" button
 2. Select and connect your TronLink wallet
 3. Ensure the connected wallet address has sufficient balance
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### 3. Call the withdrawByFinancial Function
 
@@ -29,11 +31,15 @@
 4. Click the "Write" button
 5. Confirm the transaction in your wallet
 
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
 #### 4. Transaction Confirmation
 
 1. Wait for the transaction to be packaged and confirmed (typically 1-3 seconds)
 2. Check the transaction status on TronScan
 3. Verify that the transaction was successful
+
+
 
 ### Important Notes
 

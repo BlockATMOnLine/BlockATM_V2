@@ -1,4 +1,4 @@
-# Withdraw from  ethereum
+# Withdraw from  Ethereum
 
 #### 1. Accessing the Contract Page
 
@@ -9,7 +9,7 @@
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Connecting Your Wallet
 
@@ -31,7 +31,7 @@
 4. Click the "Write" button
 5. Confirm the transaction in your wallet
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. Transaction Confirmation
 
