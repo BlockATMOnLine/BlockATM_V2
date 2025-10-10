@@ -1,0 +1,32 @@
+# Copy of V2.1.0
+
+**Key Updates:**
+
+1. Added payment rule configuration.
+2. Added a payment whitelist feature. For details, please refer to the link.
+3. Added operator permissions for configuring the payment contract.
+4. Added a batch entry function for creating payment orders.
+5. Payment process adjustments and UI optimizations.
+
+For detailed information on the new features, please refer to the product documentation.
+
+**Production Update Time:**  2025.10.17
+
+
+
+**Important Note:** After this update, the old version of the payout contract will no longer be supported for making order within blockatm. Please ensure you withdraw your funds **before** applying the update.
+
+If you do not withdraw your funds before the platform update, you will need to withdraw them directly on-chain.
+
+Withdrawal Methods:
+
+1. Withdraw from the old payment contract on the Ethereum network.
+2. Withdraw from the old payment contract on the Tron network.
+
+
+
+**Please note: This update is backward-compatible and will not affect existing integrations.**
+
+Let me know if you'd like any adjustments!
+
+\
