@@ -3,10 +3,14 @@
 **Key Updates:**
 
 1. Added payout rule configuration.
-2. Added a payout whitelist feature. For details, please refer to the link.
+2. Added a payout whitelist feature.&#x20;
 3. Added operator permissions for configuring the payout contract.
 4. Added a batch entry function for creating payout orders.
 5. Payout process adjustments and UI optimizations.
+6. Removed private key configuration from checkout integration and eliminated signature requirement in the integration process
+
+\
+
 
 For detailed information on the new features, please refer to the product documentation.
 
