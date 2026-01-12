@@ -9,8 +9,7 @@
 5. Payout process adjustments and UI optimizations.
 6. Removed private key configuration from checkout integration and eliminated signature requirement in the integration process
 
-\
-
+<br>
 
 For detailed information on the new features, please refer to the product documentation.
 
@@ -33,4 +32,4 @@ Withdrawal Methods:
 
 Let me know if you'd like any adjustments!
 
-\
+<br>
