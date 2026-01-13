@@ -116,7 +116,7 @@ Approval Management is a dedicated portal provided by BlockATM for Approval Payo
 
 By integrating the "Approve" action with actual payout operations, BlockATM ensures operational continuity while maintaining on-chain security, avoiding risks associated with disconnected workflows.
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 #### Why not use generic third-party approval tools?
 
