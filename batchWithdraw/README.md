@@ -8,7 +8,7 @@ Crypto enterprises often face high demand for user withdrawals. Currently, the s
 
 Every batch payout process is executed via a dedicated payout contract. When deploying a payout contract, a Payout Mode must be selected. Once deployed, the mode is immutable.
 
-### 2.1 Balance Mode (Contract Balance)
+#### 2.1 Balance Mode (Contract Balance)
 
 In this mode, funds are custodied by the payout contract.&#x20;
 
@@ -19,7 +19,7 @@ _Fund Flow: Wallet -> Contract -> Customer_
 * Batch payouts are deducted directly from the contract balance.
 * Suitable for: Daily high-frequency, fixed-amount payout scenarios, such as payroll and event rewards.
 
-### 2.2 Allowance Mode (Direct Payout)
+#### 2.2 Allowance Mode (Direct Payout)
 
 In this mode, the payout contract is non-custodial (does not hold actual funds).&#x20;
 

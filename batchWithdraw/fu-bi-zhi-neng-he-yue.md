@@ -2,13 +2,17 @@
 
 The payout contract is used for bulk payouts, with the payout request initiated and signed by the "Authorized Signature Address" specified in the contract. The payout operation is then executed by the BlockATM payout proxy contract.
 
-{% hint style="info" %}
-When creating a payout contract, the "Authorized Signature Address" must be specified. Once specified and the contract is successfully created, it cannot be modified, ensuring the security of the contract’s assets.
-{% endhint %}
-
 ### Contract Permissions Explanation
 
-<table><thead><tr><th width="179.046875">Address Type</th><th>Explanation</th><th>Permission</th></tr></thead><tbody><tr><td>Owner</td><td>The wallet address used to create the payout contract.</td><td>Manage the payout contract.</td></tr><tr><td>Authorized Signature Address</td><td>The wallet address authorized to withdraw assets from the payout contract.</td><td>Payout</td></tr></tbody></table>
+| <p>Owner</p><p><br></p><p>(Admin/Owner)</p> | Admin Wallet    | Creator and highest authority holder of the payout contract. Responsible for initialization and risk configuration. | <p>• Deploy Payout Contracts</p><p><br></p><p>• Configure Risk Rules (Whitelist, Limits, Time-locks)</p> |
+| ------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Finance                                     | Signer Address  | Responsible for signing on-chain transactions for audited orders to ensure fund security.                           | <p>• Sign and Broadcast Transactions</p><p><br></p><p>• Maintain Whitelist (requires Admin approval)</p> |
+| Operator                                    | Operator Wallet | Daily operations staff responsible for creating and initially reviewing orders.                                     | <p>• Create Payout Orders</p><p><br></p><p>• Audit Orders (requires Admin approval)</p>                  |
+| Funding Wallet                              | Funding Address | Used in Approval Mode. The wallet bound to the contract that grants spending limits (Approval).                     | • Set and Adjust Contract Approval Limits                                                                |
+
+{% hint style="warning" %}
+> When creating a payout contract, a "Payout Signer Address" must be specified. Once specified and the contract is deployed, this address becomes immutable (cannot be changed) to guarantee the security of contract assets.
+{% endhint %}
 
 ### Payout Smart Contract Code
 
@@ -108,7 +112,33 @@ function payoutToken(
 
 ***
 
+### Token Approval&#x20;
+
+Approval Management is a dedicated portal provided by BlockATM for Approval Payout Contracts. It is deeply integrated with BlockATM's payout workflow and risk control mechanisms.
+
+By integrating the "Approve" action with actual payout operations, BlockATM ensures operational continuity while maintaining on-chain security, avoiding risks associated with disconnected workflows.
+
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+#### Why not use generic third-party approval tools?
+
+Compared to generic approval tools (like block explorers), BlockATM's Approval Management offers additional security designs tailored for payout scenarios:
+
+* **Environment Security Check** The system detects the security of the user's current operating environment to minimize the possibility of granting approvals in risky environments.
+* **Identity Verification** Only the **Funding Wallet** bound during the contract creation can pass verification to access the management page. This prevents unauthorized or incorrect addresses from manipulating critical fund permissions.
+* **Smart Approval Suggestions** The system calculates the required approval amount based on pending and created orders, providing **suggested approval limits.** This prevents risks associated with over-approval (infinite approval) or insufficient funds.
+
+***
+
 ### Historical Contract Versions
+
+### V3&#x20;
+
+January 13, 2026
+
+* Dual-Mode Architecture: Introduced support for running both Balance Mode and Approval Mode in parallel.
+* Approval Payout Contract: Enables batch payouts by directly accessing wallet funds within a limited approval scope.
+* Approval Management Portal: Unified display and management of Approved Limits, Available Limits, and Pending Payout Amounts.
 
 ### V2
 
