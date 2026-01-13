@@ -36,3 +36,5 @@ The system performs a dual check on liquidity:
 2. Wallet Balance
 
 The actual spendable amount is automatically calculated based on blockchain logic.
+
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>

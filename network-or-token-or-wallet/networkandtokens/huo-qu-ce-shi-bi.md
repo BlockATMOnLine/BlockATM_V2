@@ -66,6 +66,5 @@ Once you obtain the test coins, you can add your assets to your wallet. The cont
 
 Operation screenshot (MetaMask, similar to other wallets) :
 
-![](<../../.gitbook/assets/image (20).png>)![](<../../.gitbook/assets/image (21).png>)\
-
+![](<../../.gitbook/assets/image (20).png>)![](<../../.gitbook/assets/image (21).png>)<br>
 
