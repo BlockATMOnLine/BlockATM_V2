@@ -7,8 +7,8 @@ BlockATM payout process consists of multiple stages, incorporating risk control 
 Before using the batch payout function, the following configurations must be completed:
 
 * Deploy Payout Contract: Create an exclusive payout contract.
-* Select Payout Mode: Choose between Balance Mode (Contract Balance) or Allowance Mode during deployment.
-* Set Signer Address: Configure the payout signer address (Allowance Mode requires specifying the Funding Wallet Address).
+* Select Payout Mode: Choose between Deposit Mode (Contract Balance) or Allowance Mode during deployment.
+* Set Signer Address: Configure the payout signer address (Approval Mode requires specifying the Approval Wallet Address).
 * Immutable Settings: The Payout Mode and Signer Address are fixed upon deployment and cannot be changed.
 
 Once these steps are complete, the payout contract enters the Operational State.

@@ -8,7 +8,7 @@ Crypto enterprises often face high demand for user withdrawals. Currently, the s
 
 Every batch payout process is executed via a dedicated payout contract. When deploying a payout contract, a Payout Mode must be selected. Once deployed, the mode is immutable.
 
-#### 2.1 Balance Mode (Contract Balance)
+#### 2.1 Deposit Mode (Contract Balance)
 
 In this mode, funds are custodied by the payout contract.&#x20;
 
