@@ -9,7 +9,7 @@
 3. Switch to the "Contract" tab
 4. Click the "Write Contract" button
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Connect Wallet
 
@@ -31,7 +31,7 @@
 4. Click the "Write" button
 5. Confirm the transaction in your wallet
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. Transaction Confirmation
 

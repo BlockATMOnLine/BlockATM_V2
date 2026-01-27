@@ -34,7 +34,7 @@ Asset extraction does not require permission from centralized institutions.
 | Payout fee                 | 1 USD/txn  |
 
 {% hint style="info" %}
-For more detailed fee rules, please see: [Safe Collection - Service fee](../business-description/safePay/fu-wu-fei-yong.md)、[Bulk payout - Service fee](../batchWithdraw/fu-wu-fei-yong.md)
+For more detailed fee rules, please see: [Safe Collection - Service fee](../business-description/safepay/fu-wu-fei-yong.md)、[Bulk payout - Service fee](../batchwithdraw/fu-wu-fei-yong.md)
 {% endhint %}
 
 ### Integrated simple and fast

@@ -12,13 +12,13 @@ After entering the BlockATM checkout, they select the payment network, currency,
 
 <figure><img src="../../../.gitbook/assets/screencapture-cashier-b2b-pre-ufcfan-org-zh-CN-2025-04-24-14_50_21.png" alt=""><figcaption><p>Payment information not selected</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Payment information selected</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Payment information selected</p></figcaption></figure>
 
 Next, select the payment method.
 
 If you choose to **Connect Wallet to Pay**, the wallet connection method will be prompted (using MetaMask (browser extension) as an example).
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 After selecting MetaMask, the wallet will be prompted for connection. Click "Connect" and agree to link the wallet with the BlockATM checkout.
 
@@ -56,11 +56,11 @@ Open the wallet app to scan the receipt address QR code, or copy the receipt add
 
 After confirming the receiving address, enter the payment amount (Note: It must match the payment amount displayed on the BlockATM checkout, otherwise the payment will be invalid). After entering the amount, click "Next".
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Confirm the transaction details and click "Send".
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -84,4 +84,4 @@ At this point, you (the merchant) can find the corresponding checkout in the Blo
 
 <figure><img src="../../../.gitbook/assets/75.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>

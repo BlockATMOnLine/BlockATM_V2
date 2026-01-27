@@ -7,9 +7,9 @@
 3. Switch to the "Contract" tab
 4. Click the "Write Contract" button
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. Connecting Your Wallet
 
@@ -17,7 +17,7 @@
 2. Select and connect your wallet (e.g., MetaMask)
 3. Ensure the connected wallet address belongs to the financial operator
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. Calling the withdrawByFinancial Function
 

@@ -9,7 +9,7 @@ You signs the requests that send to blockATM server. The request need include ap
 
 You can locate the corresponding API Key within the merchant backend under various integration scenarios (such as the checkout counter or payment delegation contracts).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
 ### Sign &#x20;
 

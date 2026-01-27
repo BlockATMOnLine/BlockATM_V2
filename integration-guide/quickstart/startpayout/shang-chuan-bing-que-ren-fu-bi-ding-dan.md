@@ -1,6 +1,6 @@
 # Upload and confirm the Payout order
 
-Once the Payout Contract is created and sufficiently funded, you can proceed with the Payout operation. BlockATM offers two methods for uploading Payout orders: API upload and Excel import. It's important to note that Payouts can only be executed by the contract's designated "Authorized Signer Address" (for the permissions of the "Authorized Signer Address," refer to the [Payout Contract](../../../batchWithdraw/fu-bi-zhi-neng-he-yue.md)).
+Once the Payout Contract is created and sufficiently funded, you can proceed with the Payout operation. BlockATM offers two methods for uploading Payout orders: API upload and Excel import. It's important to note that Payouts can only be executed by the contract's designated "Authorized Signer Address" (for the permissions of the "Authorized Signer Address," refer to the [Payout Contract](../../../batchwithdraw/fu-bi-zhi-neng-he-yue.md)).
 
 ### API Upload Payout Order
 
@@ -32,7 +32,7 @@ Once submitted, you can click "Payout Records" to check the status of the payout
 
 The status of the recently submitted payout order will be "Pending Payment," and the payment will be completed within 24 hours.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 To enable automation and eliminate the need for manual review by the "Authorized Signing Address," you can activate the auto-submit feature. When an order is uploaded, if the "Authorized Signing Address" does not review it within a certain time, the system will automatically review and submit the order.
 
@@ -78,4 +78,4 @@ After the signature confirmation, you can click "Payout Records" to check the st
 
 The status of the recently submitted payout order will be "Pending Payment," and the payment will be completed within 24 hours.
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>

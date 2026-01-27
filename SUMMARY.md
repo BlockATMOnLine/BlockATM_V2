@@ -11,17 +11,17 @@
 
 ## 👨‍💻 Business Description
 
-* [Safely Collection](business-description/safePay/README.md)
-  * [Operation Process](business-description/safePay/yun-zuo-liu-cheng.md)
-  * [Collection Contract](business-description/safePay/shou-bi-zhi-neng-he-yue.md)
-  * [Fee](business-description/safePay/fu-wu-fei-yong.md)
+* [Safely Collection](business-description/safepay/README.md)
+  * [Operation Process](business-description/safepay/yun-zuo-liu-cheng.md)
+  * [Collection Contract](business-description/safepay/shou-bi-zhi-neng-he-yue.md)
+  * [Fee](business-description/safepay/fu-wu-fei-yong.md)
 
 ***
 
-* [Batch Payout](batchWithdraw/README.md)
-  * [Operation Process](batchWithdraw/yun-zuo-liu-cheng.md)
-  * [Payout Contract](batchWithdraw/fu-bi-zhi-neng-he-yue.md)
-  * [Fee](batchWithdraw/fu-wu-fei-yong.md)
+* [Batch Payout](batchwithdraw/README.md)
+  * [Operation Process](batchwithdraw/yun-zuo-liu-cheng.md)
+  * [Payout Contract](batchwithdraw/fu-bi-zhi-neng-he-yue.md)
+  * [Fee](batchwithdraw/fu-wu-fei-yong.md)
 
 ## 🌐 Network | Token | Wallet
 
@@ -67,9 +67,9 @@
 
 ***
 
-* [Integrate Cashier](integrationCashier/README.md)
-  * [Widget SDK](integrationCashier/widget-sdk.md)
-  * [Widget Params](integrationCashier/widget-can-shu.md)
+* [Integrate Cashier](integrationcashier/README.md)
+  * [Widget SDK](integrationcashier/widget-sdk.md)
+  * [Widget Params](integrationcashier/widget-can-shu.md)
   * [Url Signing](integrationcashier/url-signing.md)
 * [Webhook](overview/README.md)
   * [Overview](overview/gai-lan.md)
@@ -95,7 +95,7 @@
 
 ## 📅 Update Logs
 
-* [V2.0.0](updateLogs/geng-xin-ri-zhi.md)
+* [V2.0.0](update-logs/geng-xin-ri-zhi.md)
 * [V2.1.0](update-logs/v2.1.0.md)
 * [V2.2.0](update-logs/v2.2.0/README.md)
   * [Withdraw from  Ethereum](update-logs/v2.2.0/withdraw-from-ethereum.md)

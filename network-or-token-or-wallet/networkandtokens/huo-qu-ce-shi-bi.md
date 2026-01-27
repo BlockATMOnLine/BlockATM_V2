@@ -10,13 +10,13 @@ Blockatm uses sepolia as the Ethereum test network. If eth is lacking as transac
 
 Blockatm uses shasta as the Ethereum test network. If trx is lacking as transaction fees, you can join the official Tron [Telegram community ](https://t.me/TronOfficialTechSupport2)by sending "!" "shasta \[address]" can be automatically claimed.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ### Arbitrum Sepolia TestNet
 
 As a Layer 2 network of Ethereum, arbitrum can transfer assets from Ethereum Sepolia to Arbitrum Sepolia through the [official cross-chain bridge](https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia\&sourceChain=sepolia)
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -66,5 +66,5 @@ Once you obtain the test coins, you can add your assets to your wallet. The cont
 
 Operation screenshot (MetaMask, similar to other wallets) :
 
-![](<../../.gitbook/assets/image (20).png>)![](<../../.gitbook/assets/image (21).png>)<br>
+![](<../../.gitbook/assets/image (31).png>)![](<../../.gitbook/assets/image (32).png>)<br>
 

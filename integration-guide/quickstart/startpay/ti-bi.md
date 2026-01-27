@@ -52,4 +52,4 @@ After authorization, the transaction will be executed, and you will need to wait
 
 Once the blockchain confirmation is complete, the withdrawal will be successful.
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
